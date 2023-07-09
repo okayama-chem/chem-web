@@ -84,41 +84,41 @@
 {{ end }}
 <!-- /about us -->
 
-<!-- courses -->
-{{ if $data.homepage.course.enable }}
+<!-- laboratories -->
+{{ if $data.homepage.laboratory.enable }}
 <section class="section-sm">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
-          <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.course.title }}</h2>
+          <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.laboratory.title }}</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
-            <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
+            <a href="{{ `laboratory` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
           </div>
         </div>
       </div>
     </div>
-    <!-- course list -->
+    <!-- laboratory list -->
     <div class="row justify-content-center">
-      <!-- course item -->
-      {{ range first 6 (where site.RegularPages "Type" "course")}}
+      <!-- laboratory item -->
+      {{ range first 6 (where site.RegularPages "Type" "laboratory")}}
       <div class="col-lg-4 col-sm-6 mb-5">
-        {{ .Render "course" }}
+        {{ .Render "laboratory" }}
       </div>
       {{ end }}
     </div>
-    <!-- /course list -->
+    <!-- /laboratory list -->
     <!-- mobile see all button -->
     <div class="row">
       <div class="col-12 text-center">
-        <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-outline-primary d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
+        <a href="{{ `laboratory` | relLangURL }}" class="btn btn-sm btn-outline-primary d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
       </div>
     </div>
   </div>
 </section>
 {{ end }}
-<!-- /courses -->
+<!-- /laboratories -->
 
 <!-- cta -->
 {{ if $data.homepage.cta.enable }}

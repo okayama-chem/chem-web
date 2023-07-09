@@ -9,3 +9,13 @@ builds
 package-lock.json
 public
 DS_Store
+.archetypes
+.assets
+.exampleSite
+.images
+.layouts
+.static
+.theme.toml
+# 用途不明
+resources
+*.lock

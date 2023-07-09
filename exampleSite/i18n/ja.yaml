@@ -11,22 +11,22 @@
   translation: Contact Info
 
 - id: subscribe_newsletter
-  translation: Subscribe Newsletter
+  translation: Newsletterに登録
 
 - id: subscribe
   translation: Subscribe
 
 - id: contact_us
-  translation: Contact Us
+  translation: お問いあわせ
 
 - id: latest_article
-  translation: Latest Article
+  translation: 最新記事
 
 - id: categories
-  translation: Categories
+  translation: カテゴリー
 
 - id: tags
-  translation: Tags
+  translation: タグ
 
 - id: see_all
   translation: See all
@@ -44,7 +44,7 @@
   translation: time
 
 - id: category
-  translation: Category
+  translation: カテゴリー
 
 - id: related_course
   translation: Related Course
@@ -74,10 +74,10 @@
   translation: More Events
 
 - id: join
-  translation: Join
+  translation: 参加する
 
 - id: enter_email
-  translation: Enter your email…
+  translation: Eメール…
 
 - id: company
   translation: company
@@ -86,10 +86,10 @@
   translation: links
 
 - id: courses
-  translation: Courses
+  translation: Courses(廃止)
 
 - id: new_notice
-  translation: new notice
+  translation: new notice(廃止)
 
 - id: call
   translation: call
@@ -104,16 +104,16 @@
   translation: SUMMARY OF ACTIVITIES/INTERESTS
 
 - id: our_teachers
-  translation: Our Teachers
+  translation: Our Teachers(廃止)
 
 - id: download
   translation: Download
 
 - id: department
-  translation: Department
+  translation: 化学科
 
 - id: university
-  translation: University
+  translation: 岡山大学
 
 - id: laboratories
-  translation: Laboratories
+  translation: 研究室
