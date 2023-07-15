@@ -20,6 +20,7 @@ defaultContentLanguageInSubdir = false
   # laboratories
   la_category = 'la_categories'
   la_tag = 'la_tags'
+  # faculty = 'faculties'
   # research topics
   rt_category = 'rt_categories'
   rt_tag = 'rt_tags'
@@ -58,7 +59,7 @@ link = "plugins/google-map/gmap.js"
 
 #################### default parameters ################################
 [params]
-logo = "images/title.png"
+logo = "/images/title.png"
 # should be svg MM
 
 # Meta data
@@ -137,7 +138,8 @@ languageCode = "ja-JP"
 weight = 1
 home = "ホーム"
 # copyright
-copyright = "Copyright &copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)"
+# copyright = "Copyright &copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)"
+copyright = "Copyright &copy; 2023 岡山大学理学部化学科"
 
 ## worked!
 address = "〒700-8530 岡山市北区津島中3丁目1番1号"
@@ -146,19 +148,29 @@ mobile = "086-251-7851"
 ################### Japanese navigation ####################
 
 # main menu #
+# [[Languages.ja.menu.main]]
+# name = "ホーム"
+# url = ""
+# weight = 1
+
+[[Languages.ja.menu.main]]
+name = "化学科とは" # すでに起こったこと
+url = "about/"
+weight = 1
+
 [[Languages.ja.menu.main]]
 name = "ニュース" # すでに起こったこと
 url = "blog/"
-weight = 1
+weight = 2
 
 [[Languages.ja.menu.main]]
 name = "イベント" # これから起こること
 url = "event/"
-weight = 2
+weight = 3
 
 [[Languages.ja.menu.main]]
 name = "研究"
-weight = 3
+weight = 4
 hasChildren = true
 
   [[Languages.ja.menu.main]]
@@ -180,7 +192,7 @@ hasChildren = true
   weight = 3
 
 [[Languages.ja.menu.main]]
-weight = 4
+weight = 5
 name = "入試"
 hasChildren = true
 
@@ -197,14 +209,9 @@ hasChildren = true
   weight = 2
 
 [[Languages.ja.menu.main]]
-name = "お問いあわせ"
-url = "contact/"
-weight = 5
-
-[[Languages.ja.menu.main]]
 name = "学内"
 url = "internal/"
-weight = 6
+weight = 7
 
 
 # footer menu
@@ -248,6 +255,21 @@ name = "大学トップページ"
 url = "https://www.okayama-u.ac.jp/"
 weight = 1
 
+[[Languages.ja.menu.footer2]]
+name = "理学部"
+url = "https://www.science.okayama-u.ac.jp/"
+weight = 2
+
+[[Languages.ja.menu.footer2]]
+name = "大学院自然科学研究科"
+url = "https://www.gnst.okayama-u.ac.jp/"
+weight = 3
+
+[[Languages.ja.menu.footer2]]
+name = "異分野基礎科学研究所"
+url = "https://www.riis.okayama-u.ac.jp/"
+weight = 3
+
 # ################################### English language #####################################
 [Languages.en]
 languageName = "En"
@@ -256,7 +278,8 @@ languageCode = "en-us"
 weight = 2
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)"
+# copyright = "Copyright &copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)"
+copyright = "Copyright &copy; 2023 Department of Chemistry, Okayama University"
 
 
 

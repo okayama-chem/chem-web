@@ -11,7 +11,6 @@
           {{ $categories := slice }}
           {{ range .Data.Pages }}
           <!-- ここをla_groupに変えたいが、うまくいかない -->
-          {{ $categories = $categories | append .Params.Course }}
           {{ end }}
           {{ range ( $categories | uniq ) }}
           <li class="list-inline-item m-3 text-uppercase" data-filter="{{ . | urlize }}">{{ . | humanize }}</li>
@@ -23,7 +22,7 @@
     <div class="row filtr-container">
       <!-- faculty -->
       {{ range .Data.Pages }}
-      <div data-category="{{ .Params.Course | urlize }}" class="col-lg-4 col-sm-6 filtr-item">
+      <div data-category="{{ .Params.Fa_category | urlize }}" class="col-lg-4 col-sm-6 filtr-item">
         {{ .Render "faculty" }}
       </div>
       {{ end }}

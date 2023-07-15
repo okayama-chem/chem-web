@@ -58,8 +58,8 @@
 - id: fee
   translation: fee
 
-- id: teacher
-  translation: teacher
+- id: faculties
+  translation: faculties
 
 - id: location
   translation: location

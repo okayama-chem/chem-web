@@ -1,0 +1,24 @@
+
+.document {
+
+    // 標準のli。指定しないとつまりすぎる。しかし、
+    li {
+        padding: 5px;
+    }
+
+    // 標準のリンク。目印が必要。
+    a {
+      text-decoration: underline;
+    }
+
+    p {
+        margin: 3px auto 3px auto;
+    }
+
+    h4 {
+        margin: 25px auto 25px auto;
+    }
+    h5 {
+        margin: 10px auto 10px auto;
+    }
+}

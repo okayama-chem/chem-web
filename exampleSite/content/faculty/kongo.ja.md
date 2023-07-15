@@ -6,7 +6,7 @@ rank: "教授" # 教授 | 准教授 | 助教 | ...
 # Laboratory group
 la_group: "分子化学" # 分子化学 | 物質化学 | 反応化学
 # Laboratory
-laboratory: "理論物理化学研究室"
+laboratory: "理論錬金術研究室"
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
@@ -14,7 +14,7 @@ description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
 # teacher portrait
 image: "images/faculty/kongo.jpg"
 # course
-course: "錬金術"
+course: ["錬金術"]
 # biography
 bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque accusamus tenetur ea harum delectus ab consequatur excepturi, odit qui in quo quia voluptate nam optio, culpa aspernatur. Error placeat iusto officia voluptas quae."
 # interest

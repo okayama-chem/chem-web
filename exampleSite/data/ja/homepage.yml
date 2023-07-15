@@ -1,11 +1,11 @@
 ################################# Slider #####################################
 slider:
   enable : true
-  bg_image : "images/banner/banner-1.jpg"
+  bg_image : "images/banner/sci_bldg.jpg"
   slider_item:
     # slider item loop
-    - title : "錬金術の最先端を知ろう"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "化学の最先端を知ろう"
+      content : "ここには研究者になりたい、院生にも向けたメッセージを。"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -15,8 +15,8 @@ slider:
         link : "laboratory/"
 
     # slider item loop
-    - title : "錬金術の基礎を学ぼう"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "化学の基礎を学ぼう"
+      content : "ここには高校生・三年次編入生へのメッセージを。"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -26,8 +26,8 @@ slider:
         link : "bachelor/"
 
     # slider item loop
-    - title : "錬金術師をめざす君たちへ"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "化学者をめざす君たちへ"
+      content : "大学院入試に関するメッセージを。"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -38,29 +38,29 @@ slider:
 
 
 ############################### Banner feature ###############################
-banner_feature:
-  enable : true
-  image : "images/banner/banner-feature.png"
-  feature_item:
-    # feature item loop
-    - name : "Bourses académiques"
-      icon : "ti-book" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+# banner_feature:
+#   enable : true
+#   image : "images/banner/banner-feature.png"
+#   feature_item:
+#     # feature item loop
+#     - name : "Bourses académiques"
+#       icon : "ti-book" # icon pack : https://themify.me/themify-icons
+#       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
 
-    # feature item loop
-    - name : "Notre bureau"
-      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+#     # feature item loop
+#     - name : "Notre bureau"
+#       icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
+#       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
 
-    # feature item loop
-    - name : "Nos accomplissements"
-      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+#     # feature item loop
+#     - name : "Nos accomplissements"
+#       icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
+#       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
 
-    # feature item loop
-    - name : "Admission"
-      icon : "ti-write" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+#     # feature item loop
+#     - name : "Admission"
+#       icon : "ti-write" # icon pack : https://themify.me/themify-icons
+#       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
 
 
 ############################## about ##################################
@@ -68,13 +68,12 @@ about:
   enable : true
   title : "化学科はここがすごい!"
   image : "images/about/about-us.jpg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat
-
-
-  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem "
+  content : "物質の本質を理解し、創造的な思考力を養えること。
+  さまざまなキャリアの選択肢があり、産業界や医薬品開発、環境保護などで活躍できます。
+  社会に貢献し、国際的な研究・交流の機会も得られる魅力的な学問分野です。"
   button:
     enable : true
-    label : "En savoir plus"
+    label : "もっと詳しく!"
     link : "about/"
 
 
@@ -87,8 +86,8 @@ laboratory:
 ########################## Call to action ############################
 cta:
   enable : true
-  subtitle : "錬金術を身近に"
-  title : "現代の錬金術を学ぼう"
+  subtitle : "化学を身近に"
+  title : "化学科で現代の化学を学ぼう"
   button:
     enable : true
     label : "お問いあわせ"
@@ -97,17 +96,22 @@ cta:
 
 ######################## Success story #############################
 success_story:
-  enable : false
+  enable : true
   bg_image : "images/backgrounds/success-story.jpg"
-  title : "Histoires de réussites"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
+  title : "世界を変え続ける化学"
+  content : "20世紀以降の現代化学は、本当に素晴らしい成果を上げてきました！例えば、DNAの二重らせん構造の解明で遺伝情報の伝達が理解され、生命科学が大きく進化しました。
 
+また、量子力学の発展により原子や分子の振る舞いが解明され、化学の理解が深まり、新しい反応が見つかりました。
 
-  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+20世紀にはたくさんの新しい元素も発見され、周期表が広がりました。これらの元素は医療や産業などにも大きな貢献をしています。
+
+そして、有機化学の進展によって新しい薬品が次々と発見され、私たちの健康を支える重要な役割を果たしています。
+
+更に、プラスチックやゴムなどのポリマー製品も合成され、日常生活や産業に欠かせない素材となっています。
+
+これらの成果は私たちの生活に大きな影響を与えているんです！これからも化学の発展が楽しみで仕方ありません。もし興味があれば、化学の世界に飛び込んでみると、新しい発見と驚きが待っていることでしょう！"
   # video link
-  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
-
+  video_link : "https://www.youtube.com/watch?v=IsMXFL98tMs"
 
 ############################# event ################################
 event:

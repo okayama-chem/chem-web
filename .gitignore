@@ -19,3 +19,5 @@ DS_Store
 # 用途不明
 resources
 *.lock
+# 院試過去問
+pdf/

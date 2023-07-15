@@ -25,9 +25,10 @@ body {
 
 ol,
 ul {
-  list-style-type: none;
+  // list-style-type: none;
   margin: 0px;
 }
+
 
 img {
   vertical-align: middle;
@@ -81,8 +82,8 @@ a h4{
 }
 
 .section {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 
   &-sm {
     padding-top: 40px;
@@ -117,7 +118,7 @@ a h4{
     top: 0;
     left: 0;
     background: $secondary-color;
-    opacity: .8;
+    opacity: .5;
   }
 }
 

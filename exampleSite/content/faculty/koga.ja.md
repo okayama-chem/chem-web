@@ -8,15 +8,15 @@ la_group: "分子化学" # 分子化学 | 物質化学 | 反応化学
 # Laboratory
 laboratory: "理論物理化学研究室"
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
-# meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+bg_image: "images/backgrounds/sci_bldg.jpg"
+# meta description ~100 letters in Japanese
+description : "多数の分子からなる系において初めて現れる現象（単数や少数の分子からは観測されない現象）を理論的方法で研究しています"
 # teacher portrait
 image: "images/teachers/teacher-2.jpg"
 # course 今のところ不使用
-course: ["物理化学99", "量子化学42"]
-# biography
-bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque accusamus tenetur ea harum delectus ab consequatur excepturi, odit qui in quo quia voluptate nam optio, culpa aspernatur. Error placeat iusto officia voluptas quae."
+course: ["分子化学"]
+# biography or slogan
+bio: "京都府出身、理論物理化学部屋。"
 # interest
 interest: ["Computer Networking","Computer Security","Human Computer Interfacing"]
 # contact info
@@ -30,6 +30,26 @@ contact:
   - name : "086-251-7904"
     icon : "ti-mobile" # icon pack : https://themify.me/themify-icons
     link : "tel:0862517904"
+
+  # - name : "086-251-7853"
+  #   icon : "ti-printer"
+  #   link : "fax:0862517904"
+
+  - name : "Researcher ID B-2635-2011"
+    icon : "ti-id-badge"
+    link : "http://www.researcherid.com/rid/B-2635-2011"
+
+  - name : "ORCID xxxx-xxxx-xxxx"
+    icon : "ti-id-badge"
+    link : "http://www.researcherid.com/rid/B-2635-2011"
+
+  - name : Scholar xxxx-xxxx-xxxx
+    icon : "ti-google"
+    link : "http://scholar.google.com/xxxx-xxxx-xxxx"
+
+  # - name : GitHub
+  #   icon : "ti-github"
+  #   link : "http://github.com/xxxxx"
 
   # # contact item loop
   # - name : "Clark Malik"
@@ -59,11 +79,17 @@ contact:
 # type
 type: "faculty"
 ---
+#### 研究内容についてひとこと
 
-* Fax: 086-251-7853
-* Researcher ID  http://www.researcherid.com/rid/B-2635-2011
-* Group Web http://phys.chem.okayama-u.ac.jp/
+多数（無数）の分子からなる系ではじめて起こる現象（１個や２個の分子からなる系では決して観測されない現象）を理論的方法により調べています。圧力一定のもと、水が特定の温度で凍ったり、沸騰したりすることを我々が不思議に感じないのは、それが身近な現象だからであって、理解するのが簡単なことだからではありません。この例のように物質の相が別の相に突然（ある特定の温度や圧力を境にして）変化する現象は相転移と呼ばれるもので、統計力学の中心的課題のひとつです。これまでの研究から、非常に狭い空間に閉じ込められた水が今まで実験では知られていなかった準一次元や準二次元の氷へと相転移を示すことがわかりました。今後の課題の一つは、準一次元系で観測された固体-液体間の相転移が真の一次相転移なのかどうかを明らかにすることです。
 
+気体、液体、固体といった物質の状態はそもそも多数の分子からなる系でのみ定義されるものなので、それらの性質を分子間相互作用から説明するにはどうしても統計力学が必要です。なかでも液体状態は一般的に取り扱うのが最も難しく、したがって現在でも統計力学の重要課題です。そして近年、液体の性質の理解に大きな役割を果たしているのが計算機シミュレーションという手法です。液体の性質、そして液体の中で起こる様々な物理／化学現象には興味深い課題が山積みですが、それらを理解していくためにはほぼ例外なく、統計力学理論と計算機シミュレーションを有効に駆使することが必要でしょう。現在取り組んでいる問題の一つは、水の中に溶けた疎水性分子間に働く引力、いわゆる疎水性相互作用です。この問題の主役は、疎水性分子自体ではなく、それを取り巻く溶媒（液体の水）が主役です。現在、解析的な結果の得られる格子模型とシミュレーションを用いてこの問題を調べています。
+
+#### メッセージ
+
+##### 学部生、大学院生の方へ
+
+化学と物理の垣根はありません。理論的研究では特にそうです。だれでも強い興味があれば必要な道具を揃えながら楽しむことができます。一定の成果が出れば，国内，国外の学会で発表したり，共同研究で外国の大学などに行く機会もあります。
 #### 略歴
 
 * 客員教授，K.U. Leuven, Belgium 2010年2月
@@ -123,16 +149,3 @@ type: "faculty"
 * B. Widom, Cornell University, Ithaca, New York, USA
 * J.O. Indekeu, KUL, Leuven, Belgium
 * H. Tanaka, Okayama, Japan
-
-
-#### 研究内容についてひとこと
-
-多数（無数）の分子からなる系ではじめて起こる現象（１個や２個の分子からなる系では決して観測されない現象）を理論的方法により調べています。圧力一定のもと、水が特定の温度で凍ったり、沸騰したりすることを我々が不思議に感じないのは、それが身近な現象だからであって、理解するのが簡単なことだからではありません。この例のように物質の相が別の相に突然（ある特定の温度や圧力を境にして）変化する現象は相転移と呼ばれるもので、統計力学の中心的課題のひとつです。これまでの研究から、非常に狭い空間に閉じ込められた水が今まで実験では知られていなかった準一次元や準二次元の氷へと相転移を示すことがわかりました。今後の課題の一つは、準一次元系で観測された固体-液体間の相転移が真の一次相転移なのかどうかを明らかにすることです。
-
-気体、液体、固体といった物質の状態はそもそも多数の分子からなる系でのみ定義されるものなので、それらの性質を分子間相互作用から説明するにはどうしても統計力学が必要です。なかでも液体状態は一般的に取り扱うのが最も難しく、したがって現在でも統計力学の重要課題です。そして近年、液体の性質の理解に大きな役割を果たしているのが計算機シミュレーションという手法です。液体の性質、そして液体の中で起こる様々な物理／化学現象には興味深い課題が山積みですが、それらを理解していくためにはほぼ例外なく、統計力学理論と計算機シミュレーションを有効に駆使することが必要でしょう。現在取り組んでいる問題の一つは、水の中に溶けた疎水性分子間に働く引力、いわゆる疎水性相互作用です。この問題の主役は、疎水性分子自体ではなく、それを取り巻く溶媒（液体の水）が主役です。現在、解析的な結果の得られる格子模型とシミュレーションを用いてこの問題を調べています。
-
-#### メッセージ
-
-##### 学部生、大学院生の方へ
-
-化学と物理の垣根はありません。理論的研究では特にそうです。だれでも強い興味があれば必要な道具を揃えながら楽しむことができます。一定の成果が出れば，国内，国外の学会で発表したり，共同研究で外国の大学などに行く機会もあります。

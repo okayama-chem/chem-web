@@ -58,8 +58,8 @@
 - id: fee
   translation: fee
 
-- id: teacher
-  translation: teacher
+- id: faculties
+  translation: 教員
 
 - id: location
   translation: location
