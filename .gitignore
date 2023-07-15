@@ -20,4 +20,4 @@ DS_Store
 resources
 *.lock
 # 院試過去問
-pdf/
+exampleSite/static/pdf/grad/
