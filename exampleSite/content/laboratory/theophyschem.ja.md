@@ -3,11 +3,11 @@ title: "理論物理化学研究室"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
-# bg_image: "images/labs/theo/beans.jpg"
+bg_image: "images/labs/theophys/image-21.jpg"
 # meta description
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 # Research image
-# image: "images/labs/theo/pink2.jpg"
+image: "images/labs/theophys/image-17.jpg"
 # taxonomy
 la_categories: ["物理化学"]
 la_tags: ["物理化学", "理論", "分子シミュレーション"]
