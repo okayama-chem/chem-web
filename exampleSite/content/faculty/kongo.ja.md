@@ -10,13 +10,13 @@ laboratory: "理論錬金術研究室"
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "錬金術の守護神。"
 # teacher portrait
 image: "images/faculty/kongo.jpg"
 # course
 course: ["錬金術"]
 # biography
-bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque accusamus tenetur ea harum delectus ab consequatur excepturi, odit qui in quo quia voluptate nam optio, culpa aspernatur. Error placeat iusto officia voluptas quae."
+# bio: "開口の「阿形（あぎょう）」像と、口を結んだ「吽形（うんぎょう）」像の2体を一対として、寺院の表門などに安置することが多い。"
 # interest
 interest: ["Computer Networking","Computer Security","Human Computer Interfacing"]
 # contact info

@@ -28,6 +28,13 @@ defaultContentLanguageInSubdir = false
   ev_category = 'ev_categories'
   ev_tag = 'ev_tags'
 
+
+############################# Plugins ##############################
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      # necessary to mix html in markdown
 ############################# Plugins ##############################
 
 # CSS Plugins

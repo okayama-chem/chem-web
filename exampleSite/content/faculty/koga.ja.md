@@ -16,7 +16,7 @@ image: "images/teachers/teacher-2.jpg"
 # course 今のところ不使用
 course: ["分子化学"]
 # biography or slogan
-bio: "京都府出身、理論物理化学部屋。"
+# bio: "京都府出身、理論物理化学部屋。"
 # interest
 interest: ["Computer Networking","Computer Security","Human Computer Interfacing"]
 # contact info

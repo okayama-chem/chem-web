@@ -64,7 +64,8 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <!-- <h2 class="section-title">{{ .title | markdownify }}</h2> -->
+        <h2 class="section-title">{{ .title | safeHTML }}</h2>
         <p>{{ .content | markdownify }}</p>
         {{ if .button.enable }}
         {{ with .button }}
@@ -131,7 +132,7 @@
         <h2 class="section-title text-white">{{ .title | markdownify }}</h2>
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="{{ .link | absLangURL }}" class="btn btn-light">{{ .label }}</a>
+        <a href="{{ .link | absURL }}" class="btn btn-light">{{ .label }}</a>
         {{ end }}
         {{ end }}
       </div>
