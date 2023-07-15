@@ -3,11 +3,11 @@ title: "理論化学研究室"
 date: 2023-07-15T15:27:17+06:00
 draft: false
 # page title background image
-bg_image: "images/labs/theo/beans.jpg"
+bg_image: "images/labs/theo/yinyang2.jpg"
 # meta description
 description : "コンピュータを用いた固体・液体の基本的な性質の研究"
 # Research image
-image: "images/labs/theo/pink2.jpg"
+image: "images/labs/theo/beans.jpg"
 # taxonomy
 la_categories: ["物理化学"]
 la_tags: ["物理化学", "理論", "分子シミュレーション"]
