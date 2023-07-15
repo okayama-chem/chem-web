@@ -9,7 +9,7 @@ description : "コンピュータを用いた固体・液体の基本的な性�
 # Research image
 image: "images/labs/theo/beans.jpg"
 # taxonomy
-la_categories: ["物理化学"]
+la_categories: ["分子化学"]
 la_tags: ["物理化学", "理論", "分子シミュレーション"]
 faculties:
   matsumoto: 松本 正和 准教授

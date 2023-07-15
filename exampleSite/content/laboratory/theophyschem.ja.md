@@ -9,7 +9,7 @@ description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
 # Research image
 image: "images/labs/theophys/image-17.jpg"
 # taxonomy
-la_categories: ["物理化学"]
+la_categories: ["分子化学"]
 la_tags: ["物理化学", "理論", "分子シミュレーション"]
 faculties:
   koga: 甲賀 研一郎 教授
