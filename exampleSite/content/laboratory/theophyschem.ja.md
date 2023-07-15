@@ -1,6 +1,6 @@
 ---
 title: "理論物理化学研究室"
-date: 2019-07-06T15:27:17+06:00
+date: 2022-07-16T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/labs/theophys/image-21.jpg"
