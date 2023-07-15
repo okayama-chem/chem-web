@@ -21,3 +21,6 @@ resources
 *.lock
 # 院試過去問
 exampleSite/static/pdf/grad/
+# 準備用
+*.xlsx
+*.numbers
