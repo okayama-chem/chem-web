@@ -24,7 +24,7 @@
             <h4 class="mb-4">{{ i18n "keywords" | upper }}</h4>
             <ul class="list-unstyled">
               {{ range .Params.Keywords }}
-              <li class="mb-3"><a href="{{ . | relLangURL }}">{{ . | title }}</a></li>
+              <li class="mb-3"><a href="{{ `keywords/` | relLangURL }}{{ . }}">{{ . | title }}</a></li>
               {{ end }}
             </ul>
           </div>
