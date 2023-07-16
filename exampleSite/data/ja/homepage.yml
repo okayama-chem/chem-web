@@ -5,7 +5,7 @@ slider:
   slider_item:
     # slider item loop
     - title : "化学の最先端を知ろう"
-      content : "20数名の気鋭の研究者たちが、君とともに新たな化学の地平を拓く"
+      content : "20余名の気鋭の研究者たちが、君とともに新たな化学の地平を拓く"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down

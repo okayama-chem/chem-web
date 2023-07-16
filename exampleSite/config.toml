@@ -1,7 +1,8 @@
 ######################## default configuration ####################
 baseURL = "https://www.chem.okayama-u.ac.jp/"
 title = "理学部化学科 | 岡山大学"
-theme = "educenter-hugo"
+theme = "chem-web"
+# theme = "educenter-hugo"
 # post pagination
 paginate = "6"
 # post excerpt
@@ -297,4 +298,131 @@ copyright = "Copyright &copy; 2023 Department of Chemistry, Okayama University"
 
 # ################### English navigation ####################
 
-# 日本語の項目が確定してから制作
+
+# main menu #
+# [[Languages.en.menu.main]]
+# name = "ホーム"
+# url = ""
+# weight = 1
+
+# [[Languages.en.menu.main]]
+# name = "化学科とは"
+# url = "about/"
+# weight = 1
+
+[[Languages.en.menu.main]]
+name = "News" # すでに起こったこと
+url = "blog/"
+weight = 2
+
+[[Languages.en.menu.main]]
+name = "Events" # これから起こること
+url = "event/"
+weight = 3
+
+[[Languages.en.menu.main]]
+name = "Research"
+weight = 4
+hasChildren = true
+
+  [[Languages.en.menu.main]]
+  parent = "Research"
+  name = "Research Topics"
+  url = "research-topic/"
+  weight = 1
+
+  [[Languages.en.menu.main]]
+  parent = "Research"
+  name = "Laboratories"
+  url = "laboratory/"
+  weight = 2
+
+  [[Languages.en.menu.main]]
+  parent = "Research"
+  name = "Faculty"
+  url = "faculty/"
+  weight = 3
+
+[[Languages.en.menu.main]]
+weight = 5
+name = "Admission"
+hasChildren = true
+
+  [[Languages.en.menu.main]]
+  parent = "Admission"
+  name = "Bachelors and Juniors"
+  url = "bachelor/"
+  weight = 1
+
+  [[Languages.en.menu.main]]
+  parent = "Admission"
+  name = "Graduate School"
+  url = "graduate/"
+  weight = 2
+
+[[Languages.en.menu.main]]
+name = "Internal"
+url = "internal/"
+weight = 7
+
+
+# footer menu
+
+# [[Languages.en.menu.footer]]
+# name = "概要"
+# url = "about/"
+# weight = 1
+
+[[Languages.en.menu.footer]]
+name = "Faculty"
+url = "faculty/"
+weight = 2
+
+## [[Languages.en.menu.footer]]
+## name = "notice"
+## url = "notice/"
+
+## [[Languages.en.menu.footer]]
+## name = "event"
+## url = "event/"
+
+## [[Languages.en.menu.footer]]
+## name = "scholarship"
+## url = "scholarship/"
+
+[[Languages.en.menu.footer]]
+name = "Laboratories"
+url = "laboratory/"
+weight = 3
+
+[[Languages.en.menu.footer]]
+name = "Research Topics"
+url = "research-topic/"
+weight = 4
+
+# [[Languages.en.menu.footer]]
+# name = "化学科パンフレット"
+# url = "/static/pdf/pamphlet2019.pdf"
+# weight = 4
+
+# 大学関連
+
+[[Languages.en.menu.footer2]]
+name = "University"
+url = "https://www.okayama-u.ac.jp/"
+weight = 1
+
+[[Languages.en.menu.footer2]]
+name = "Faculty of Science"
+url = "https://www.science.okayama-u.ac.jp/"
+weight = 2
+
+[[Languages.en.menu.footer2]]
+name = "Graduate School for Natural Science and Technology"
+url = "https://www.gnst.okayama-u.ac.jp/"
+weight = 3
+
+[[Languages.en.menu.footer2]]
+name = "Research Institute for Interdisciplinary Science"
+url = "https://www.riis.okayama-u.ac.jp/"
+weight = 3
