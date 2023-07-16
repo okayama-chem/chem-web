@@ -15,12 +15,12 @@
   </div>
   {{ "<!-- tags -->" | safeHTML }}
   <div class="bg-white mb-5">
-    <h4 class="mb-4">{{ i18n "tags" }}</h4>
-    {{- if isset site.Taxonomies "la_tags" }}
-    {{- if not (eq (len site.Taxonomies.la_tags) 0) }}
+    <h4 class="mb-4">{{ i18n "keywords" }}</h4>
+    {{- if isset site.Taxonomies "keywords" }}
+    {{- if not (eq (len site.Taxonomies.keywords) 0) }}
     <ul class="list-inline tag-list">
-      {{- range $name, $items := site.Taxonomies.la_tags }}
-      <li class="list-inline-item mb-2"><a href="{{ `la_tags/` | relLangURL }}{{ $name | urlize | lower }}/">{{ $name | humanize }}</a></li>
+      {{- range $name, $items := site.Taxonomies.keywords }}
+      <li class="list-inline-item mb-2"><a href="{{ `keywords/` | relLangURL }}{{ $name | urlize | lower }}/">{{ $name | humanize }}</a></li>
       {{- end }}
     </ul>
     {{- end }}

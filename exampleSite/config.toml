@@ -19,7 +19,7 @@ defaultContentLanguageInSubdir = false
   tag = 'tags'
   # laboratories
   la_category = 'la_categories'
-  la_tag = 'la_tags'
+  keyword = 'keywords'
   # faculty = 'faculties'
   # research topics
   rt_category = 'rt_categories'

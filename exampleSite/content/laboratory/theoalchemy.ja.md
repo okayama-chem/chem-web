@@ -10,7 +10,7 @@ description : "近代的錬金術の理論研究"
 image: "images/research/research-6.jpg"
 # taxonomy
 la_categories: ["錬金術"]
-la_tags: ["錬金術", "理論", "魔術シミュレーション"]
+keywords: ["錬金術", "理論", "魔術シミュレーション"]
 faculties:
   kongo: 金剛 力士 教授
 

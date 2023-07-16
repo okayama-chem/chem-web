@@ -25,8 +25,8 @@
 - id: categories
   translation: カテゴリー
 
-- id: tags
-  translation: タグ
+- id: keywords
+  translation: キーワード
 
 - id: see_all
   translation: See all

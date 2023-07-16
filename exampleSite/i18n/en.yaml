@@ -25,8 +25,8 @@
 - id: categories
   translation: Categories
 
-- id: tags
-  translation: Tags
+- id: keywords
+  translation: Keywords
 
 - id: see_all
   translation: See all
