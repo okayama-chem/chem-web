@@ -32,5 +32,9 @@
 .page-title-section, .hero-section {
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+    // background-attachment: fixed;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
 }
