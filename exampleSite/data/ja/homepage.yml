@@ -5,7 +5,7 @@ slider:
   slider_item:
     # slider item loop
     - title : "化学の最先端を知ろう"
-      content : "ここには研究者になりたい、院生にも向けたメッセージを。"
+      content : "20数名の教員が学生とともに、新たな化学を拓く"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -16,7 +16,7 @@ slider:
 
     # slider item loop
     - title : "化学の基礎を学ぼう"
-      content : "ここには高校生・三年次編入生へのメッセージを。"
+      content : "現代の化学のすべてがここにある"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -27,7 +27,7 @@ slider:
 
     # slider item loop
     - title : "化学者をめざす君たちへ"
-      content : "大学院入試に関するメッセージを。"
+      content : "はてしない化学研究のフロンティアに一歩を踏みだす"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -72,7 +72,7 @@ about:
   button:
     enable : true
     label : "もっと詳しく!"
-    link : "about/"
+    link : "bachelor/"
 
 
 ############################# Course ################################

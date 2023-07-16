@@ -160,10 +160,10 @@ mobile = "086-251-7851"
 # url = ""
 # weight = 1
 
-[[Languages.ja.menu.main]]
-name = "化学科とは" # すでに起こったこと
-url = "about/"
-weight = 1
+# [[Languages.ja.menu.main]]
+# name = "化学科とは"
+# url = "about/"
+# weight = 1
 
 [[Languages.ja.menu.main]]
 name = "ニュース" # すでに起こったこと
@@ -223,10 +223,10 @@ weight = 7
 
 # footer menu
 
-[[Languages.ja.menu.footer]]
-name = "概要"
-url = "about/"
-weight = 1
+# [[Languages.ja.menu.footer]]
+# name = "概要"
+# url = "about/"
+# weight = 1
 
 [[Languages.ja.menu.footer]]
 name = "教員"
