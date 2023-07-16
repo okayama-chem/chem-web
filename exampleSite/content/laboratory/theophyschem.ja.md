@@ -25,6 +25,10 @@ contact:
     icon : "ti-mobile" # icon pack : https://themify.me/themify-icons
     link : "tel:0862517904"
 
+  # contact item loop
+  - name : "理論物理化学研究室"
+    icon : "ti-world" # icon pack : https://themify.me/themify-icons
+    link : "http://phys.chem.okayama-u.ac.jp/"
 
 # type
 type: "laboratory"
