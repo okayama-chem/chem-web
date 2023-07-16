@@ -1,6 +1,6 @@
 /*  typography */
 // @import url('https://fonts.googleapis.com/css?family=PT+Sans:300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:wght@100;200;300;400;500;600&display=swap');
 
 // @font-face {
 //   font-family: 'PT Sans';
@@ -28,7 +28,7 @@ p, .paragraph {
 h1,h2,h3,h4,h5,h6 {
   color: $text-color-dark;
   font-family: $secondary-font;
-  font-weight: 300;
+  font-weight: 100;
   line-height: 1.2;
 }
 
