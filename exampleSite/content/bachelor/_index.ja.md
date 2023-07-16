@@ -27,7 +27,7 @@ description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
 
    化学ゼミナール、課題研究
 
-より詳しく知りたい方は[化学科パンフレット](/pdf/pamphlet2019.pdf)をご覧下さい。
+<!-- より詳しく知りたい方は[化学科パンフレット](/pdf/pamphlet2019.pdf)をご覧下さい。 -->
 #### 岡山大学理学部化学科への入学を希望される皆さんへ
 
 * 大学入試に関する情報は[理学部入試案内](http://www.science.okayama-u.ac.jp/prospective/chem.html)をご覧下さい。

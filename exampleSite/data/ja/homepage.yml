@@ -83,8 +83,10 @@ laboratory:
   # laboratory item comes from "content/**/laboratory" folder.
 
 ########################## Call to action ############################
+
+# 残念ながらパンフは古すぎるらしい。
 cta:
-  enable : true
+  enable : false
   subtitle : "化学を身近に"
   title : "化学科で現代の化学を学ぼう"
   button:
