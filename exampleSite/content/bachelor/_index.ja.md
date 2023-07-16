@@ -2,7 +2,7 @@
 title: "学部入試 & 三年次編入"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/sci_bldg.jpg"
+bg_image: "images/banner/bg1.jpg"
 # meta description
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 ---

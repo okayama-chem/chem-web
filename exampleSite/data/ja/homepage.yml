@@ -1,7 +1,7 @@
 ################################# Slider #####################################
 slider:
   enable : true
-  bg_image : "images/banner/sci_bldg.jpg"
+  bg_image : "images/banner/bg1.jpg"
   slider_item:
     # slider item loop
     - title : "化学の最先端を知ろう"
@@ -67,7 +67,7 @@ slider:
 about:
   enable : true
   title : '物質を扱う化学<br />だから"科学"の中心です'
-  image : "images/about/about-us.jpg"
+  image : "images/about/image14-34.jpeg"
   content : "私たちの生活は、様々な色彩豊かで機能性に優れた化学物質に支えられています。エネルギーの供給から私たちの体や遺伝子に至るまで、すべてが化学物質によって構成されています。化学者の研究成果は、大学や企業で応用され、私たちの暮らしを豊かにする製品が生まれています。さらに、環境やエネルギー問題に対しても、化学は主導的な役割を果たすことで、社会への貢献が広がっています。"
   button:
     enable : true
