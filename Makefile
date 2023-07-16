@@ -1,2 +1,2 @@
 test:
-	cd exampleSite; hugo server --themesDir ../..
+	cd exampleSite; hugo server --themesDir ../.. --disableFastRender
