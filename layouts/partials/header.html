@@ -14,12 +14,10 @@
         </div>
         <div class="col-lg-8 text-center text-lg-right">
           <ul class="list-inline">
-            <li class="list-inline-item">
-              <a class="text-color mr-3" href='{{ "contact/" | absLangURL }}'>{{ i18n "contact_us" | upper }}</a></li>
-            <li class="list-inline-item">
-              <a class="text-color mr-3" href="tel:{{ site.Params.mobile }}"><strong>{{ i18n "call" | upper }} : </strong> {{ site.Params.mobile }}</a></li>
-            <li class="list-inline-item">
-              <a class="text-color" href="mailto:{{ site.Params.email }}"><strong>{{ i18n "email" | upper }} : </strong> {{ site.Params.email }}</a></li>
+            <li class="list-inline-item"><a class="text-color mr-3" href='{{ "contact/" | absLangURL }}'>{{ i18n "contact_us" | upper }}</a></li>
+            {{ range site.Params.Contact2 }}
+            <li class="list-inline-item"><a class="text-color mr-3" href="{{ .link | safeURL }}"><i class="{{ .icon }} mr-2"></i>{{ .name }}</a></li>
+            {{ end }}
           </ul>
         </div>
       </div>
