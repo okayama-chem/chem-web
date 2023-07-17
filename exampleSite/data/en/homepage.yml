@@ -5,7 +5,7 @@ slider:
   slider_item:
     # slider item loop
     - title : "Experience cutting-edge chemistry"
-      content : "Up-and-coming researchers will open up new horizons of chemistry with you!"
+      content : "Up-and-coming researchers open up new horizons of chemistry with you!"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -26,7 +26,7 @@ slider:
         link : "bachelor/"
 
     # slider item loop
-    - title : "For aspiring chemists"
+    - title : "For young aspiring chemists"
       content : "Take a step forward into the frontier of chemical research"
       animation_in : "left"
       animation_out : "right"
