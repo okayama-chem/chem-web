@@ -30,32 +30,6 @@
 {{ end }}
 <!-- /hero slider -->
 
-<!-- banner-feature -->
-{{ if $data.homepage.banner_feature.enable }}
-{{ with $data.homepage.banner_feature }}
-<section class="bg-gray overflow-md-hidden">
-  <div class="container-fluid p-0">
-    <div class="row no-gutters">
-      <div class="col-xl-4 col-lg-5 align-self-end">
-        <img class="img-fluid w-100" src="{{ .image | absURL }}" alt="banner-feature">
-      </div>
-      <div class="col-xl-8 col-lg-7">
-        <div class="row feature-blocks bg-gray justify-content-between">
-          {{ range .feature_item }}
-          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
-            <i class="{{ .icon }} mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
-            <h3 class="mb-xl-4 mb-lg-3 mb-4">{{ .name | markdownify }}</h3>
-            <p>{{ .content | markdownify }}</p>
-          </div>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /banner-feature -->
 
 <!-- about us -->
 {{ if $data.homepage.about.enable }}
@@ -84,6 +58,46 @@
 {{ end }}
 {{ end }}
 <!-- /about us -->
+
+
+<!-- banner-feature -->
+{{ if $data.homepage.banner_feature.enable }}
+{{ with $data.homepage.banner_feature }}
+<!-- <section class="bg-gray overflow-md-hidden"> -->
+<section class="bg-gray section">
+  <div class="container">
+    <div class="row">
+        <!-- <div class="col-xl-4 col-lg-5 align-self-end">
+        <img class="img-fluid w-100" src="{{ .image | absURL }}" alt="banner-feature">
+      </div> -->
+      <div class="col-xl-12 col-lg-7">
+        <!-- <div class="d-flex align-items-center section-title justify-content-between"> -->
+          <h3 class="section-title">{{ .title | markdownify }}</h3>
+          <ul>
+            <li>
+              <h4 class="section-subtitle">{{ .subtitle | markdownify }}</h4>
+            </li>
+          </ul>
+          <!-- <h3>{{ .title | markdownify }}</h3> -->
+        <!-- </div> -->
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      {{ range .feature_item }}
+      <div class="col-sm-4 col-xl-4 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+        <i class="{{ .icon }} mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+        <h4 class="mb-xl-4 mb-lg-3 mb-4">{{ .name | markdownify }}</h4>
+        <p>{{ .content | markdownify }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /banner-feature -->
+
+
 
 <!-- laboratories -->
 {{ if $data.homepage.laboratory.enable }}

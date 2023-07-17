@@ -38,29 +38,31 @@ slider:
 
 
 ############################### Banner feature ###############################
-# banner_feature:
-#   enable : true
-#   image : "images/banner/banner-feature.png"
-#   feature_item:
-#     # feature item loop
-#     - name : "Bourses académiques"
-#       icon : "ti-book" # icon pack : https://themify.me/themify-icons
-#       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+banner_feature:
+  enable : true
+  # image : "images/banner/sci_bldg.jpg"
+  title: "化学科のカリキュラムの特色"
+  subtitle: "この学科で学べることは?"
+  feature_item:
+    # feature item loop
+    - name : "少人数クラスでのきめ細かい指導により、幅広く基礎科学を学びます"
+      icon : "ti-book" # icon pack : https://themify.me/themify-icons
+      content : "自然科学入門、基礎化学実験、化学数学、化学英語、理学部専門基礎科目"
 
-#     # feature item loop
-#     - name : "Notre bureau"
-#       icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
-#       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+    # feature item loop
+    - name : "充実した専門分野の講義と実験を通し、広範な化学の領域を体系的に学びます"
+      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
+      content : "分析化学、有機化学、物理化学、量子化学、無機化学、錯体化学、固体化学、有機機器分析、有機合成化学、化学実験、化学実験法"
 
-#     # feature item loop
-#     - name : "Nos accomplissements"
-#       icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
-#       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+    # feature item loop
+    - name : "最先端の研究を通し、社会の要請に応えうる高度な専門知識と実践的な技術を修得します"
+      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
+      content : "化学ゼミナール、課題研究"
 
-#     # feature item loop
-#     - name : "Admission"
-#       icon : "ti-write" # icon pack : https://themify.me/themify-icons
-#       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+    # # feature item loop
+    # - name : "Admission"
+    #   icon : "ti-write" # icon pack : https://themify.me/themify-icons
+    #   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
 
 
 ############################## about ##################################
@@ -123,7 +125,7 @@ event:
 
 ########################### funfacts ############################
 funfacts:
-  enable : false
+  enable : true
   funfact_item:
     # funfact item loop
     - name : "ENSEIGNANTS"
