@@ -1,8 +1,10 @@
 <div class="card card-faculty border-0 rounded-0 hover-shadow mb-5">
-  <img class="card-img-top card-img-faculty rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+  <a href="{{ .Permalink }}">
+    <img class="card-img-top card-img-faculty rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+  </a>
   <div class="card-body">
     <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-    <p>{{ .Params.rank }} {{ .Params.la_group }}</p>
+    <p>{{ .Params.rank }} <span class="group-label">{{ .Params.la_group }}</span></p>
     <ul class="list-inline">
       {{ range .Params.Contact }}
       <li class="list-inline-item"><a class="text-color" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>

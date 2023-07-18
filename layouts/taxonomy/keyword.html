@@ -26,7 +26,12 @@
                 </li> -->
                 <!-- </ul> -->
                 <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-                <p class="card-text">{{ .Summary | truncate 100 }}</p>
+                <p class="card-text">{{ .Description | truncate 100 }}</p>
+                <ul class="list-unstyled">
+                    {{ range .Keywords }}
+                    <li class="mb-3 list-inline-item small-tag-list"><a href="{{ `keywords/` | relLangURL }}{{ . }}">{{ . | title }}</a></li>
+                    {{ end }}
+                </ul>
                 <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">{{ i18n "read_more" }}</a>
             </div>
             </article>
