@@ -12,7 +12,7 @@ description : "有機金属錯体触媒を利用した新規有機合成反応�
 image: "images/research/research-6.jpg"
 
 # taxonomy
-la_categories: "分子化学" # 分子化学 | 物質化学 | 反応化学
+la_categories: "反応化学" # 分子化学 | 物質化学 | 反応化学
 keywords: ["有機合成化学", "有機金属化学", "機能性材料"]
 faculties:
   kongo : 金剛 力士 教授

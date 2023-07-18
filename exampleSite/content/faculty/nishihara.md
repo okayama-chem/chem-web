@@ -6,7 +6,7 @@ draft: false
 rank: "Professor" # 教授 | 准教授 | 助教 | ...
 
 # Laboratory group
-la_group: "Molecular Chemistry" # 分子化学 | 物質化学 | 反応化学
+la_group: "Reaction Chemistry" # 分子化学 | 物質化学 | 反応化学
 
 # Laboratory
 laboratory: "機能有機化学研究室"

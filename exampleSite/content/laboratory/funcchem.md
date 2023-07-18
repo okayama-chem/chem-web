@@ -14,7 +14,7 @@ image: "images/research/research-6.jpg"
 # interest
 
 # taxonomy
-la_categories: "Molecular Chemistry" # 分子化学 | 物質化学 | 反応化学
+la_categories: "Reaction Chemistry" # 分子化学 | 物質化学 | 反応化学
 keywords: ["Synthetic Organic Chemistry ", "Organometallic Chemistry", "Functional Materials"]
 faculties:
   kongo : Prof. Rikishi KONGO
