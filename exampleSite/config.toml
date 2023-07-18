@@ -110,11 +110,10 @@ mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this co
 
 # google map
 [params.map]
-enable = false
-## Google Map API keyを手に入れたい。
-## gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-map_latitude = "34.6911558" # FACULTY SCI BLDG
-map_longitude = "133.9150582"
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAGn44tolkZvbkUv8PSKdfhkReirJmsXA4&libraries=places"
+map_latitude = "34.6884817" # FACULTY SCI BLDG
+map_longitude = "133.9202325"
 map_marker = "images/marker.png" # marker size 37*55 px
 
 # cookies
@@ -161,7 +160,7 @@ home = "ホーム"
 copyright = "Copyright &copy; 2023 岡山大学理学部化学科"
 
 contact = [
-  { name = "〒700-8530 岡山市北区津島中3丁目1番1号", icon = "ti-location-pin", link = "#" },
+  { name = "〒700-8530 岡山市北区津島中3丁目1番1号", icon = "ti-location-pin", link = "https://maps.app.goo.gl/958qeqzWBdRaCqQa8?g_st=ic" },
   { name = "086-251-7851", icon = "ti-mobile", link = "tel:086-251-7851" },
   { name = "info@chem.okayama-u.ac.jp", icon = "ti-email", link = "mailto:info@chem.okayama-u.ac.jp" },
 ]
