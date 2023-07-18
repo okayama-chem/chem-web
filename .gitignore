@@ -16,11 +16,15 @@ DS_Store
 .layouts
 .static
 .theme.toml
+
 # 用途不明
 resources
 *.lock
+
 # 院試過去問
 exampleSite/static/pdf/grad/
+
 # 準備用
 *.xlsx
 *.numbers
+*.zip
