@@ -59,3 +59,18 @@
     padding-bottom: 20px;
     font-size: 100%;
 }
+
+.small-tag-list {
+    font-size: 90%;
+    background-color: $gray;
+}
+
+.group-label {
+    font-size: 80%;
+    border: solid 1px $border-color;
+    padding: 2px;
+    border-radius: 4px;
+    margin: 0 0 0 5px;
+    // background-color: $label-color;
+    // color: $gray;
+}
