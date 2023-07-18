@@ -110,7 +110,7 @@ mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this co
 
 # google map
 [params.map]
-enable = false
+enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAGn44tolkZvbkUv8PSKdfhkReirJmsXA4&libraries=places"
 map_latitude = "34.6884817" # FACULTY SCI BLDG
 map_longitude = "133.9202325"
