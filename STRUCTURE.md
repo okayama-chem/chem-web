@@ -112,7 +112,7 @@
 |   |   |-- baseof.html      基本レイアウト?
 |   |   |-- event.html       イベント一覧のカードのレイアウト
 |   |   |-- faculty.html     教員一覧のカードのレイアウト
-|   |   |-- laboratory.html  研究室一覧のカードのレイアウト
+|   |   |-- laboratory.html
 |   |   |-- list.html        ニュース一覧のカードのレイアウト
 |   |   |-- notice.html      用途不明
 |   |   |-- post.html        用途不明
@@ -140,7 +140,7 @@
 |   |   |-- list.html
 |   |   `-- single.html
 |   |-- laboratory           研究室一覧のレイアウト
-|   |   |-- list.html
+|   |   |-- list.html        研究室一覧のカードのレイアウト
 |   |   `-- single.html
 |   |-- memo.md
 |   |-- notice               不使用
