@@ -20,7 +20,7 @@ def facebook(value):
 
 
 def email(value):
-    name = value
+    name = f"{value}@okayama-u.ac.jp"
     icon = "ti-email"
     link = f"mailto:{value}@okayama-u.ac.jp"
     return name, icon, link

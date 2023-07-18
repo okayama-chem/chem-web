@@ -34,7 +34,7 @@ contact:
   name: Yasushi.Nishihara
 - icon: ti-email
   link: mailto:ynishiha@okayama-u.ac.jp
-  name: ynishiha
+  name: ynishiha@okayama-u.ac.jp
 - icon: ti-id-badge
   link: https://researcherid.com/rid/M-9492-2019
   name: ResearcherID M-9492-2019

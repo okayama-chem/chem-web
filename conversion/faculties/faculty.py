@@ -20,7 +20,7 @@ def facebook(value):
 
 
 def email(value):
-    name = value
+    name = f"{value}@okayama-u.ac.jp"
     icon = "ti-email"
     link = f"mailto:{value}@okayama-u.ac.jp"
     return name, icon, link
@@ -43,7 +43,7 @@ def ORCID(value):
 def Scholar(value):
     name = f"Scholar {value}"
     icon = "ti-google"
-    link = f"https://facebook.com/{value}"
+    link = f"https://scholar.google.co.jp/citations?user={value}"
     return name, icon, link
 
 
