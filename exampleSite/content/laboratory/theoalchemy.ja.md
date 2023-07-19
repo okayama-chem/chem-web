@@ -7,7 +7,7 @@ bg_image: "images/research/research-6.jpg"
 # meta description
 description : "近代的錬金術の理論研究"
 # Research image
-image: "images/research/research-6.jpg"
+image: "images/labs/alchemy/witch.jpg"
 # taxonomy
 la_categories: ["錬金術"]
 keywords: ["錬金術", "理論", "魔術シミュレーション"]
