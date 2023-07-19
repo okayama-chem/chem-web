@@ -25,6 +25,9 @@ contact:
 - icon: ti-email
   link: mailto:yamakata@okayama-u.ac.jp
   name: yamakata@okayama-u.ac.jp
+- icon: ti-mobile
+  link: tel:086-251-7832
+  name: 086-251-7832
 
 
 - name : "表面物理化学"

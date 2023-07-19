@@ -25,6 +25,12 @@ contact:
 - icon: ti-email
   link: mailto:ynishiha@okayama-u.ac.jp
   name: ynishiha@okayama-u.ac.jp
+- icon: ti-mobile
+  link: tel:086-251-7855
+  name: 086-251-7855
+- icon: ti-mobile
+  link: tel:086-251-7855
+  name: 086-251-7855
 
 
 - name : "機能有機化学研究室"

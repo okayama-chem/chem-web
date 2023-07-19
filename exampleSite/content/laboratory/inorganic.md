@@ -25,6 +25,12 @@ contact:
 - icon: ti-email
   link: mailto:ohkubo@okayama-u.ac.jp
   name: ohkubo@okayama-u.ac.jp
+- icon: ti-mobile
+  link: tel:086-251-7843
+  name: 086-251-7843
+- icon: ti-mobile
+  link: tel:086-251-7843
+  name: 086-251-7843
 
 
 - name : "無機化学研究室"
