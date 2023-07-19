@@ -13,7 +13,7 @@
         <div class="row">
           {{ "<!-- members -->" | safeHTML }}
           <div class="col-md-6">
-            <h4 class="mb-4">{{ i18n "faculties" }}</h4>
+            <h4 class="mb-4 underline">{{ i18n "faculties" }}</h4>
             {{- if isset .Params "faculties" }}
             {{- if not (eq (len .Params.faculties) 0) }}
             <ul class="list-inline tag-list">
@@ -25,7 +25,7 @@
             {{- end }}
           </div>
           <div class="col-md-6 mb-5 mb-md-0">
-            <h4 class="mb-4">{{ i18n "contact_info" | upper}}</h4>
+            <h4 class="mb-4 underline">{{ i18n "contact_info" | upper}}</h4>
             <ul class="list-unstyled">
               {{ range .Params.Contact }}
               <li class="mb-3"><a class="text-color" href="{{ .link | safeURL }}"><i class="{{ .icon }} mr-2"></i>{{ .name }}</a></li>
@@ -33,7 +33,7 @@
             </ul>
           </div>
           <div class="col-md-6">
-            <h4 class="mb-4">{{ i18n "keywords" | upper }}</h4>
+            <h4 class="mb-4 underline">{{ i18n "keywords" | upper }}</h4>
             <ul class="list-unstyled">
               {{ range .Params.Keywords }}
               <li class="mb-3"><a href="{{ `keywords/` | relLangURL }}{{ . }}">{{ . | title }}</a></li>

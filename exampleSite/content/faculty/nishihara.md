@@ -27,6 +27,17 @@ image: "images/faculty/anonymous.png"
 
 # interest
 interest: ["Synthetic Organic Chemistry ", "Organometallic Chemistry", "Functional Materials"]
+
+# achievements
+achievements:
+- icon: ti-id-badge
+  link: https://researcherid.com/rid/M-9492-2019
+  name: ResearcherID M-9492-2019
+- icon: ti-id-badge
+  link: https://orcid.org/0000-0001-5409-4207
+  name: ORCID 0000-0001-5409-4207
+
+
 # contact info
 contact:
 - icon: ti-facebook
@@ -35,12 +46,6 @@ contact:
 - icon: ti-email
   link: mailto:ynishiha@okayama-u.ac.jp
   name: ynishiha@okayama-u.ac.jp
-- icon: ti-id-badge
-  link: https://researcherid.com/rid/M-9492-2019
-  name: ResearcherID M-9492-2019
-- icon: ti-id-badge
-  link: https://orcid.org/0000-0001-5409-4207
-  name: ORCID 0000-0001-5409-4207
 
 
 - name : "機能有機化学研究室"

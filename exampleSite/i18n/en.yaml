@@ -1,3 +1,6 @@
+- id: achievements
+  translation: Achievements
+
 - id: read_more
   translation: Read More
 
@@ -101,7 +104,7 @@
   translation: All
 
 - id: interest
-  translation: SUMMARY OF ACTIVITIES/INTERESTS
+  translation: RESEARCH INTERESTS
 
 - id: our_teachers
   translation: Our Teachers

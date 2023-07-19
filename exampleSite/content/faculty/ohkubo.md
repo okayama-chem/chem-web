@@ -27,11 +27,9 @@ image: "images/faculty/anonymous.png"
 
 # interest
 interest: ["Nanospace", "Adsorption", "Catalyst"]
-# contact info
-contact:
-- icon: ti-email
-  link: mailto:ohkubo@okayama-u.ac.jp
-  name: ohkubo@okayama-u.ac.jp
+
+# achievements
+achievements:
 - icon: ti-id-badge
   link: https://researcherid.com/rid/B-2591-2011
   name: ResearcherID B-2591-2011
@@ -41,6 +39,13 @@ contact:
 - icon: ti-google
   link: https://scholar.google.co.jp/citations?user=HkgUngkAAAAJ
   name: Scholar HkgUngkAAAAJ
+
+
+# contact info
+contact:
+- icon: ti-email
+  link: mailto:ohkubo@okayama-u.ac.jp
+  name: ohkubo@okayama-u.ac.jp
 
 
 - name : "無機化学研究室"

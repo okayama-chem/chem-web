@@ -1,3 +1,6 @@
+- id: achievements
+  translation: 業績リスト
+
 - id: read_more
   translation: Read More
 
@@ -8,7 +11,7 @@
   translation: send message
 
 - id: contact_info
-  translation: Contact Info
+  translation: 連絡先
 
 - id: subscribe_newsletter
   translation: Newsletterに登録
@@ -101,7 +104,7 @@
   translation: All
 
 - id: interest
-  translation: SUMMARY OF ACTIVITIES/INTERESTS
+  translation: 研究分野
 
 - id: our_teachers
   translation: Our Teachers(廃止)

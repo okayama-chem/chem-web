@@ -27,11 +27,9 @@ image: "images/faculty/anonymous.png"
 
 # interest
 interest: ["Surface Spectroscopy", "Photocatalysis", "Organic Solar Cells"]
-# contact info
-contact:
-- icon: ti-email
-  link: mailto:yamakata@okayama-u.ac.jp
-  name: yamakata@okayama-u.ac.jp
+
+# achievements
+achievements:
 - icon: ti-id-badge
   link: https://researcherid.com/rid/I-6260-2013
   name: ResearcherID I-6260-2013
@@ -41,6 +39,13 @@ contact:
 - icon: ti-google
   link: https://scholar.google.co.jp/citations?user=-qC_RwEAAAAJ
   name: Scholar -qC_RwEAAAAJ
+
+
+# contact info
+contact:
+- icon: ti-email
+  link: mailto:yamakata@okayama-u.ac.jp
+  name: yamakata@okayama-u.ac.jp
 
 
 - name : "表面物理化学研究室"
