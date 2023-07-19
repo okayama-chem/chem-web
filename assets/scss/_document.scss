@@ -18,6 +18,7 @@
 
     h4 {
         margin: 25px auto 25px auto;
+
     }
     h5 {
         margin: 10px auto 10px auto;
@@ -73,4 +74,14 @@
     margin: 0 0 0 5px;
     // background-color: $label-color;
     // color: $gray;
+}
+
+.top-margin {
+    margin-top: 15px;
+}
+
+.underline{
+    border-bottom: 1px $border-color solid;
+    width: 100%;
+    display: block;
 }
