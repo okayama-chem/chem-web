@@ -13,6 +13,7 @@ files = set()
 
 
 def callback(path, evt_time, flags, flags_num, event_num):
+    """ """
     global files, last_commit, commit_interval
     rel = os.path.relpath(path).decode()
     if rel.find("_gen") >= 0:
