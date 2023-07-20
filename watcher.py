@@ -34,7 +34,7 @@ def callback(path, evt_time, flags, flags_num, event_num):
 
         command = ["git", "commit", "-m", "autocommit"] + list(files)
         subprocess.run(command)
-        command = ["git", "push", "origin", "autocommit"]
+        command = ["git", "push", "origin", "master"]
         subprocess.run(command)
 
         last_commit = now
