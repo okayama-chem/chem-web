@@ -37,8 +37,7 @@
 
 .page-title-section, .hero-section {
     background-size: cover;
-    background-position: center center;
-    // background-attachment: fixed;
+    background-position: center top;
 }
 
 @supports (-webkit-touch-callout: none) {
