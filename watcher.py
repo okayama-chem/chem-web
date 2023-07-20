@@ -13,7 +13,6 @@ files = set()
 
 
 def callback(path, evt_time, flags, flags_num, event_num):
-    """ """
     global files, last_commit, commit_interval
     rel = os.path.relpath(path).decode()
     if rel.find("_gen") >= 0:
@@ -32,7 +31,7 @@ def callback(path, evt_time, flags, flags_num, event_num):
     if now > last_commit + commit_interval:
         print(f"Commit {files}")
 
-        command = ["git", "commit", "-m", "autocommit"] + list(files)
+        command = ["git", "commit", "-m", "auto commit"] + list(files)
         subprocess.run(command)
         command = ["git", "push", "origin", "master"]
         subprocess.run(command)
