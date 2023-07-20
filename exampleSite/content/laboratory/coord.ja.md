@@ -1,19 +1,19 @@
 ---
-title: "無機化学研究室"
+title: "錯体化学研究室"
 draft: false
 
 # page title background image
 bg_image: "images/banner/bg1.jpg"
 
 # meta description ~100 letters in Japanese
-description : "細孔性材料の機能解明と新規材料開発"
+description : "金属錯体の合成と構造及び物性に関する研究"
 
 # Research image
 image: "images/research/research-6.jpg"
 
 # taxonomy
 la_categories: "物質化学" # 分子化学 | 物質化学 | 反応化学
-keywords: ["ナノ空間", "吸着", "触媒"]
+keywords: ["遷移金属およびランタノイド錯体", "キラリティ", "多核錯体・クラスター"]
 faculties:
   kongo : 金剛 力士 教授
   kongo : 金剛 力士 教授
@@ -21,19 +21,19 @@ faculties:
 # contact info
 contact:
 - icon: ti-email
-  link: mailto:ohkubo@okayama-u.ac.jp
-  name: ohkubo@okayama-u.ac.jp
+  link: mailto:suzuki@okayama-u.ac.jp
+  name: suzuki@okayama-u.ac.jp
 - icon: ti-mobile
-  link: tel:086-251-7843
-  name: 086-251-7843
+  link: tel:086-251-7900
+  name: 086-251-7900
 - icon: ti-printer
-  link: tel:086-251-7843
-  name: FAX 086-251-7843
+  link: tel:086-251-7900
+  name: FAX 086-251-7900
 
 
-- name : "無機化学研究室"
+- name : "錯体化学研究室"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
-  link : "http://chem.okayama-u.ac.jp/~inorganic/index.html"
+  link : "http://chem.okayama-u.ac.jp/~complex/Coord.Chem/Home.html"
 
 - name : "700-8530 岡山県岡山市津島中3－1－1"
   icon : "ti-location-pin" # icon pack : https://themify.me/themify-icons

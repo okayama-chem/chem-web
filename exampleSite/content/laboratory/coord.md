@@ -1,12 +1,12 @@
 ---
-title: "Inorganic Chemistry Laboratory"
+title: "Coordination Chemistry Laboratory"
 draft: false
 
 # page title background image
 bg_image: "images/banner/bg1.jpg"
 
 # meta description ~100 letters in Japanese
-description : "Elucidation of functions on porous materials and development of new porous materials"
+description : "Synthesis, Structures and Properties of Novel Metal Complexes"
 
 # Research image
 image: "images/research/research-6.jpg"
@@ -15,7 +15,7 @@ image: "images/research/research-6.jpg"
 
 # taxonomy
 la_categories: "Material Chemistry" # 分子化学 | 物質化学 | 反応化学
-keywords: ["Nanospace", "Adsorption", "Catalyst"]
+keywords: ["Transition-metal and Lanthanoid Complexes", "Chirality", "Multinuclear Complex・Cluster Compounds"]
 faculties:
   kongo : Prof. Rikishi KONGO
   kongo : Prof. Rikishi KONGO
@@ -23,19 +23,19 @@ faculties:
 # contact info
 contact:
 - icon: ti-email
-  link: mailto:ohkubo@okayama-u.ac.jp
-  name: ohkubo@okayama-u.ac.jp
+  link: mailto:suzuki@okayama-u.ac.jp
+  name: suzuki@okayama-u.ac.jp
 - icon: ti-mobile
-  link: tel:086-251-7843
-  name: 086-251-7843
+  link: tel:086-251-7900
+  name: 086-251-7900
 - icon: ti-printer
-  link: tel:086-251-7843
-  name: FAX 086-251-7843
+  link: tel:086-251-7900
+  name: FAX 086-251-7900
 
 
-- name : "Inorganic Chemistry Laboratory"
+- name : "Coordination Chemistry Laboratory"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
-  link : "http://chem.okayama-u.ac.jp/~inorganic/index.html"
+  link : "http://chem.okayama-u.ac.jp/~complex/Coord.Chem/Home.html"
 
 - name : "3-1-1 Tsushima-Naka, Kita Ward, Okayama City, Okayama 700-8530"
   icon : "ti-location-pin" # icon pack : https://themify.me/themify-icons

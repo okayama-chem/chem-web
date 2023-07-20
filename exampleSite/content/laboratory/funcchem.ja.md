@@ -26,9 +26,9 @@ contact:
 - icon: ti-mobile
   link: tel:086-251-7855
   name: 086-251-7855
-- icon: ti-mobile
+- icon: ti-printer
   link: tel:086-251-7855
-  name: 086-251-7855
+  name: FAX 086-251-7855
 
 
 - name : "機能有機化学研究室"
