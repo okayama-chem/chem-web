@@ -9,7 +9,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "Developmemt of New Synthetic Reaction and Its Application to the Synthesis of Bioactive Compounds"
 
 # Research image
-image: "images/research/research-6.jpg"
+image: "images/labs/flask.jpg"
 
 # interest
 

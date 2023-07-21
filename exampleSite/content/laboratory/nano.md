@@ -9,7 +9,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "Study of optically functional nanomaterials for instrumentation"
 
 # Research image
-image: "images/research/research-6.jpg"
+image: "images/labs/flask.jpg"
 
 # interest
 

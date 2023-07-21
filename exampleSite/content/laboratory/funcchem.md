@@ -9,7 +9,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "Development of Synthetic Organic Reactions Catalyzed by Organometallic Complexes and the Application to Functional Materials"
 
 # Research image
-image: "images/research/research-6.jpg"
+image: "images/labs/flask.jpg"
 
 # interest
 

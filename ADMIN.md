@@ -76,7 +76,13 @@ Options Indexes
 
 1313番ポートは大学内からのアクセスにのみ開放する。
 
-firewallの設定はどこだった?
+```shell
+firewall-cmd --list-all
+firewall-cmd --add-rich-rule='rule family=ipv4 source address="150.46.0.0/16" port port=1313 protocol=tcp accept' --zone=public --permanent
+firewall-cmd --list-all
+firewall-cmd --reload
+firewall-cmd --list-all
+```
 
 ### コンテンツの保護
 

@@ -9,7 +9,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "We are studying the mechanisms of photocatalysts as well as low-cost organic solar cells and luminescent devices. We believe that utilizing the latest spectroscopic analysis techniques is crucial to uncovering the unknown properties of materials and effectively leveraging them."
 
 # Research image
-image: "images/research/research-6.jpg"
+image: "images/labs/flask.jpg"
 
 # interest
 
