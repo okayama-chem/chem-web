@@ -14,9 +14,11 @@ image: "images/research/research-6.jpg"
 # taxonomy
 la_categories: "物質化学" # 分子化学 | 物質化学 | 反応化学
 keywords: ["遷移金属およびランタノイド錯体", "キラリティ", "多核錯体・クラスター"]
+
+# faculties; label: true name and title
 faculties:
-  kongo : 金剛 力士 教授
-  kongo : 金剛 力士 教授
+  suzuki: "\u9234\u6728 \u5B5D\u7FA9 \u6559\u6388"
+
 
 # contact info
 contact:

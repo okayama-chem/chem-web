@@ -16,9 +16,11 @@ image: "images/research/research-6.jpg"
 # taxonomy
 la_categories: "Material Chemistry" # 分子化学 | 物質化学 | 反応化学
 keywords: ["Nanomaterials", "Quantum measurement", "Nano optics"]
+
+# faculties; label: true name and title
 faculties:
-  kongo : Prof. Rikishi KONGO
-  kongo : Prof. Rikishi KONGO
+  fujiwara: Assoc. Prof. Masazumi Fujiwara
+
 
 # contact info
 contact:

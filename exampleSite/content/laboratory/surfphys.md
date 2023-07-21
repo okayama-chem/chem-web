@@ -16,9 +16,11 @@ image: "images/research/research-6.jpg"
 # taxonomy
 la_categories: "Molecular Chemistry" # 分子化学 | 物質化学 | 反応化学
 keywords: ["Surface Spectroscopy", "Photocatalysis", "Organic Solar Cells"]
+
+# faculties; label: true name and title
 faculties:
-  kongo : Prof. Rikishi KONGO
-  kongo : Prof. Rikishi KONGO
+  yamakata: Prof. Akira Yamakata
+
 
 # contact info
 contact:

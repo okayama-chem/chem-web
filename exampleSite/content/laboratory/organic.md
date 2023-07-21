@@ -1,12 +1,12 @@
 ---
-title: "Functional Organic Chemistry Laboratory"
+title: "Laboratory of Organic Chemistry"
 draft: false
 
 # page title background image
 bg_image: "images/banner/bg1.jpg"
 
 # meta description ~100 letters in Japanese
-description : "Development of Synthetic Organic Reactions Catalyzed by Organometallic Complexes and the Application to Functional Materials"
+description : "Developmemt of New Synthetic Reaction and Its Application to the Synthesis of Bioactive Compounds"
 
 # Research image
 image: "images/research/research-6.jpg"
@@ -15,30 +15,27 @@ image: "images/research/research-6.jpg"
 
 # taxonomy
 la_categories: "Reaction Chemistry" # 分子化学 | 物質化学 | 反応化学
-keywords: ["Synthetic Organic Chemistry ", "Organometallic Chemistry", "Functional Materials"]
+keywords: ["Synthetic Organic Chemistry", "Biologically Active Compound", "Photocatalytic Reaction"]
 
 # faculties; label: true name and title
 faculties:
-  mori: Assist. Prof. Hiroki Mori
-  nishihara: Prof. Yasushi Nishihara
+  kadota: Prof. Isao Kadota
+  takamura: Assoc. Prof. Hiroyoshi Takamura
 
 
 # contact info
 contact:
 - icon: ti-email
-  link: mailto:ynishiha@okayama-u.ac.jp
-  name: ynishiha@okayama-u.ac.jp
+  link: mailto:kadota-i@okayama-u.ac.jp
+  name: kadota-i@okayama-u.ac.jp
 - icon: ti-mobile
-  link: tel:086-251-7855
-  name: 086-251-7855
-- icon: ti-printer
-  link: tel:086-251-7855
-  name: FAX 086-251-7855
+  link: tel:086-251-7836
+  name: 086-251-7836
 
 
-- name : "Functional Organic Chemistry Laboratory"
+- name : "Laboratory of Organic Chemistry"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
-  link : "http://chem.okayama-u.ac.jp/~funcchem/top/index.html"
+  link : "http://chem.okayama-u.ac.jp/~organic/homejpn.html"
 
 - name : "3-1-1 Tsushima-Naka, Kita Ward, Okayama City, Okayama 700-8530"
   icon : "ti-location-pin" # icon pack : https://themify.me/themify-icons

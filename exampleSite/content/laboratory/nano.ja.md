@@ -14,9 +14,11 @@ image: "images/research/research-6.jpg"
 # taxonomy
 la_categories: "物質化学" # 分子化学 | 物質化学 | 反応化学
 keywords: ["ナノ物質", "量子計測", "ナノ光学"]
+
+# faculties; label: true name and title
 faculties:
-  kongo : 金剛 力士 教授
-  kongo : 金剛 力士 教授
+  fujiwara: "\u85E4\u539F \u6B63\u6F84 \u51C6\u6559\u6388"
+
 
 # contact info
 contact:

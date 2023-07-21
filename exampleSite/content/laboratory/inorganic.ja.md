@@ -14,9 +14,11 @@ image: "images/research/research-6.jpg"
 # taxonomy
 la_categories: "物質化学" # 分子化学 | 物質化学 | 反応化学
 keywords: ["ナノ空間", "吸着", "触媒"]
+
+# faculties; label: true name and title
 faculties:
-  kongo : 金剛 力士 教授
-  kongo : 金剛 力士 教授
+  ohkubo: "\u5927\u4E45\u4FDD \u8CB4\u5E83 \u6559\u6388"
+
 
 # contact info
 contact:

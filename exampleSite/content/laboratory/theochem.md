@@ -16,9 +16,11 @@ image: "images/research/research-6.jpg"
 # taxonomy
 la_categories: "Molecular Chemistry" # 分子化学 | 物質化学 | 反応化学
 keywords: ["Water Science", "Molecular Dynamics", "Stasistical Mechanics"]
+
+# faculties; label: true name and title
 faculties:
-  kongo : Prof. Rikishi KONGO
-  kongo : Prof. Rikishi KONGO
+  matsumoto: Assoc. Prof. Masakazu Matsumoto
+
 
 # contact info
 contact:
@@ -30,7 +32,7 @@ contact:
   name: 086-251-7846
 
 
-- name : "理論化学研究室"
+- name : "Theoretical Chemistry Laboratory"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "http://theochem.chem.okayama-u.ac.jp"
 

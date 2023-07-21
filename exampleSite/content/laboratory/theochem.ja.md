@@ -3,20 +3,22 @@ title: "理論化学研究室"
 draft: false
 
 # page title background image
-bg_image : "images/banner/bg3.png"
+bg_image: "images/banner/bg1.jpg"
 
 # meta description ~100 letters in Japanese
 description : "コンピュータを用いた固体・液体の基本的な性質の研究"
 
 # Research image
-image : "images/labs/theo/beans.jpg"
+image: "images/research/research-6.jpg"
 
 # taxonomy
 la_categories: "分子化学" # 分子化学 | 物質化学 | 反応化学
 keywords: ["水の科学", "分子動力学", "統計力学"]
+
+# faculties; label: true name and title
 faculties:
-  kongo : 金剛 力士 教授
-  kongo : 金剛 力士 教授
+  matsumoto: "\u677E\u672C \u6B63\u548C \u51C6\u6559\u6388"
+
 
 # contact info
 contact:

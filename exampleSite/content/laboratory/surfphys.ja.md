@@ -14,9 +14,11 @@ image: "images/research/research-6.jpg"
 # taxonomy
 la_categories: "分子化学" # 分子化学 | 物質化学 | 反応化学
 keywords: ["表面分光学", "光触媒", "太陽電池"]
+
+# faculties; label: true name and title
 faculties:
-  kongo : 金剛 力士 教授
-  kongo : 金剛 力士 教授
+  yamakata: "\u5C71\u65B9 \u5553 \u6559\u6388"
+
 
 # contact info
 contact:
