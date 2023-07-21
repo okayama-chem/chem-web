@@ -9,7 +9,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "有機金属錯体触媒を利用した新規有機合成反応の開発と機能性材料への展開"
 
 # Research image
-image: "images/research/research-6.jpg"
+image: "images/labs/flask.jpg"
 
 # taxonomy
 la_categories: "反応化学" # 分子化学 | 物質化学 | 反応化学

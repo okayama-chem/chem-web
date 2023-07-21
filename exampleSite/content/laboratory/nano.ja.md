@@ -9,7 +9,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "光機能性ナノ粒子を用いた分析技術の研究"
 
 # Research image
-image: "images/research/research-6.jpg"
+image: "images/labs/flask.jpg"
 
 # taxonomy
 la_categories: "物質化学" # 分子化学 | 物質化学 | 反応化学

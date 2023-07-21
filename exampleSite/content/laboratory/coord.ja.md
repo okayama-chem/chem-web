@@ -9,7 +9,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "金属錯体の合成と構造及び物性に関する研究"
 
 # Research image
-image: "images/research/research-6.jpg"
+image: "images/labs/flask.jpg"
 
 # taxonomy
 la_categories: "物質化学" # 分子化学 | 物質化学 | 反応化学

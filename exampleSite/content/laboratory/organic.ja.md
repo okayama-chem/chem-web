@@ -9,7 +9,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "新規合成反応の開発と生理活性物質合成への応用"
 
 # Research image
-image: "images/research/research-6.jpg"
+image: "images/labs/flask.jpg"
 
 # taxonomy
 la_categories: "反応化学" # 分子化学 | 物質化学 | 反応化学

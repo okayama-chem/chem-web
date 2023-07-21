@@ -9,7 +9,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "細孔性材料の機能解明と新規材料開発"
 
 # Research image
-image: "images/research/research-6.jpg"
+image: "images/labs/flask.jpg"
 
 # taxonomy
 la_categories: "物質化学" # 分子化学 | 物質化学 | 反応化学
