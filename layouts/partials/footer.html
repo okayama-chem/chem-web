@@ -30,6 +30,7 @@
         <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
           <!-- logo -->
           <a class="logo-footer" href="{{ site.BaseURL | relLangURL }}"><img class="img-fluid mb-4" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
+          <!-- below Logo -->
           <ul class="list-unstyled">
             {{ range site.Params.Contact }}
             <li class="mb-3"><a class="text-color" href="{{ .link | safeURL }}"><i class="{{ .icon }} mr-2"></i>{{ .name }}</a></li>

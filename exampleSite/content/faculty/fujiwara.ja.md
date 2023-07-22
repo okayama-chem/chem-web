@@ -9,7 +9,10 @@ rank: "准教授" # 教授 | 准教授 | 助教 | ...
 la_group: "物質化学" # 分子化学 | 物質化学 | 反応化学
 
 # Laboratory
-laboratory: "ナノ化学"
+laboratory:
+  id: nano
+  name: ナノ化学研究室
+
 
 # page title background image
 bg_image: "images/banner/bg1.jpg"
@@ -19,11 +22,6 @@ description : "光機能性ナノ粒子を用いた分析技術の研究"
 
 # teacher portrait
 image: "images/faculty/anonymous.png"
-
-# course 今のところ不使用
-# course: ["分子化学"]
-# biography or slogan
-# bio: "京都府出身、理論物理化学部屋。"
 
 # interest
 interest: ["ナノ物質", "量子計測", "ナノ光学"]

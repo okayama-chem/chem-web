@@ -4,28 +4,24 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-md-5 mb-5">
+      <div class="col-md-4 mb-5">
         <img class="img-fluid w-100" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
       </div>
-      <div class="col-md-6 mb-5">
+      <div class="col-md-8 mb-5">
         <h3>{{ .Title }}</h3>
-        <p class="mb-5">{{ .Params.Bio | markdownify }}</p>
-        <div class="row">
-          {{ "<!-- members -->" | safeHTML }}
-          <div class="col-md-6">
-            <h4 class="mb-4 underline">{{ i18n "faculties" }}</h4>
-            {{- if isset .Params "faculties" }}
-            {{- if not (eq (len .Params.faculties) 0) }}
-            <ul class="list-inline tag-list">
-              {{- range .Params.faculties }}
-              {{ $item := . }}
-              <li class="list-inline-item mb-2"><a href="{{ `faculty/` | relLangURL }}{{ $item.id | urlize | lower }}/">{{ $item.name | humanize }}</a></li>
-              {{- end }}
-            </ul>
-            {{- end }}
-            {{- end }}
-          </div>
-          <div class="col-md-6 mb-5 mb-md-0">
+        {{- if isset .Params "faculties" }}
+        {{- if not (eq (len .Params.faculties) 0) }}
+        <ul class="list-inline tag-list">
+          {{- range .Params.faculties }}
+          {{ $item := . }}
+          <li class="list-inline-item mb-2"><a href="{{ `faculty/` | relLangURL }}{{ $item.id | urlize | lower }}/">{{ $item.name }}</a></li>
+          {{- end }}
+        </ul>
+        {{- end }}
+        {{- end }}
+        <!-- <p class="mb-5">{{ .Params.Bio | markdownify }}</p> -->
+        <div class="row mt-3">
+          <div class="col-md-6 col-6 mb-2 mb-md-0">
             <h4 class="mb-4 underline">{{ i18n "contact_info" | upper}}</h4>
             <ul class="list-unstyled">
               {{ range .Params.Contact }}
@@ -33,7 +29,7 @@
               {{ end }}
             </ul>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 col-6">
             <h4 class="mb-4 underline">{{ i18n "keywords" | upper }}</h4>
             <ul class="list-unstyled">
               {{ range .Params.Keywords }}

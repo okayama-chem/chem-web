@@ -9,7 +9,10 @@ rank: "准教授" # 教授 | 准教授 | 助教 | ...
 la_group: "分子化学" # 分子化学 | 物質化学 | 反応化学
 
 # Laboratory
-laboratory: "理論化学研究室"
+laboratory:
+  id: theochem
+  name: 理論化学研究室
+
 
 # page title background image
 bg_image: "images/banner/bg1.jpg"
@@ -19,11 +22,6 @@ description : "コンピュータを用いた固体・液体の基本的な性�
 
 # teacher portrait
 image: "images/faculty/anonymous.png"
-
-# course 今のところ不使用
-# course: ["分子化学"]
-# biography or slogan
-# bio: "京都府出身、理論物理化学部屋。"
 
 # interest
 interest: ["水の科学", "分子動力学", "統計力学"]
@@ -51,7 +49,7 @@ contact:
   name: vitroids
 - icon: ti-youtube
   link: https://www.youtube.com/channel/UCSA-oZOZGJXMiyO0SbbXmuA
-  name: channel
+  name: YouTube Channel
 - icon: ti-email
   link: mailto:matsu-m3@okayama-u.ac.jp
   name: matsu-m3@okayama-u.ac.jp

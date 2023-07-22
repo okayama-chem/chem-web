@@ -9,7 +9,10 @@ rank: "教授" # 教授 | 准教授 | 助教 | ...
 la_group: "反応化学" # 分子化学 | 物質化学 | 反応化学
 
 # Laboratory
-laboratory: "有機化学研究室"
+laboratory:
+  id: organic
+  name: 有機化学研究室
+
 
 # page title background image
 bg_image: "images/banner/bg1.jpg"
@@ -19,11 +22,6 @@ description : "新規合成反応の開発と天然物合成への応用"
 
 # teacher portrait
 image: "images/faculty/anonymous.png"
-
-# course 今のところ不使用
-# course: ["分子化学"]
-# biography or slogan
-# bio: "京都府出身、理論物理化学部屋。"
 
 # interest
 interest: ["有機合成化学", "天然有機化合物", "全合成"]

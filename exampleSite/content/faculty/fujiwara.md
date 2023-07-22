@@ -9,7 +9,10 @@ rank: "Assoc. Professor" # 教授 | 准教授 | 助教 | ...
 la_group: "Material Chemistry" # 分子化学 | 物質化学 | 反応化学
 
 # Laboratory
-laboratory: "ナノ化学"
+laboratory:
+  id: nano
+  name: Nano Chemistry Laboratory
+
 
 # page title background image
 bg_image: "images/banner/bg1.jpg"
@@ -19,11 +22,6 @@ description : "Study of optically functional nanomaterials for instrumentation"
 
 # teacher portrait
 image: "images/faculty/anonymous.png"
-
-# course 今のところ不使用
-# course: ["分子化学"]
-# biography or slogan
-# bio: "京都府出身、理論物理化学部屋。"
 
 # interest
 interest: ["Nanomaterials", "Quantum measurement", "Nano optics"]

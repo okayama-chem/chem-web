@@ -9,7 +9,10 @@ rank: "Assoc. Professor" # 教授 | 准教授 | 助教 | ...
 la_group: "Molecular Chemistry" # 分子化学 | 物質化学 | 反応化学
 
 # Laboratory
-laboratory: "理論化学研究室"
+laboratory:
+  id: theochem
+  name: Theoretical Chemistry Laboratory
+
 
 # page title background image
 bg_image: "images/banner/bg1.jpg"
@@ -19,11 +22,6 @@ description : "Theoretical Studies on basic properties of liquids and solids"
 
 # teacher portrait
 image: "images/faculty/anonymous.png"
-
-# course 今のところ不使用
-# course: ["分子化学"]
-# biography or slogan
-# bio: "京都府出身、理論物理化学部屋。"
 
 # interest
 interest: ["Water Science", "Molecular Dynamics", "Stasistical Mechanics"]
@@ -51,7 +49,7 @@ contact:
   name: vitroids
 - icon: ti-youtube
   link: https://www.youtube.com/channel/UCSA-oZOZGJXMiyO0SbbXmuA
-  name: channel
+  name: YouTube Channel
 - icon: ti-email
   link: mailto:matsu-m3@okayama-u.ac.jp
   name: matsu-m3@okayama-u.ac.jp
