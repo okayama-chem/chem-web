@@ -7,7 +7,7 @@
     <div class="row filtr-container">
       <!-- faculty -->
       {{ range .Data.Pages }}
-      <div data-category="{{ .Params.Fa_category | urlize }}" class="col-lg-3 col-sm-6 filtr-item">
+      <div data-category="{{ .Params.Fa_category | urlize }}" class="col-lg-2 col-sm-6 filtr-item">
         {{ .Render "faculty" }}
       </div>
       {{ end }}

@@ -19,7 +19,8 @@ keywords: ["Transition-metal and Lanthanoid Complexes", "Chirality", "Multinucle
 
 # faculties; label: true name and title
 faculties:
-  suzuki: Prof. Takayoshi Suzuki
+- id: suzuki
+  name: Prof. Takayoshi Suzuki
 
 
 # contact info

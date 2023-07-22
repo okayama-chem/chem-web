@@ -19,7 +19,8 @@ keywords: ["Surface Spectroscopy", "Photocatalysis", "Organic Solar Cells"]
 
 # faculties; label: true name and title
 faculties:
-  yamakata: Prof. Akira Yamakata
+- id: yamakata
+  name: Prof. Akira Yamakata
 
 
 # contact info

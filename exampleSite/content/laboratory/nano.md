@@ -19,7 +19,8 @@ keywords: ["Nanomaterials", "Quantum measurement", "Nano optics"]
 
 # faculties; label: true name and title
 faculties:
-  fujiwara: Assoc. Prof. Masazumi Fujiwara
+- id: fujiwara
+  name: Assoc. Prof. Masazumi Fujiwara
 
 
 # contact info

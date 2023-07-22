@@ -24,6 +24,7 @@ description : "化学科への入学を検討されている方へ"
 {{< youtube src="IsMXFL98tMs" width=400 height=250 >}}
 #### 三年次より編入学を希望される学生の皆さんへ
 
+* 入試に関する情報は理学部の[第3年次編入学試験](https://www.science.okayama-u.ac.jp/admission/admission3.html)をご覧下さい。
 * [講義の内容に関する情報](3nenji)
 * 化学科の第3年次編入学に関する説明がYouTubeにて公開されていますので、ぜひご覧下さい。
 

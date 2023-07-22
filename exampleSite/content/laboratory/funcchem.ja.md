@@ -17,8 +17,10 @@ keywords: ["有機合成化学", "有機金属化学", "機能性材料"]
 
 # faculties; label: true name and title
 faculties:
-  mori: "\u68EE \u88D5\u6A39 \u52A9\u6559"
-  nishihara: "\u897F\u539F\u3000\u5EB7\u5E2B \u6559\u6388"
+- id: nishihara
+  name: "\u897F\u539F\u3000\u5EB7\u5E2B \u6559\u6388"
+- id: mori
+  name: "\u68EE \u88D5\u6A39 \u52A9\u6559"
 
 
 # contact info

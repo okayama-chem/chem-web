@@ -17,7 +17,8 @@ keywords: ["ナノ空間", "吸着", "触媒"]
 
 # faculties; label: true name and title
 faculties:
-  ohkubo: "\u5927\u4E45\u4FDD \u8CB4\u5E83 \u6559\u6388"
+- id: ohkubo
+  name: "\u5927\u4E45\u4FDD \u8CB4\u5E83 \u6559\u6388"
 
 
 # contact info

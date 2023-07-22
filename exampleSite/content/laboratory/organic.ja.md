@@ -17,8 +17,10 @@ keywords: ["有機合成化学", "生理活性物質", "光触媒反応"]
 
 # faculties; label: true name and title
 faculties:
-  kadota: "\u9580\u7530\u3000\u529F \u6559\u6388"
-  takamura: "\u9AD9\u6751 \u6D69\u7531 \u51C6\u6559\u6388"
+- id: kadota
+  name: "\u9580\u7530\u3000\u529F \u6559\u6388"
+- id: takamura
+  name: "\u9AD9\u6751 \u6D69\u7531 \u51C6\u6559\u6388"
 
 
 # contact info

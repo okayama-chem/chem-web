@@ -19,8 +19,10 @@ keywords: ["Synthetic Organic Chemistry", "Biologically Active Compound", "Photo
 
 # faculties; label: true name and title
 faculties:
-  kadota: Prof. Isao Kadota
-  takamura: Assoc. Prof. Hiroyoshi Takamura
+- id: kadota
+  name: Prof. Isao Kadota
+- id: takamura
+  name: Assoc. Prof. Hiroyoshi Takamura
 
 
 # contact info

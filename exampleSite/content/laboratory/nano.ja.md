@@ -17,7 +17,8 @@ keywords: ["ナノ物質", "量子計測", "ナノ光学"]
 
 # faculties; label: true name and title
 faculties:
-  fujiwara: "\u85E4\u539F \u6B63\u6F84 \u51C6\u6559\u6388"
+- id: fujiwara
+  name: "\u85E4\u539F \u6B63\u6F84 \u51C6\u6559\u6388"
 
 
 # contact info

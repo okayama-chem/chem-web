@@ -19,7 +19,8 @@ keywords: ["Nanospace", "Adsorption", "Catalyst"]
 
 # faculties; label: true name and title
 faculties:
-  ohkubo: Prof. Takahiro Ohkubo
+- id: ohkubo
+  name: Prof. Takahiro Ohkubo
 
 
 # contact info

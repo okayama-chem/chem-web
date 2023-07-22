@@ -17,7 +17,8 @@ keywords: ["遷移金属およびランタノイド錯体", "キラリティ", "
 
 # faculties; label: true name and title
 faculties:
-  suzuki: "\u9234\u6728 \u5B5D\u7FA9 \u6559\u6388"
+- id: suzuki
+  name: "\u9234\u6728 \u5B5D\u7FA9 \u6559\u6388"
 
 
 # contact info

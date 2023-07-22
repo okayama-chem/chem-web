@@ -19,8 +19,10 @@ keywords: ["Synthetic Organic Chemistry ", "Organometallic Chemistry", "Function
 
 # faculties; label: true name and title
 faculties:
-  mori: Assist. Prof. Hiroki Mori
-  nishihara: Prof. Yasushi Nishihara
+- id: nishihara
+  name: Prof. Yasushi Nishihara
+- id: mori
+  name: Assist. Prof. Hiroki Mori
 
 
 # contact info

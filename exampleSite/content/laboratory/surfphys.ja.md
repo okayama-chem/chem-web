@@ -17,7 +17,8 @@ keywords: ["表面分光学", "光触媒", "太陽電池"]
 
 # faculties; label: true name and title
 faculties:
-  yamakata: "\u5C71\u65B9 \u5553 \u6559\u6388"
+- id: yamakata
+  name: "\u5C71\u65B9 \u5553 \u6559\u6388"
 
 
 # contact info

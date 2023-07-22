@@ -19,7 +19,8 @@ keywords: ["Water Science", "Molecular Dynamics", "Stasistical Mechanics"]
 
 # faculties; label: true name and title
 faculties:
-  matsumoto: Assoc. Prof. Masakazu Matsumoto
+- id: matsumoto
+  name: Assoc. Prof. Masakazu Matsumoto
 
 
 # contact info

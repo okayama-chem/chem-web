@@ -17,7 +17,8 @@ keywords: ["水の科学", "分子動力学", "統計力学"]
 
 # faculties; label: true name and title
 faculties:
-  matsumoto: "\u677E\u672C \u6B63\u548C \u51C6\u6559\u6388"
+- id: matsumoto
+  name: "\u677E\u672C \u6B63\u548C \u51C6\u6559\u6388"
 
 
 # contact info
