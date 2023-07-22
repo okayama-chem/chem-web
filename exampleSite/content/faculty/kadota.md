@@ -40,7 +40,7 @@ contact:
   name: 086-251-7836
 
 
-- name : "有機化学研究室"
+- name : "Laboratory of Organic Chemistry"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "http://chem.okayama-u.ac.jp/~organic/homejpn.html"
 

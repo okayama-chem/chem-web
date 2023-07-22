@@ -58,7 +58,7 @@ contact:
   name: 086-251-7846
 
 
-- name : "理論化学研究室"
+- name : "Theoretical Chemistry Laboratory"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "http://theochem.chem.okayama-u.ac.jp"
 

@@ -46,7 +46,7 @@ contact:
   name: 086-251-7831
 
 
-- name : "機能有機化学研究室"
+- name : "Functional Organic Chemistry Laboratory"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "http://chem.okayama-u.ac.jp/~funcchem/top/"
 

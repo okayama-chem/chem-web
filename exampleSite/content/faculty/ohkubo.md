@@ -49,7 +49,7 @@ contact:
   name: 086-251-7843
 
 
-- name : "無機化学研究室"
+- name : "Inorganic Chemistry Laboratory"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "http://chem.okayama-u.ac.jp/~inorganic/index.html"
 

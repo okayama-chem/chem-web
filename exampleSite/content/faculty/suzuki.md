@@ -46,7 +46,7 @@ contact:
   name: 086-251-7900
 
 
-- name : "錯体化学研究室"
+- name : "Coordination Chemistry Laboratory"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "http://chem.okayama-u.ac.jp/~complex/Coord.Chem/Home.html"
 

@@ -43,7 +43,7 @@ contact:
   name: 086-251-7837
 
 
-- name : "理論物理化学研究室"
+- name : "Theoretical Physical Chemistry Laboratory"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "http://phys.chem.okayama-u.ac.jp/"
 
