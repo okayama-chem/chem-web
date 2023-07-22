@@ -219,17 +219,17 @@ hasChildren = true
 
 [[Languages.ja.menu.main]]
 weight = 5
-name = "入試"
+name = "受験生の方へ"
 hasChildren = true
 
   [[Languages.ja.menu.main]]
-  parent = "入試"
+  parent = "受験生の方へ"
   name = "学部・三年次編入"
   url = "bachelor/"
   weight = 1
 
   [[Languages.ja.menu.main]]
-  parent = "入試"
+  parent = "受験生の方へ"
   name = "大学院"
   url = "graduate/"
   weight = 2
