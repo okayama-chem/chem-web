@@ -4,7 +4,7 @@ draft: false
 # page title background image
 bg_image: "images/banner/bg1.jpg"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "化学科への入学を検討されている方へ"
 ---
 ### [アドミッションポリシー](http://www.okayama-u.ac.jp/up_load_files/freetext/education-policies/file/3policy-sci.pdf)
 
