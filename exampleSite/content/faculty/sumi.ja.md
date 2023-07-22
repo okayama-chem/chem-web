@@ -31,9 +31,6 @@ interest: ["液体論", "数理モデル", "生命科学"]
 # achievements
 achievements:
 - icon: ti-id-badge
-  link: https://researcherid.com/rid/B-1495-2011
-  name: ResearcherID B-1495-2011
-- icon: ti-id-badge
   link: https://orcid.org/0000-0002-4230-5908
   name: ORCID 0000-0002-4230-5908
 
