@@ -10,9 +10,11 @@
       <div class="col-xl-10 col-lg-10 col-md-9 col-8 mb-5">
         <h3>{{ .Title }}</h3>
         <h6 class="text-color">{{ .Params.rank }}
-          <span class="group-label">
-            <a href="{{ `laboratory/` | relLangURL }}{{ .Params.laboratory.id | urlize | lower }}/">{{ .Params.laboratory.name }}</a>
-          </span>
+          <ul class="list-inline tag-list">
+            <li class="list-inline-item mb-2 mt-2">
+              <a href="{{ `laboratory/` | relLangURL }}{{ .Params.laboratory.id | urlize | lower }}/">{{ .Params.laboratory.name }}</a>
+            </li>
+          </ul>
         </h6>
         <!-- <p class="mb-5">{{ .Params.Bio | markdownify }}</p> -->
         <div class="row">
