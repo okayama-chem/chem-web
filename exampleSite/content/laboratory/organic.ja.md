@@ -21,6 +21,8 @@ faculties:
   name: "\u9580\u7530\u3000\u529F \u6559\u6388"
 - id: takamura
   name: "\u9AD9\u6751 \u6D69\u7531 \u51C6\u6559\u6388"
+- id: tanaka
+  name: "\u7530\u4E2D \u5065\u592A \u52A9\u6559"
 
 
 # contact info
