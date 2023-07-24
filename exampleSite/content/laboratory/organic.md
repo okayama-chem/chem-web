@@ -23,6 +23,8 @@ faculties:
   name: Prof. Isao Kadota
 - id: takamura
   name: Assoc. Prof. Hiroyoshi Takamura
+- id: tanaka
+  name: null
 
 
 # contact info
