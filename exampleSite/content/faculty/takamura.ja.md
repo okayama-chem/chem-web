@@ -21,7 +21,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "天然物および生物活性分子の合成と評価"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/takamura.jpg"
 
 # interest
 interest: ["有機合成化学", "天然物", "生物活性分子"]

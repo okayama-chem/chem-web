@@ -21,7 +21,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "太陽光を用いて水から水素を製造できる光触媒や低コスト有機太陽電池、発光素子などのメカニズムを解明し、より性能を高める研究を行っています。最新の分光分析技術を武器にして、素材が有する未知の物性を発掘し、それを上手く活用することが重要であると考えています。"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/yamakata.jpg"
 
 # interest
 interest: ["表面分光学", "光触媒", "太陽電池"]

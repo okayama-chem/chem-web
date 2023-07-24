@@ -21,7 +21,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "新規合成反応の開発と天然物合成への応用"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/kadota.jpg"
 
 # interest
 interest: ["有機合成化学", "天然有機化合物", "全合成"]

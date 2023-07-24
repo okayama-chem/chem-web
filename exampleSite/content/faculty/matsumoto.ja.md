@@ -21,7 +21,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "コンピュータを用いた固体・液体の基本的な性質の研究"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/matsumoto.jpg"
 
 # interest
 interest: ["水の科学", "分子動力学", "統計力学"]

@@ -21,7 +21,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "光機能性ナノ粒子を用いた分析技術の研究"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/fujiwara.jpg"
 
 # interest
 interest: ["ナノ物質", "量子計測", "ナノ光学"]

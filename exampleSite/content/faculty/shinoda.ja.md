@@ -21,7 +21,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "生体高分子集合・ソフトマテリアル系を対象とした分子シミュレーションによる現象や機能の解析と分子設計"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/shinoda.jpg"
 
 # interest
 interest: ["分子シミュレーション", "脂質・生体膜", "ソフトマテリアル"]

@@ -21,7 +21,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "液体，溶液，生物系の分子/数理モデリング"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/sumi.jpg"
 
 # interest
 interest: ["液体論", "数理モデル", "生命科学"]

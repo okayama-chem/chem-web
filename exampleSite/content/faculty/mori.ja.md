@@ -21,7 +21,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "電子欠損型複素多環芳香族化合物を主骨格とする半導体高分子の開発"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/mori.jpg"
 
 # interest
 interest: ["有機材料化学", "高分子化学", "有機薄膜太陽電池"]

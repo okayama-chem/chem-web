@@ -21,7 +21,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "金属錯体の合成と構造及び物性に関する研究"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/suzuki.jpg"
 
 # interest
 interest: ["遷移金属およびランタノイド錯体", "キラリティ", "多核錯体・クラスター"]

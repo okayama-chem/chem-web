@@ -21,7 +21,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "可視光を利用した光触媒反応"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/tanaka.jpg"
 
 # interest
 interest: ["有機合成化学", "光触媒", "可視光"]

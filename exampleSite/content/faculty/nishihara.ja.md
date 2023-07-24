@@ -21,7 +21,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "有機金属錯体触媒を利用した新規有機合成反応の開発と機能性材料への展開"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/nishihara.jpg"
 
 # interest
 interest: ["有機合成化学", "有機金属化学", "機能性材料"]
