@@ -21,7 +21,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "Molecular and mathematical modeling of liquids, solutions, and biological systems"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/sumi.jpg"
 
 # interest
 interest: ["Liquid state theory", "Mathematical model", "Life science"]

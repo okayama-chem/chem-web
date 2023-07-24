@@ -21,7 +21,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "Developmemt of New Synthetic Reactions and Its Application to the Synthesis of Natural Products"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/kadota.jpg"
 
 # interest
 interest: ["Synthetic Oraganic Chemistry", "Natural Product", "Total Synthesis"]

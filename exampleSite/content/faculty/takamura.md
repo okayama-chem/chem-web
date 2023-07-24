@@ -21,7 +21,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "Synthesis and Evaluation of Natural Products and Biologically Active Molecules"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/takamura.jpg"
 
 # interest
 interest: ["Synthetic Organic Chemistry", "Natural Product", "Biologically Active Molecule"]

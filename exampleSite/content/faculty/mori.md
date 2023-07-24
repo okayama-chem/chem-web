@@ -21,7 +21,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "Development of semiconducting polymers based on novel electron-deficient heteropolycyclic aromatic frameworks"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/mori.jpg"
 
 # interest
 interest: ["Organic Material Chemistry", "Polymer Chemistry", "Organic Photovoltaic Cells"]

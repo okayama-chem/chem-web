@@ -21,7 +21,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "Elucidation of functions on porous materials and development of new porous materials"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/ohkubo.jpg"
 
 # interest
 interest: ["Nanospace", "Adsorption", "Catalyst"]

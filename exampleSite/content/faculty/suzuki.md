@@ -21,7 +21,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "Synthesis, Structures and Properties of Novel Metal Complexes"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/suzuki.jpg"
 
 # interest
 interest: ["Transition-metal and Lanthanoid Complexes", "Chirality", "Multinuclear Complex・Cluster Compounds"]

@@ -21,7 +21,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "Visible-Light-Induced Photocatalytic Reactions"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/tanaka.jpg"
 
 # interest
 interest: ["Synthetic Organic Chemistry", "Photocatalyst", "Visible Light"]

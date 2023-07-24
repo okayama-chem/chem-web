@@ -21,7 +21,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "Study of optically functional nanomaterials for instrumentation"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/fujiwara.jpg"
 
 # interest
 interest: ["Nanomaterials", "Quantum measurement", "Nano optics"]

@@ -21,7 +21,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "Theoretical Studies on basic properties of liquids and solids"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/matsumoto.jpg"
 
 # interest
 interest: ["Water Science", "Molecular Dynamics", "Stasistical Mechanics"]

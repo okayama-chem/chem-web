@@ -21,7 +21,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "Development of Synthetic Organic Reactions Catalyzed by Organometallic Complexes and the Application to Functional Materials"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/nishihara.jpg"
 
 # interest
 interest: ["Synthetic Organic Chemistry ", "Organometallic Chemistry", "Functional Materials"]
