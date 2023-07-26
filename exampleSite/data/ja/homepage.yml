@@ -4,8 +4,8 @@ slider:
   bg_image : "images/banner/bg1.jpg"
   slider_item:
     # slider item loop
-    - title : "化学の最先端を知ろう"
-      content : "20余名の気鋭の研究者たちが、君とともに新たな化学の地平を拓く"
+    - title : "「なぜデカルトは虹を研究したと思う？ 虹を美しいと思ったからだよ」"
+      content : "--- リチャード・P・ファインマン"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -15,8 +15,8 @@ slider:
         link : "laboratory/"
 
     # slider item loop
-    - title : "化学の基礎を学ぼう"
-      content : "現代の化学のすべてがここにある"
+    - title : "「疑問を持ちつづけることが大切だ。好奇心には存在理由がある。」" # The important thing is not to stop questioning. Curiosity has its own reason for existing.
+      content : "--- アインシュタイン"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -26,8 +26,8 @@ slider:
         link : "bachelor/"
 
     # slider item loop
-    - title : "化学者をめざす君たちへ"
-      content : "はてしない化学研究のフロンティアに一歩を踏みだす"
+    - title : "「未知の世界を探求する人々は、地図を持たない旅行者である。」"
+      content : "--- 湯川 秀樹"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down

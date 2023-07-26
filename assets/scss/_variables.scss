@@ -1,6 +1,10 @@
 // Color Variables
 $primary-color: #007dc5;
+// $primary-color: #c50073;
 $secondary-color: #1a1a37;
+// $secondary-color: #371a29;
+$footer-bg-color: #182b45;
+// $footer-bg-color: #45182e;
 $text-color: #5c5c77;
 $text-color-light: #8585a4;
 $text-color-dark: #1e1e4b;
@@ -14,6 +18,6 @@ $gray: #f8f8f8;
 
 // Font Variables
 //PT Sans is a Myriad-like font.
-$primary-font: 'PT Sans', 'M PLUS 1p', sans-serif;   // body text
-$secondary-font: 'M PLUS 1p', 'PT Sans', sans-serif; // headings
+$primary-font: 'PT Sans', 'M PLUS Rounded 1c', sans-serif;   // body text
+$secondary-font: 'M PLUS Rounded 1c', 'PT Sans', sans-serif; // headings
 $icon-font: 'themify';
