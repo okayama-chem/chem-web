@@ -12,6 +12,7 @@ summaryLength = "10"
 # disable language
 disableLanguages = [] # desable language from here
 ## MM
+defaultContentLanguage = "ja"
 defaultContentLanguageInSubdir = false
 [taxonomies]
   # 単数形="複数形" で両方定義する。
