@@ -30,6 +30,7 @@ image: "images/faculty/sumi.jpg"
 interest: ["液体論", "数理モデル", "生命科学"]
 
 # 業績。Reserchmapや科研費情報なども適宜追加して下さい。
+# 業績が[]となっている人は、他の方のachievements欄を参考に記入して下さい。
 achievements:
 - icon: ti-id-badge
   link: https://orcid.org/0000-0002-4230-5908

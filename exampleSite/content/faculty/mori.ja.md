@@ -30,6 +30,7 @@ image: "images/faculty/mori.jpg"
 interest: ["有機材料化学", "高分子化学", "有機薄膜太陽電池"]
 
 # 業績。Reserchmapや科研費情報なども適宜追加して下さい。
+# 業績が[]となっている人は、他の方のachievements欄を参考に記入して下さい。
 achievements:
 - icon: ti-id-badge
   link: https://researcherid.com/rid/F-4872-2015

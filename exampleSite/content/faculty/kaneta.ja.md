@@ -30,6 +30,7 @@ image: "images/faculty/kaneta.jpg"
 interest: ["生体分析化学", "レーザー励起蛍光法", "ペーパー分析デバイス"]
 
 # 業績。Reserchmapや科研費情報なども適宜追加して下さい。
+# 業績が[]となっている人は、他の方のachievements欄を参考に記入して下さい。
 achievements:
 - icon: ti-id-badge
   link: https://researcherid.com/rid/D-3593-2011

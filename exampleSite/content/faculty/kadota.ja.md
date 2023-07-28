@@ -30,6 +30,7 @@ image: "images/faculty/kadota.jpg"
 interest: ["有機合成化学", "天然有機化合物", "全合成"]
 
 # 業績。Reserchmapや科研費情報なども適宜追加して下さい。
+# 業績が[]となっている人は、他の方のachievements欄を参考に記入して下さい。
 achievements: []
 
 

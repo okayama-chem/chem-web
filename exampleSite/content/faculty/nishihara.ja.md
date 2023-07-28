@@ -30,6 +30,7 @@ image: "images/faculty/nishihara.jpg"
 interest: ["有機合成化学", "有機金属化学", "機能性材料"]
 
 # 業績。Reserchmapや科研費情報なども適宜追加して下さい。
+# 業績が[]となっている人は、他の方のachievements欄を参考に記入して下さい。
 achievements:
 - icon: ti-id-badge
   link: https://researcherid.com/rid/M-9492-2019

@@ -30,6 +30,7 @@ image: "images/faculty/eguchi.jpg"
 interest: ["None", "None", "None"]
 
 # 業績。Reserchmapや科研費情報なども適宜追加して下さい。
+# 業績が[]となっている人は、他の方のachievements欄を参考に記入して下さい。
 achievements: []
 
 

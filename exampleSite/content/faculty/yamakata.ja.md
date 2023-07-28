@@ -30,6 +30,7 @@ image: "images/faculty/yamakata.jpg"
 interest: ["表面分光学", "光触媒", "太陽電池"]
 
 # 業績。Reserchmapや科研費情報なども適宜追加して下さい。
+# 業績が[]となっている人は、他の方のachievements欄を参考に記入して下さい。
 achievements:
 - icon: ti-id-badge
   link: https://researcherid.com/rid/I-6260-2013

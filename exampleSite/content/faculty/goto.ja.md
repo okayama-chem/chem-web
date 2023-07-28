@@ -30,6 +30,7 @@ image: "images/faculty/goto.jpg"
 interest: ["電子物性", "低温測定", "メゾスコピック系"]
 
 # 業績。Reserchmapや科研費情報なども適宜追加して下さい。
+# 業績が[]となっている人は、他の方のachievements欄を参考に記入して下さい。
 achievements:
 - icon: ti-id-badge
   link: https://researcherid.com/rid/C-2102-2015
