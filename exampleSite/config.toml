@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://www.chem.okayama-u.ac.jp/"
+baseURL = "http://www.chem.okayama-u.ac.jp/"
 title = "理学部化学科 | 岡山大学"
 theme = "chem-web"
 # theme = "educenter-hugo"
