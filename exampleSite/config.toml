@@ -274,6 +274,11 @@ name = "注目の研究"
 url = "research-topic/"
 weight = 4
 
+[[Languages.ja.menu.footer]]
+name = "学内への情報"
+url = "internal/"
+weight = 5
+
 # [[Languages.ja.menu.footer]]
 # name = "化学科パンフレット"
 # url = "/static/pdf/pamphlet2019.pdf"

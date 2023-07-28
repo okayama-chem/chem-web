@@ -6,7 +6,7 @@ draft: false
 rank: "准教授" # 教授 | 准教授 | 助教 | ...
 
 # Laboratory group
-la_group: "反応化学" # 分子化学 | 物質化学 | 反応化学
+la_group: "反応化学" # 分子化学 | 物質化学 | 反応化学 | 界面化学
 
 # Laboratory
 laboratory:
@@ -14,19 +14,22 @@ laboratory:
   name: 有機化学研究室
 
 
-# page title background image
+# ページ上部の背景画像。
+# 独自で設定する場合は、exampleSite/images/faculty フォルダーに写真ファイルを入れ、
+# 以下にそのパスを指定して下さい。横1000ピクセル程度の解像度を推奨。
+# 例: bg_image: "images/faculty/koga_banner.jpg"
 bg_image: "images/banner/bg1.jpg"
 
-# meta description ~100 letters in Japanese
+# 100文字程度の説明文。ページ上部に表示されます。
 description : "天然物および生物活性分子の合成と評価"
 
-# teacher portrait
+# portrait写真。横400ピクセル程度の解像度を推奨。
 image: "images/faculty/takamura.jpg"
 
-# interest
+# 研究分野。3つ以上増やしても構いません。
 interest: ["有機合成化学", "天然物", "生物活性分子"]
 
-# achievements
+# 業績。Reserchmapや科研費情報なども適宜追加して下さい。
 achievements:
 - icon: ti-id-badge
   link: https://researcherid.com/rid/B-1497-2011
@@ -36,7 +39,7 @@ achievements:
   name: ORCID 0000-0002-8330-969X
 
 
-# contact info
+# 連絡先。SNSも追加できます。
 contact:
 - icon: ti-email
   link: mailto:takamura@okayama-u.ac.jp
@@ -53,4 +56,6 @@ contact:
 
 # type
 type: "faculty"
+
+# 下の"---"以下に、個人の紹介文をMarkdown書式で書きこんで下さい。
 ---
