@@ -13,7 +13,7 @@ summaryLength = "10"
 disableLanguages = [] # desable language from here
 ## MM
 defaultContentLanguage = "ja"
-defaultContentLanguageInSubdir = false
+# defaultContentLanguageInSubdir = "ja"
 [taxonomies]
   # 単数形="複数形" で両方定義する。
   # blog (news&events)
