@@ -16,7 +16,7 @@ slider:
 
     # slider item loop
     - title : "「疑問を持ちつづけることが大切だ。好奇心には存在理由がある。」" # The important thing is not to stop questioning. Curiosity has its own reason for existing.
-      content : "--- アインシュタイン"
+      content : "--- アルバート・アインシュタイン"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
