@@ -153,11 +153,13 @@ link = "https://www.instagram.com/okayama_university/"
 languageName = "Ja"
 languageCode = "ja-JP"
 ## contentDir = "content/japanese"
-weight = 1
-home = "ホーム"
 # copyright
 # copyright = "Copyright &copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)"
 copyright = "Copyright &copy; 2023 岡山大学理学部化学科"
+
+[Languages.ja.params]
+weight = 1
+home = "ホーム"
 
 contact = [
   { name = "〒700-8530 岡山市北区津島中3丁目1番1号", icon = "ti-location-pin", link = "https://maps.app.goo.gl/958qeqzWBdRaCqQa8?g_st=ic" },
