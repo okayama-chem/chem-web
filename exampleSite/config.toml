@@ -314,11 +314,12 @@ languageName = "En"
 languageCode = "en-us"
 ## contentDir = "content/english"
 weight = 2
-home = "Home"
 # copyright
 # copyright = "Copyright &copy; 2021 a hugo theme by [Themefisher](https://themefisher.com/hugo-themes/)"
 copyright = "Copyright &copy; 2023 Department of Chemistry, Okayama University"
 
+[Languages.en.params]
+home = "Home"
 
 
 # ################### English navigation ####################
