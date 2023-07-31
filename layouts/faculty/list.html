@@ -6,9 +6,10 @@
     <!-- faculty list -->
     <div class="row filtr-container">
       <!-- faculty -->
-      {{ range .Data.Pages }}
+      {{ range ( sort .Data.Pages "Params.rank" ) }}
       <div data-category="{{ .Params.Fa_category | urlize }}" class="col-lg-2 col-sm-6 filtr-item">
         {{ .Render "faculty" }}
+        <!-- defined in layouts/_default -->
       </div>
       {{ end }}
     </div>
