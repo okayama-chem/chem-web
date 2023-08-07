@@ -5,6 +5,9 @@ draft: false
 # Job rank 職階
 rank: "Assist. Professor" # 教授 | 准教授 | 助教 | ...
 
+# Sort oorder
+weight: 4
+
 # Laboratory group
 la_group: "Reaction Chemistry" # 分子化学 | 物質化学 | 反応化学
 

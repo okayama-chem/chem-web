@@ -5,6 +5,9 @@ draft: false
 # Job rank 職階
 rank: "教授" # 教授 | 准教授 | 助教 | ...
 
+# Sort oorder
+weight: 1
+
 # Laboratory group
 la_group: "物質化学" # 分子化学 | 物質化学 | 反応化学 | 界面化学
 
