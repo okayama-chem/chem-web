@@ -51,12 +51,6 @@ contact:
 - icon: ti-twitter-alt
   link: https://twitter.com/vitroid
   name: vitroid
-- icon: ti-flickr
-  link: https://flickr.com/photos/vitroids
-  name: vitroids
-- icon: ti-youtube
-  link: https://www.youtube.com/channel/UCSA-oZOZGJXMiyO0SbbXmuA
-  name: YouTube Channel
 - icon: ti-email
   link: mailto:matsu-m3@okayama-u.ac.jp
   name: matsu-m3@okayama-u.ac.jp
