@@ -70,5 +70,11 @@ contact:
 # type
 type: "faculty"
 
+
+
 # 下の"---"以下に、個人の紹介文をMarkdown書式で書きこんで下さい。
 ---
+
+### GitHub activity
+
+![vitroid's GitHub activity](http://ghchart.rshah.org/vitroid)

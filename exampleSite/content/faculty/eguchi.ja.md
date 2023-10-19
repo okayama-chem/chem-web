@@ -40,8 +40,8 @@ achievements: []
 # 連絡先。SNSも追加できます。
 contact:
 - icon: ti-email
-  link: mailto:eguchi@okayama-u.ac.jp
-  name: eguchi@okayama-u.ac.jp
+  link: mailto:eguchi-r@okayama-u.ac.jp
+  name: eguchi-r@okayama-u.ac.jp
 
 
 - name : "粉体化学研究室"

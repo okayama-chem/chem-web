@@ -36,8 +36,8 @@ achievements: []
 # contact info
 contact:
 - icon: ti-email
-  link: mailto:eguchi@okayama-u.ac.jp
-  name: eguchi@okayama-u.ac.jp
+  link: mailto:eguchi-r@okayama-u.ac.jp
+  name: eguchi-r@okayama-u.ac.jp
 
 
 - name : "Fine Powder and Surface Chemistry Laboratory"

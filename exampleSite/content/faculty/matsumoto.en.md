@@ -66,3 +66,7 @@ contact:
 # type
 type: "faculty"
 ---
+
+### GitHub activity
+
+![vitroid's GitHub chart](http://ghchart.rshah.org/vitroid)
