@@ -66,6 +66,8 @@ link = "plugins/filterizr/jquery.filterizr.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/gmap.js"
 
+[[params.assets]]
+disableFingerprinting = true
 
 #################### default parameters ################################
 [params]

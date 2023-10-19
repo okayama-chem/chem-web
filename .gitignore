@@ -17,6 +17,7 @@ DS_Store
 .layouts
 .static
 .theme.toml
+ebug/
 
 # 用途不明
 resources
