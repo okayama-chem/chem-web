@@ -9,7 +9,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "Molecular design and analysis of phenomena and functions by molecular simulation for biomacromolecular assemblies and soft material systems"
 
 # Research image
-image: "images/labs/flask.jpg"
+image: "images/labs/theocomp/TheoCompChem.png"
 
 # interest
 

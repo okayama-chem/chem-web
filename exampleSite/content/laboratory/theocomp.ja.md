@@ -15,7 +15,7 @@ description : "生体高分子集合・ソフトマテリアル系を対象と�
 # 研究室独自で設定する場合は、exampleSite/images/labs フォルダーに写真ファイルを入れ、
 # 以下にそのパスを指定して下さい。横400ピクセル程度の解像度を推奨。
 # 例: image: "images/labs/phys.jpg"
-image: "images/labs/flask.jpg"
+image: "images/labs/theocomp/理論計算化学.png"
 
 # 大講座名
 la_categories: "分子化学" # 分子化学 | 物質化学 | 反応化学 | 界面化学
