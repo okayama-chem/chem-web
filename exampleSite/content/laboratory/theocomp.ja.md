@@ -12,7 +12,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "生体高分子集合・ソフトマテリアル系を対象とした分子シミュレーションによる現象や機能の解析と分子設計"
 
 # 研究室のカード表示で用いる写真。
-# 研究室独自で設定する場合は、exampleSite/images/labs フォルダーに写真ファイルを入れ、
+# 研究室独自で設定する場合は、static/images/labs フォルダーに写真ファイルを入れ、
 # 以下にそのパスを指定して下さい。横400ピクセル程度の解像度を推奨。
 # 例: image: "images/labs/phys.jpg"
 image: "images/labs/theocomp/理論計算化学.png"

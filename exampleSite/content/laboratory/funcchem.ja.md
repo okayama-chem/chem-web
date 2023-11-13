@@ -3,7 +3,7 @@ title: "機能有機化学研究室"
 draft: false
 
 # ページ上部の背景画像。
-# 研究室独自で設定する場合は、exampleSite/images/labs フォルダーに写真ファイルを入れ、
+# 研究室独自で設定する場合は、static/images/labs フォルダーに写真ファイルを入れ、
 # 以下にそのパスを指定して下さい。横1000ピクセル程度の解像度を推奨。
 # 例: bg_image: "images/labs/phys.jpg"
 bg_image: "images/banner/bg1.jpg"
