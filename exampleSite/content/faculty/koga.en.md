@@ -27,7 +27,7 @@ bg_image: "images/banner/bg1.jpg"
 
 # meta description ~100 letters in Japanese
 
-description : "None"
+description : "Theoretical study on liquids and liquid mixtures, fluid interfaces, phase transitions, phase separation, and effective interactions in liquids"
 
 # teacher portrait
 
@@ -35,12 +35,20 @@ image: "images/faculty/koga.jpg"
 
 # interest
 
-interest: ["None", "None", "None"]
+interest: ["Liquids and Liquid Mixtures", "Liquid Interfaces", "Phase Transition","Wetting Phenomena", "Effective Interactions in Liquids"]
 
 # achievements
 
-# achievements: []
-
+achievements:
+- icon: ti-id-badge
+  link: https://researcherid.com/rid/B-2635-2011
+  name: ResearcherID B-2635-2011
+- icon: ti-id-badge
+  link: https://orcid.org/0000-0002-1153-5831
+  name: ORCID 0000-0002-1153-5831
+- icon: ti-google
+  link: https://scholar.google.co.jp/citations?user=qeNzVyIAAAAJ
+  name: Scholar qeNzVyIAAAAJ
 # contact info
 
 contact:
@@ -53,9 +61,9 @@ contact:
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "http://phys.chem.okayama-u.ac.jp/"
 
-- name : "3-1-1 Tsushima-Naka, Kita Ward, Okayama City, Okayama 700-8530"
+- name : "Research Institute for Interdisciplinary Science, Room 407, 3-1-1 Tsushima-Naka, Okayama 700-8530, Japan"
   icon : "ti-location-pin" # icon pack : https://themify.me/themify-icons
-  link : "#"
+  link : "https://maps.app.goo.gl/tWxsbht5vP5tders5"
 
 # type
 
