@@ -25,26 +25,26 @@ slider:
         label : "学部入試・三年次編入"
         link : "bachelor/"
 
-    # # slider item loop
-    # - title : "「未知の世界を探求する人々は、地図を持たない旅行者である。」"
-    #   content : "--- 湯川 秀樹"
-    #   animation_in : "left"
-    #   animation_out : "right"
-    #   # available animation : left, right, up, down
-    #   button:
-    #     enable : true
-    #     label : "大学院入試"
-    #     link : "graduate/"
-
-    - title : "大学の化学を体験しよう!"
-      content : "「夢・化学-21 化学へのご招待」、2023年10月21日 岡山大学ホームカミングデイに同時開催!"
+    # slider item loop
+    - title : "「未知の世界を探求する人々は、地図を持たない旅行者である。」"
+      content : "--- 湯川 秀樹"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "イベントの詳細"
-        link : "event/3"
+        label : "大学院入試"
+        link : "graduate/"
+
+    # - title : "大学の化学を体験しよう!"
+    #   content : "「夢・化学-21 化学へのご招待」、2023年10月21日 岡山大学ホームカミングデイに同時開催!"
+    #   animation_in : "left"
+    #   animation_out : "right"
+    #   # available animation : left, right, up, down
+    #   button:
+    #     enable : true
+    #     label : "イベントの詳細"
+    #     link : "event/3"
 
 ############################### Banner feature ###############################
 banner_feature:
