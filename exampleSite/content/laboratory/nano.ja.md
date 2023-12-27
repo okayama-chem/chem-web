@@ -15,7 +15,7 @@ description : "光機能性ナノ粒子を用いた分析技術の研究"
 # 研究室独自で設定する場合は、exampleSite/images/labs フォルダーに写真ファイルを入れ、
 # 以下にそのパスを指定して下さい。横400ピクセル程度の解像度を推奨。
 # 例: image: "images/labs/phys.jpg"
-image: "images/labs/flask.jpg"
+image: "images/labs/nanochem/HDF_NDs_3.jpg"
 
 # 大講座名
 la_categories: "物質化学" # 分子化学 | 物質化学 | 反応化学 | 界面化学
@@ -43,7 +43,7 @@ contact:
   name: FAX 086-251-7834
 
 
-- name : "ナノ化学研究室"
+- name : "ナノ化学研究室（研究室ウェブサイト）"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "https://www.nanochem-okayama-u.net/"
 

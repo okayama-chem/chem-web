@@ -9,7 +9,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "Study of optically functional nanomaterials for instrumentation"
 
 # Research image
-image: "images/labs/flask.jpg"
+image: "images/labs/nanochem/HDF_NDs_3.jpg"
 
 # interest
 
@@ -36,7 +36,7 @@ contact:
   name: FAX 086-251-7834
 
 
-- name : "Nanochemistry Laboratory"
+- name : "Nanochemistry Laboratory (Group Website)"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "https://www.nanochem-okayama-u.net/"
 

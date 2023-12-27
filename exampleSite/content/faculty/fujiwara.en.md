@@ -49,7 +49,7 @@ contact:
   name: 086-251-7834
 
 
-- name : "Nano Chemistry Laboratory"
+- name : "Nano Chemistry Laboratory (Group Website)"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "https://www.nanochem-okayama-u.net/"
 
