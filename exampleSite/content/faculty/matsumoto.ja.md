@@ -61,7 +61,7 @@ contact:
 
 - name : "理論化学研究室"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
-  link : "http://theochem.chem.okayama-u.ac.jp"
+  link : "https://tetrahedroid.github.io/"
 
 - name : "700-8530 岡山県岡山市津島中3－1－1 基礎研410室"
   icon : "ti-location-pin" # icon pack : https://themify.me/themify-icons

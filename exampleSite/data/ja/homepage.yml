@@ -14,6 +14,15 @@ slider:
         label : "研究室・研究分野"
         link : "laboratory/"
 
+    # # slider item loop
+    # - title : "「科学者は実益あるが故に自然を研究するものではない。自然に愉悦を感ずればこそこれを研究し、また自然が美しければこそこれに愉悦を感ずるのである。」"
+    #   content : "--- ポアンカレ"
+    #   animation_in : "left"
+    #   animation_out : "right"
+    #   # available animation : left, right, up, down
+    #   button:
+    #     enable : false
+
     # slider item loop
     - title : "「疑問を持ちつづけることが大切だ。好奇心には存在理由がある。」" # The important thing is not to stop questioning. Curiosity has its own reason for existing.
       content : "--- アルバート・アインシュタイン"

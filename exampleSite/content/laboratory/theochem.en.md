@@ -1,4 +1,5 @@
 ---
+
 title: "Theoretical Chemistry Laboratory"
 draft: false
 
@@ -35,13 +36,14 @@ contact:
 - icon: ti-email
   link: mailto:matsu-m3@okayama-u.ac.jp
   name: matsu-m3@okayama-u.ac.jp
+
 - icon: ti-mobile
   link: tel:086-251-7846
   name: 086-251-7846
 
 - name : "Theoretical Chemistry Laboratory"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
-  link : "http://theochem.chem.okayama-u.ac.jp"
+  link : "https://tetrahedroid.github.io/en/"
 
 - name : "3-1-1 Tsushima-Naka, Kita Ward, Okayama City, Okayama 700-8530"
   icon : "ti-location-pin" # icon pack : https://themify.me/themify-icons
