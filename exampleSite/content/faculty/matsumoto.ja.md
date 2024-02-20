@@ -63,6 +63,10 @@ contact:
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "https://tetrahedroid.github.io/"
 
+- name : "個人ウェブページ"
+  icon : "ti-world" # icon pack : https://themify.me/themify-icons
+  link : "https://vitroid.github.io/"
+
 - name : "700-8530 岡山県岡山市津島中3－1－1 基礎研410室"
   icon : "ti-location-pin" # icon pack : https://themify.me/themify-icons
   link : "#"

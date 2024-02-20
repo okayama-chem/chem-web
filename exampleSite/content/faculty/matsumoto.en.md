@@ -59,6 +59,10 @@ contact:
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "https://tetrahedroid.github.io/en/"
 
+- name : "Personal web pages"
+  icon : "ti-world" # icon pack : https://themify.me/themify-icons
+  link : "https://vitroid.github.io/"
+
 - name : "3-1-1 Tsushima-Naka, Kita Ward, Okayama City, Okayama 700-8530"
   icon : "ti-location-pin" # icon pack : https://themify.me/themify-icons
   link : "#"
