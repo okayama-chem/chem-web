@@ -94,6 +94,11 @@ type: "faculty"
 
 ### 論文
 
+#### 2024
+<ol>
+<li value="59.">"Placeholder for the new paper" Takamura, H.; Hattori, K.; Ohashi, T.; Otsu, T.; Kadota, I. Org. Biomol. Chem. 2023, {{< doi "10.1039/d3ob01420g" >}}.</li>
+</ol>
+
 #### 2023
 
 <ol>
