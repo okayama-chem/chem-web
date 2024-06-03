@@ -81,11 +81,33 @@ Synthetic Organic Chemistry, Natural Product Synthesis
 ### Publication
 
 
-#### 2023
+#### 2024
+
 <ol>
-<li value="58.">"Relative Stereochemical Determination of the C61–C83 Fragment of Symbiodinolide Using a Stereodivergent Synthetic Approach" Takamura, H.; Hattori, K.; Ohashi, T.; Otsu, T.; Kadota, I. Org. Biomol. Chem. 2023, {{< doi "10.1039/d3ob01420g" >}}.</li>
+<li value="61.">“Total Synthesis and Structure–Antifouling Activity Relationship of Scabrolide F”
+Takamura, H.; Sugitani, Y.; Morishita, R.; Yorisue, T.; Kadota, I. Org. Biomol. Chem. 2024,
+{{< doi "10.1039/d4ob00698d" >}}
+  </li>
+<li value="60."> “Strongly Reducing Helical Phenothiazines as Recyclable Organophotoredox Catalysts”
+Ando, H.; Takamura, H.; Kadota, I.; Tanaka, K. Chem. Commun. 2024, 60, 4765–4768.
+(selected as cover picture) {{< doi "10.1039/d4cc00904e" >}}
+  </li>
+</ol>
+
+#### 2023
+
+
+<ol>
+<li value="59."> “Efficient Method for the Preparation of Ozonides Under Dry Conditions” El-kholany, M.
+R.; Kishimoto, N.; Tanaka, K.; Takamura, H.; Kadota, I. Bull. Chem. Soc. Jpn. 2023, 96,
+1316–1318. {{< doi "10.1246/bcsj.20230195" >}}
+  </li>
+<li value="58."> “Relative Stereochemical Determination of the C61–C83 Fragment of Symbiodinolide Using a Stereodivergent Synthetic Approach” Takamura, H.; Hattori, K.; Ohashi, T.; Otsu, T.;
+Kadota, I. Org. Biomol. Chem. 2023, 21, 8837–8848. (selected as cover picture) {{< doi "10.1039/d3ob01420g" >}}
+</li>
 <li value="57.">"Chemical Synthesis and Antifouling Activity of Monoterpene–Furan Hybrid Molecules" Takamura, H.; Kinoshita, Y.; Yorisue, T.; Kadota, I. Org. Biomol. Chem. 2023, 21, 632–638.</li>
 </ol>
+
 
 #### 2022
 <ol>
