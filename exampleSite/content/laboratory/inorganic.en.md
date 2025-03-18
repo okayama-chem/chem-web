@@ -9,7 +9,7 @@ bg_image: "images/banner/bg1.jpg"
 description: "Elucidation of functions on porous materials and development of new porous materials"
 
 # Research image
-image: "images/labs/flask.jpg"
+image: "images/labs/inorganic/SWCNT.jpg"
 
 # interest
 
