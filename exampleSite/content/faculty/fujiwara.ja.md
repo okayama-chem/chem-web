@@ -3,7 +3,7 @@ title: "藤原 正澄"
 draft: false
 
 # Job rank 職階
-rank: "准教授" # 教授 | 准教授 | 助教 | ...
+rank: "教授" # 教授 | 准教授 | 助教 | ...
 
 # Sort oorder
 weight: 2

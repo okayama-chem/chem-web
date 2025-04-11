@@ -3,7 +3,7 @@ title: "Masazumi Fujiwara"
 draft: false
 
 # Job rank 職階
-rank: "Assoc. Professor" # 教授 | 准教授 | 助教 | ...
+rank: "Professor" # 教授 | 准教授 | 助教 | ...
 
 # Sort oorder
 weight: 2
