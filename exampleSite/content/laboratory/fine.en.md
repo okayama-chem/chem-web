@@ -19,8 +19,8 @@ keywords: ["None", "None", "None"]
 
 # faculties; label: true name and title
 faculties:
-  - id: kubozono
-    name: Prof. Yoshihiro Kubozono
+  # - id: kubozono
+  #   name: Prof. Yoshihiro Kubozono
   - id: goto
     name: Assoc. Prof. Hidenori Goto
 # - id: eguchi
