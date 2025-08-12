@@ -5,16 +5,16 @@ slider:
   slider_item:
     # slider item loop
     # 2025-08特設
-    - title : "" # さあ、夏だ! 化学だ! 実験だ!"
-      content : "<br /><br /><br /><br /><br />" # 「おもしろワクワク 化学の世界 '25岡山化学展」、2025年8月8〜10日 岡山タカシマヤで開催!"
-      animation_in : "left"
-      animation_out : "right"
-      slide_image: "events/4/banner2.jpg"  # 各スライドの背景画像
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "イベントの詳細"
-        link : "event/4"
+    # - title : "" # さあ、夏だ! 化学だ! 実験だ!"
+    #   content : "<br /><br /><br /><br /><br />" # 「おもしろワクワク 化学の世界 '25岡山化学展」、2025年8月8〜10日 岡山タカシマヤで開催!"
+    #   animation_in : "left"
+    #   animation_out : "right"
+    #   slide_image: "events/4/banner2.jpg"  # 各スライドの背景画像
+    #   # available animation : left, right, up, down
+    #   button:
+    #     enable : true
+    #     label : "イベントの詳細"
+    #     link : "event/4"
 
 
     - title : "「なぜデカルトは虹を研究したと思う？ 虹を美しいと思ったからだよ」"
