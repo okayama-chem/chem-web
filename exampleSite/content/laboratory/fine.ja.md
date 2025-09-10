@@ -9,7 +9,7 @@ draft: false
 bg_image: "images/banner/bg1.jpg"
 
 # 100文字程度の説明文。ページ上部に表示されます。
-description : "None"
+description: "None"
 
 # 研究室のカード表示で用いる写真。
 # 研究室独自で設定する場合は、exampleSite/images/labs フォルダーに写真ファイルを入れ、
@@ -26,31 +26,24 @@ keywords: ["None", "None", "None"]
 # idには、ウェブページ内での個人id (例: 甲賀先生ならkoga) を指定します。
 # nameには氏名と職階を書きます。
 faculties:
-- id: kubozono
-  name: 久保園 芳博 教授
-- id: goto
-  name: 後藤 秀徳 准教授
-- id: eguchi
-  name: 江口 律子 講師
-
+  - id: goto
+    name: 後藤 秀徳 准教授
 
 # 連絡方法。SNSのアカウントなども。
 contact:
-- icon: ti-email
-  link: mailto:kubozono@okayama-u.ac.jp
-  name: kubozono@okayama-u.ac.jp
+  - icon: ti-email
+    link: mailto:hgoto@okayama-u.ac.jp
+    name: hgoto@okayama-u.ac.jp
 
+  - name: "粉体化学研究室"
+    icon: "ti-world" # icon pack : https://themify.me/themify-icons
+    link: "http://interfa.rlss.okayama-u.ac.jp/"
 
-- name : "粉体化学研究室"
-  icon : "ti-world" # icon pack : https://themify.me/themify-icons
-  link : "http://interfa.rlss.okayama-u.ac.jp/"
-
-- name : "700-8530 岡山県岡山市津島中3－1－1"
-  icon : "ti-location-pin" # icon pack : https://themify.me/themify-icons
-  link : "#"
+  - name: "700-8530 岡山県岡山市津島中3－1－1"
+    icon: "ti-location-pin" # icon pack : https://themify.me/themify-icons
+    link: "#"
 
 # type
 type: "laboratory"
-
 # 下の"---"以下に、研究室の紹介文をMarkdown書式で書きこんで下さい。
 ---

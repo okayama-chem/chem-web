@@ -19,18 +19,14 @@ keywords: ["None", "None", "None"]
 
 # faculties; label: true name and title
 faculties:
-  # - id: kubozono
-  #   name: Prof. Yoshihiro Kubozono
   - id: goto
     name: Assoc. Prof. Hidenori Goto
-# - id: eguchi
-#   name: Lec. Ritsuko Eguchi
 
 # contact info
 contact:
   - icon: ti-email
-    link: mailto:kubozono@okayama-u.ac.jp
-    name: kubozono@okayama-u.ac.jp
+    link: mailto:hgoto@okayama-u.ac.jp
+    name: hgoto@okayama-u.ac.jp
 
   - name: "Fine Powder and Surface Chemistry Laboratory"
     icon: "ti-world" # icon pack : https://themify.me/themify-icons
