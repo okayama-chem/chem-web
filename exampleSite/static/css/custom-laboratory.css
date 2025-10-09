@@ -1,0 +1,85 @@
+/* 研究室リストページの写真サイズを1/2に縮小 */
+.laboratory-card img,
+.laboratory-item img,
+.card-img-top {
+    height: 150px !important; /* 元の300pxから150pxに縮小 */
+    object-fit: cover;
+    width: 100%;
+}
+
+/* 研究室カード全体の高さを調整 */
+.laboratory-card,
+.laboratory-item,
+.card {
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* カードのコンテンツ部分の調整 */
+.card-body {
+    padding: 15px;
+}
+
+/* より多くの研究室を1行に表示するためのレスポンシブ調整 */
+@media (min-width: 768px) {
+    .laboratory-grid .col-md-6 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .laboratory-grid .col-md-6 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+/* 研究室タイトルのフォントサイズを少し小さく */
+.laboratory-card h4,
+.laboratory-item h4,
+.card-title {
+    font-size: 1.1rem;
+    line-height: 1.3;
+}
+
+/* 説明文の行数制限 */
+.laboratory-card p,
+.laboratory-item p,
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+/* ========================================
+   フッターの文字色を純白に変更
+   ======================================== */
+
+/* フッター全体の文字色を白に */
+footer,
+.footer,
+#footer,
+footer *,
+.footer *,
+#footer * {
+    color: #ffffff !important;
+}
+
+/* フッターのリンクも白に */
+footer a,
+.footer a,
+#footer a {
+    color: #ffffff !important;
+}
+
+/* フッターのリンクホバー時は少し透明に */
+footer a:hover,
+.footer a:hover,
+#footer a:hover {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
