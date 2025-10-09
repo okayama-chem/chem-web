@@ -97,8 +97,15 @@
     border-radius: 4px;
     margin: 0 0 0 5px;
     white-space: nowrap;
+    transition: 0.2s ease;
+    cursor: pointer;
     // background-color: $label-color;
     // color: $gray;
+    &:hover {
+        background-color: $primary-color;
+        color: $white;
+        border-color: $primary-color;
+    }
 }
 
 .top-margin {

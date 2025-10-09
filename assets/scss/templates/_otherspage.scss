@@ -12,6 +12,7 @@
   }
 }
 
+/* 研究室の教授の名前もこれ */
 .tag-list{
   a{
     display: block;
@@ -24,6 +25,32 @@
       background-color: $primary-color;
       color: $white;
     }
+  }
+}
+
+/* 研究室の連絡先リンク */
+.contact-link {
+  display: block;
+  padding: 5px 10px;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  color: $text-color; // テスト用
+  &:hover {
+    background-color: $primary-color;
+    color: $white;
+  }
+}
+
+/* 研究室のキーワードリンク */
+.keyword-link {
+  display: block;
+  padding: 5px 10px;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  color: $text-color;
+  &:hover {
+    background-color: $primary-color;
+    color: $white;
   }
 }
 
