@@ -1,7 +1,4 @@
-{{ define "main" }}
-<!--見開きページ-->
-<!-- faculty details -->
-<section class="section">
+{{ define "main" }} {{- $group_id := partial "la_group_id.html" .Params.la_group -}} <section class="section">
   <div class="container">
     <div class="row">
       <div class="col-xl-2 col-lg-2 col-md-3 col-4 mb-">
@@ -9,51 +6,35 @@
       </div>
       <div class="col-xl-10 col-lg-10 col-md-9 col-8 mb-5">
         <h3>{{ .Title }}</h3>
-        <h6 class="text-color">{{ .Params.rank }}
-          <ul class="list-inline tag-list">
+        <h6 class="text-color">{{ .Params.rank }} <ul class="list-inline tag-list">
             <li class="list-inline-item mb-2 mt-2">
-              <a href="{{ `laboratory/` | relLangURL }}{{ .Params.laboratory.id | urlize | lower }}/">{{ .Params.laboratory.name }}</a>
+              <a href="{{ `laboratory/` | relLangURL }}{{ .Params.laboratory.id | urlize | lower }}/">{{
+                .Params.laboratory.name }}</a>
+            </li>
+            <li class="list-inline-item mb-2 mt-2">
+              <a href="{{ `faculty` | relLangURL }}#{{ $group_id }}" class="group-label">@{{ .Params.la_group }}</a>
             </li>
           </ul>
         </h6>
-        <!-- <p class="mb-5">{{ .Params.Bio | markdownify }}</p> -->
         <div class="row">
-          <!-- 連絡方法 -->
           <div class="col-md-4 mb-2 mb-md-0 top-margin">
             <h4 class="mb-4 underline">{{ i18n "contact_info" | upper}}</h4>
-            <ul class="list-unstyled">
-              {{ range .Params.Contact }}
-              <li class="mb-3"><a class="text-color" href="{{ .link | safeURL }}"><i class="{{ .icon }} mr-2"></i>{{ .name }}</a></li>
-              {{ end }}
-            </ul>
+            <ul class="list-unstyled"> {{ range .Params.Contact }} <li class="mb-3"><a class="contact-link"
+                  href="{{ .link | safeURL }}"><i class="{{ .icon }} mr-2"></i>{{ .name }}</a></li> {{ end }} </ul>
           </div>
-          <!-- 研究分野 -->
           <div class="col-md-4 mb-2 mb-md-0 top-margin">
             <h4 class="mb-4 underline">{{ i18n "interest" | upper }}</h4>
-            <ul class="list-unstyled">
-              {{ range .Params.Interest }}
-              <li class="mb-3">{{ . | title }}</li>
-              {{ end }}
+            <ul class="list-unstyled"> {{ range .Params.Interest }} <li class="mb-3">{{ . | title }}</li> {{ end }}
             </ul>
           </div>
-          <!-- 業績 -->
           <div class="col-md-4 mb-2 mb-md-0 top-margin">
             <h4 class="mb-4 underline">{{ i18n "achievements" | upper}}</h4>
-            <ul class="list-unstyled">
-              {{ range .Params.Achievements }}
-              <li class="mb-3"><a class="text-color" href="{{ .link | safeURL }}"><i class="{{ .icon }} mr-2"></i>{{ .name }}</a></li>
-              {{ end }}
-            </ul>
+            <ul class="list-unstyled"> {{ range .Params.Achievements }} <li class="mb-3"><a class="contact-link"
+                  href="{{ .link | safeURL }}"><i class="{{ .icon }} mr-2"></i>{{ .name }}</a></li> {{ end }} </ul>
           </div>
         </div>
       </div>
-      <div class="col-12 content">
-        {{ .Content }}
-      </div>
+      <div class="col-12 content"> {{ .Content }} </div>
     </div>
-
   </div>
-</section>
-<!-- /faculty details -->
-
-{{ end }}
+</section> {{ end }}

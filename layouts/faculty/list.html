@@ -1,20 +1,17 @@
-{{ define "main" }}
-
-<!-- faculties -->
-<section class="section">
+{{ define "main" }} <section class="section">
   <div class="container">
-    <!-- faculty list -->
-    <div class="row filtr-container">
-      <!-- faculty -->
-      {{ range ( sort .Data.Pages ".Params.weight" ) }}
-      <div data-category="{{ .Params.Fa_category | urlize }}" class="col-lg-2 col-sm-6 filtr-item">
-        {{ .Render "faculty" }}
-        <!-- defined in layouts/_default -->
+    <div class="row mb-4">
+      <div class="col-12">
+        <ul class="list-inline filter-controls text-center">
+          <li class="list-inline-item m-3 active" data-filter="all">{{ i18n "all" }}</li> {{- $la_groups := slice -}}
+          {{- range .Data.Pages -}} {{- if .Params.la_group -}} {{- $la_groups = $la_groups | append .Params.la_group
+          -}} {{- end -}} {{- end -}} {{- range ( $la_groups | uniq ) -}} {{- $group_id := partial "la_group_id.html" .
+          -}} <li class="list-inline-item m-3" data-filter="{{ $group_id }}">@{{ . }}</li> {{- end -}}
+        </ul>
       </div>
-      {{ end }}
     </div>
+    <div class="row filtr-container"> {{ range ( sort .Data.Pages ".Params.weight" ) }} {{- $group_id := partial
+      "la_group_id.html" .Params.la_group -}} <div data-category="{{ $group_id }}" class="col-lg-2 col-sm-6 filtr-item">
+        {{ .Render "faculty" }} </div> {{ end }} </div>
   </div>
-</section>
-<!-- /faculties -->
-
-{{ end }}
+</section> {{ end }}
