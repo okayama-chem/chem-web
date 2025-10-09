@@ -61,6 +61,34 @@
       $('.filter-controls li').removeClass('active');
       $(this).addClass('active');
     });
+    // group-label filter trigger (on same page)
+    $('.group-label').on('click', function (e) {
+      // Only prevent default if on the faculty list page (not single page)
+      if ($(this).data('filter')) {
+        e.preventDefault();
+        var filterValue = $(this).data('filter');
+        $('.filter-controls li').removeClass('active');
+        $('.filter-controls li[data-filter="' + filterValue + '"]').addClass('active');
+        if (filterizd) {
+          filterizd.filterizr('filter', filterValue);
+        }
+        // Scroll to top of faculty list
+        $('html, body').animate({
+          scrollTop: $('.filter-controls').offset().top - 100
+        }, 500);
+      }
+    });
+    // Apply filter from URL hash on page load
+    if (containerEl && window.location.hash) {
+      var hashFilter = window.location.hash.substring(1); // Remove the '#'
+      $('.filter-controls li').removeClass('active');
+      $('.filter-controls li[data-filter="' + hashFilter + '"]').addClass('active');
+      if (filterizd) {
+        setTimeout(function() {
+          filterizd.filterizr('filter', hashFilter);
+        }, 100);
+      }
+    }
   });
 
   //  Count Up
