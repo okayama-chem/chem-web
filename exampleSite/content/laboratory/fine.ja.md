@@ -35,7 +35,7 @@ contact:
     link: mailto:hgoto@okayama-u.ac.jp
     name: hgoto@okayama-u.ac.jp
 
-  - name: "粉体化学研究室"
+  - name: "粉体化学研究室ウェブサイト"
     icon: "ti-world" # icon pack : https://themify.me/themify-icons
     link: "http://interfa.rlss.okayama-u.ac.jp/"
 

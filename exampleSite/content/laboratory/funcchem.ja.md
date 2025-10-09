@@ -45,7 +45,7 @@ contact:
   name: FAX 086-251-7855
 
 
-- name : "機能有機化学研究室"
+- name : "機能有機化学研究室ウェブサイト"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "http://chem.okayama-u.ac.jp/~funcchem/top/index.html"
 

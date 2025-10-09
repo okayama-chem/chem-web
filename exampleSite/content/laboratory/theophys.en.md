@@ -30,7 +30,7 @@ contact:
     link: mailto:koga@okayama-u.ac.jp
     name: koga@okayama-u.ac.jp
 
-  - name: "Theoretical Physical Chemistry Laboratory"
+  - name: "Theoretical Physical Chemistry Laboratory (Group Website)"
     icon: "ti-world" # icon pack : https://themify.me/themify-icons
     link: "http://phys.chem.okayama-u.ac.jp/"
 

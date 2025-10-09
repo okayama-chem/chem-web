@@ -56,7 +56,7 @@ contact:
   name: 086-251-7854
 
 
-- name : "理論計算化学研究室"
+- name : "理論計算化学研究室 ウェブサイト"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "http://theocomp.chem.okayama-u.ac.jp"
 

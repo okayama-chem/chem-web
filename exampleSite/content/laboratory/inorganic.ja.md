@@ -41,7 +41,7 @@ contact:
     link: tel:086-251-7843
     name: FAX 086-251-7843
 
-  - name: "無機化学研究室"
+  - name: "無機化学研究室ウェブサイト"
     icon: "ti-world" # icon pack : https://themify.me/themify-icons
     link: "https://ohkubo70.wixsite.com/inorganic"
 

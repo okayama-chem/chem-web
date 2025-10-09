@@ -28,7 +28,7 @@ contact:
     link: mailto:hgoto@okayama-u.ac.jp
     name: hgoto@okayama-u.ac.jp
 
-  - name: "Fine Powder and Surface Chemistry Laboratory"
+  - name: "Fine Powder and Surface Chemistry Laboratory (Group Website)"
     icon: "ti-world" # icon pack : https://themify.me/themify-icons
     link: "http://interfa.rlss.okayama-u.ac.jp/"
 

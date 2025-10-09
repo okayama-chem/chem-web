@@ -30,7 +30,7 @@ contact:
   name: jtang@okayama-u.ac.jp
 
 
-- name : "Spectrohemistry Laboratory"
+- name : "Spectrohemistry Laboratory (Group Website)"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "http://chem.okayama-u.ac.jp/~spectro/home_jp3.htm"
 

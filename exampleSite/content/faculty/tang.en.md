@@ -40,7 +40,7 @@ contact:
   name: jtang@okayama-u.ac.jp
 
 
-- name : "Spectrochemistry Laboratory"
+- name : "Spectrochemistry Laboratory (Group Website)"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "None"
 

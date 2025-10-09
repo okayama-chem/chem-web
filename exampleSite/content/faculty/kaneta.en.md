@@ -52,7 +52,7 @@ contact:
   name: 086-251-7847
 
 
-- name : "Analytical Chemistry Laboratory"
+- name : "Analytical Chemistry Laboratory (Group Website)"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "http://chem.okayama-u.ac.jp/~analytical/home_j.html"
 

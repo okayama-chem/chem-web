@@ -40,7 +40,7 @@ contact:
   name: takeyasu@okayama-u.ac.jp
 
 
-- name : "Analytical Chemistry Laboratory"
+- name : "Analytical Chemistry Laboratory (Group Website)"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "http://chem.okayama-u.ac.jp/~analytical/home_j.html"
 

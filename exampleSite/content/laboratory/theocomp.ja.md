@@ -43,7 +43,7 @@ contact:
   name: FAX 086-251-7769
 
 
-- name : "理論計算化学研究室"
+- name : "理論計算化学研究室ウェブサイト"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "http://theocomp.chem.okayama-u.ac.jp/"
 

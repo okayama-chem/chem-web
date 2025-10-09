@@ -55,7 +55,7 @@ contact:
   name: 086-251-7846
 
 
-- name : "Theoretical Chemistry Laboratory"
+- name : "Theoretical Chemistry Laboratory (Group Website)"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "https://tetrahedroid.github.io/en/"
 

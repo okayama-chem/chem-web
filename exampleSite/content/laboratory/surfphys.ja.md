@@ -40,7 +40,7 @@ contact:
   name: 086-251-7832
 
 
-- name : "表面物理化学"
+- name : "表面物理化学ウェブサイト"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "https://okadaichem.jp/surface/"
 

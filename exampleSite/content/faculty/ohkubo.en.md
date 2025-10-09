@@ -49,7 +49,7 @@ contact:
     link: tel:086-251-7843
     name: 086-251-7843
 
-  - name: "Inorganic Chemistry Laboratory"
+  - name: "Inorganic Chemistry Laboratory (Group Website)"
     icon: "ti-world" # icon pack : https://themify.me/themify-icons
     link: "https://ohkubo70.wixsite.com/inorganic"
 

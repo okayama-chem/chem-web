@@ -53,7 +53,7 @@ contact:
   name: 086-251-7840
 
 
-- name : "反応有機化学研究室"
+- name : "反応有機化学研究室 ウェブサイト"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "None"
 

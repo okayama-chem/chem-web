@@ -43,7 +43,7 @@ contact:
   name: FAX 086-251-7834
 
 
-- name : "ナノ化学研究室（研究室ウェブサイト）"
+- name : "ナノ化学研究室ウェブサイト"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "https://www.nanochem-okayama-u.net/"
 

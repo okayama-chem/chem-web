@@ -49,7 +49,7 @@ contact:
   name: 086-251-7900
 
 
-- name : "Coordination Chemistry Laboratory"
+- name : "Coordination Chemistry Laboratory (Group Website)"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "http://chem.okayama-u.ac.jp/~complex/Coord.Chem/Home.html"
 

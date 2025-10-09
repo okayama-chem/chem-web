@@ -49,7 +49,7 @@ contact:
   name: 086-251-7840
 
 
-- name : "Synthetic and Physical Organic Chemistry Laboratory"
+- name : "Synthetic and Physical Organic Chemistry Laboratory (Group Website)"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "None"
 

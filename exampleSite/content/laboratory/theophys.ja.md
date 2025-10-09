@@ -46,7 +46,7 @@ contact:
     link: mailto:koga@okayama-u.ac.jp
     name: koga@okayama-u.ac.jp
 
-  - name: "理論物理化学研究室"
+  - name: "理論物理化学研究室ウェブサイト"
     icon: "ti-world" # icon pack : https://themify.me/themify-icons
     link: "http://phys.chem.okayama-u.ac.jp/"
 

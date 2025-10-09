@@ -33,7 +33,7 @@ contact:
   name: 086-251-7832
 
 
-- name : "Surface Physical Chemistry"
+- name : "Surface Physical Chemistry (Group Website)"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "https://okadaichem.jp/surface/"
 

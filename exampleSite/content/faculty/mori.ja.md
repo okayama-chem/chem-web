@@ -50,7 +50,7 @@ contact:
     link: tel:086-251-7831
     name: 086-251-7831
 
-  - name: "機能有機化学研究室"
+  - name: "機能有機化学研究室 ウェブサイト"
     icon: "ti-world" # icon pack : https://themify.me/themify-icons
     link: "http://chem.okayama-u.ac.jp/~funcchem/top/"
 

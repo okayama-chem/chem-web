@@ -58,7 +58,7 @@ contact:
   link: tel:086-251-7846
   name: 086-251-7846
 
-- name : "理論化学研究室"
+- name : "理論化学研究室ウェブサイト"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "https://tetrahedroid.github.io/"
 

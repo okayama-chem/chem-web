@@ -49,7 +49,7 @@ contact:
   name: 086-251-7797
 
 
-- name : "Interfacial Chemistry Laboratory"
+- name : "Interfacial Chemistry Laboratory (Group Website)"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "http://interfa.rlss.okayama-u.ac.jp/homejpn.html"
 

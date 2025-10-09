@@ -42,7 +42,7 @@ contact:
   name: 086-251-7847
 
 
-- name : "分析化学研究室"
+- name : "分析化学研究室ウェブサイト"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "http://chem.okayama-u.ac.jp/~analytical/home_j.html"
 

@@ -44,7 +44,7 @@ contact:
   name: jtang@okayama-u.ac.jp
 
 
-- name : "分光化学研究室"
+- name : "分光化学研究室 ウェブサイト"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "None"
 

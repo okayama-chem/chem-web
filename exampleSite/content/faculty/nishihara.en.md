@@ -52,7 +52,7 @@ contact:
   name: 086-251-7855
 
 
-- name : "Functional Organic Chemistry Laboratory"
+- name : "Functional Organic Chemistry Laboratory (Group Website)"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "http://chem.okayama-u.ac.jp/~funcchem/top/index.html"
 

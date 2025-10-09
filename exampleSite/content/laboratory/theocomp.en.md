@@ -36,7 +36,7 @@ contact:
   name: FAX 086-251-7769
 
 
-- name : "Theoretical and Computational Chemistry Laboratory"
+- name : "Theoretical and Computational Chemistry Laboratory (Group Website)"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
   link : "http://theocomp.chem.okayama-u.ac.jp/"
 
