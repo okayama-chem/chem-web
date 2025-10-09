@@ -56,6 +56,36 @@
 }
 
 /* ========================================
+   教員一覧のカード上辺を揃える
+   ======================================== */
+
+/* 教員カードの画像サイズを統一して高さを揃える */
+.card-img-faculty {
+    height: 200px !important;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* 教員カード全体の高さを統一 */
+.card-faculty {
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
+}
+
+/* カードボディを下に押し出す */
+.card-faculty .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* filtr-itemの下マージンを統一 */
+.filtr-item {
+    margin-bottom: 30px !important;
+}
+
+/* ========================================
    フッターの文字色を純白に変更
    ======================================== */
 
