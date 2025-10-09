@@ -1,0 +1,4 @@
+{{- $group := . -}} {{- $id := "" -}} {{- if or (eq $group "分子化学") (eq $group "Molecular Chemistry") -}} {{- $id =
+"molecular" -}} {{- else if or (eq $group "物質化学") (eq $group "Material Chemistry") -}} {{- $id = "material" -}} {{- else
+if or (eq $group "反応化学") (eq $group "Reaction Chemistry") -}} {{- $id = "reaction" -}} {{- else if or (eq $group "界面化学")
+(eq $group "Interfacial Chemistry") -}} {{- $id = "interface" -}} {{- end -}} {{- return $id -}}
