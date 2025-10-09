@@ -4,7 +4,7 @@ title = "理学部化学科 | 岡山大学"
 theme = "chem-web"
 # theme = "educenter-hugo"
 # post pagination
-paginate = "6"
+paginate = "50"
 # post excerpt
 summaryLength = "10"
 # disqus short name これを設定するとコメント欄を表示できる。
@@ -51,6 +51,8 @@ link = "plugins/animate/animate.css"
 link = "plugins/venobox/venobox.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "css/custom-laboratory.css"
 
 # JS Plugins
 [[params.plugins.js]]
