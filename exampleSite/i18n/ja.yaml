@@ -101,7 +101,7 @@
   translation: email
 
 - id: all
-  translation: All
+  translation: すべて
 
 - id: interest
   translation: 研究分野
@@ -120,3 +120,12 @@
 
 - id: laboratories
   translation: 研究室
+
+- id: laboratory
+  translation: 研究室
+
+- id: faculty
+  translation: 教員
+
+- id: event
+  translation: イベント

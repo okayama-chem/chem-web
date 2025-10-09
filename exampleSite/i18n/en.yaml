@@ -120,3 +120,12 @@
 
 - id: laboratories
   translation: Laboratories
+
+- id: laboratory
+  translation: Laboratories
+
+- id: faculty
+  translation: Faculty
+
+- id: event
+  translation: Events
