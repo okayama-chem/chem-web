@@ -1,16 +1,12 @@
-<!-- リスト表示の1枚のカード -->
-<div class="card card-faculty border-0 rounded-0 hover-shadow mb-5">
+{{- $group_id := partial "la_group_id.html" .Params.la_group -}} <div
+  class="card card-faculty border-0 rounded-0 hover-shadow mb-5">
   <a href="{{ .Permalink }}">
     <img class="card-img-top card-img-faculty rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
   </a>
   <div class="card-body">
     <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-    <p>{{ .Params.rank }} <span class="group-label">{{ .Params.la_group }}</span></p>
-    <ul class="list-inline">
-      {{ range .Params.Contact }}
-      <li class="list-inline-item"><a class="text-color" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
-      </li>
-      {{ end }}
-    </ul>
+    <p>{{ .Params.rank }} <span class="group-label" data-filter="{{ $group_id }}">@{{ .Params.la_group }}</span></p>
+    <ul class="list-inline"> {{ range .Params.Contact }} <li class="list-inline-item"><a class="text-color"
+          href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li> {{ end }} </ul>
   </div>
 </div>
