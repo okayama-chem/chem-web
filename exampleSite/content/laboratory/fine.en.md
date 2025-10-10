@@ -14,7 +14,7 @@ image: "images/labs/flask.jpg"
 # interest
 
 # taxonomy
-la_categories: "Interfacial Chemistry" # 分子化学 | 物質化学 | 反応化学
+la_group: "Interfacial Chemistry" # 分子化学 | 物質化学 | 反応化学
 keywords: ["None", "None", "None"]
 
 # faculties; label: true name and title

@@ -19,8 +19,8 @@ image: "images/labs/theo/pink2.jpg"
 
 # taxonomy
 
-la_categories: "Molecular Chemistry" # 分子化学 | 物質化学 | 反応化学
-keywords: ["Water Science", "Molecular Dynamics", "Stasistical Mechanics"]
+la_group: "Molecular Chemistry" # 分子化学 | 物質化学 | 反応化学
+keywords: ["Water Science", "Molecular Simulation", "Stasistical Mechanics"]
 
 # faculties; label: true name and title
 

@@ -18,7 +18,7 @@ description : "光機能性ナノ粒子を用いた分析技術の研究"
 image: "images/labs/nanochem/HDF_NDs_3.jpg"
 
 # 大講座名
-la_categories: "物質化学" # 分子化学 | 物質化学 | 反応化学 | 界面化学
+la_group: "物質化学" # 分子化学 | 物質化学 | 反応化学 | 界面化学
 # キーワードを3つより増やしても構いません。
 keywords: ["ナノ物質", "量子計測", "ナノ光学"]
 

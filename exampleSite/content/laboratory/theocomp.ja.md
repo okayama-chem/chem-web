@@ -18,7 +18,7 @@ description : "生体高分子集合・ソフトマテリアル系を対象と�
 image: "images/labs/theocomp/VesMemLabJ.jpg"
 
 # 大講座名
-la_categories: "分子化学" # 分子化学 | 物質化学 | 反応化学 | 界面化学
+la_group: "分子化学" # 分子化学 | 物質化学 | 反応化学 | 界面化学
 # キーワードを3つより増やしても構いません。
 keywords: ["分子シミュレーション", "脂質・生体膜", "ソフトマテリアル"]
 

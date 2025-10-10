@@ -18,7 +18,7 @@ description: "液体・溶液・界面の理論的研究，タンパク質科学
 image: "images/labs/flask.jpg"
 
 # 大講座名
-la_categories: "分子化学" # 分子化学 | 物質化学 | 反応化学 | 界面化学
+la_group: "分子化学" # 分子化学 | 物質化学 | 反応化学 | 界面化学
 # キーワードを3つより増やしても構いません。
 keywords:
   [

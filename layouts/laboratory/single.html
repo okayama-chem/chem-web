@@ -1,4 +1,4 @@
-{{ define "main" }} <!-- faculty details -->
+{{ define "main" }} {{- $group_id := partial "la_group_id.html" .Params.la_group -}} <!-- faculty details -->
 <section class="section">
   <div class="container">
     <div class="row">
@@ -6,21 +6,28 @@
         <img class="img-fluid w-100" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
       </div>
       <div class="col-md-8 mb-5">
-        <h3>{{ .Title }}</h3> {{- if isset .Params "faculties" }} {{- if not (eq (len .Params.faculties) 0) }} <ul
-          class="list-inline tag-list"> {{- range .Params.faculties }} {{ $item := . }} <li
-            class="list-inline-item mb-2"><a href="{{ `faculty/` | relLangURL }}{{ $item.id | urlize | lower }}/">{{
-              $item.name }}</a></li> {{- end }} </ul> {{- end }} {{- end }}
+        <h3>{{ .Title }}</h3>
+        <h6 class="text-color">
+          <ul class="list-inline tag-list"> {{- if isset .Params "faculties" }} {{- if not (eq (len .Params.faculties)
+            0) }} {{- range .Params.faculties }} {{ $item := . }} <li class="list-inline-item mb-2 mt-2"><a
+                href="{{ `faculty/` | relLangURL }}{{ $item.id | urlize | lower }}/">{{ $item.name }}</a></li> {{- end
+            }} {{- end }} {{- end }} <li class="list-inline-item mb-2 mt-2">
+              <a href="{{ `faculty` | relLangURL }}#{{ $group_id }}" class="group-label">@{{ .Params.la_group }}</a>
+            </li>
+          </ul>
+        </h6>
         <!-- <p class="mb-5">{{ .Params.Bio | markdownify }}</p> -->
         <div class="row mt-3">
           <div class="col-md-6 col-6 mb-2 mb-md-0">
             <h4 class="mb-4 underline">{{ i18n "contact_info" | upper}}</h4>
-            <ul class="list-unstyled"> {{ range .Params.Contact }} <li class="mb-3"><a class="contact-link"
+            <ul class="list-unstyled"> {{ range .Params.Contact }} <li class="mb-2"><a class="contact-link"
                   href="{{ .link | safeURL }}"><i class="{{ .icon }} mr-2"></i>{{ .name }}</a></li> {{ end }} </ul>
           </div>
           <div class="col-md-6 col-6">
             <h4 class="mb-4 underline">{{ i18n "keywords" | upper }}</h4>
-            <ul class="list-unstyled"> {{ range .Params.Keywords }} <li class="mb-3"><a class="keyword-link"
-                  href="{{ `keywords/` | relLangURL }}{{ . }}">#{{ . | title }}</a></li> {{ end }} </ul>
+            <ul class="list-inline tag-list"> {{ range .Params.Keywords }} <li class="list-inline-item mb-2"><a
+                  class="keyword-link" href="{{ `keywords/` | relLangURL }}{{ . }}">#{{ . | title }}</a></li> {{ end }}
+            </ul>
           </div>
         </div>
       </div>

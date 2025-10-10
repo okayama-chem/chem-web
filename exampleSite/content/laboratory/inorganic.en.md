@@ -14,7 +14,7 @@ image: "images/labs/inorganic/SWCNT.jpg"
 # interest
 
 # taxonomy
-la_categories: "Material Chemistry" # 分子化学 | 物質化学 | 反応化学
+la_group: "Material Chemistry" # 分子化学 | 物質化学 | 反応化学
 keywords: ["Nanospace", "Adsorption", "Catalyst"]
 
 # faculties; label: true name and title

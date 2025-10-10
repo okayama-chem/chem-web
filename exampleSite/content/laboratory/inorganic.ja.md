@@ -18,7 +18,7 @@ description: "細孔性材料の機能解明と新規材料開発"
 image: "images/labs/inorganic/SWCNT.jpg"
 
 # 大講座名
-la_categories: "物質化学" # 分子化学 | 物質化学 | 反応化学 | 界面化学
+la_group: "物質化学" # 分子化学 | 物質化学 | 反応化学 | 界面化学
 # キーワードを3つより増やしても構いません。
 keywords: ["ナノ空間", "吸着", "触媒"]
 

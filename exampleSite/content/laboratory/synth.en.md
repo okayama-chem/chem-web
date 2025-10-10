@@ -14,7 +14,7 @@ image: "images/labs/flask.jpg"
 # interest
 
 # taxonomy
-la_categories: "Reaction Chemistry" # 分子化学 | 物質化学 | 反応化学
+la_group: "Reaction Chemistry" # 分子化学 | 物質化学 | 反応化学
 keywords: ["fluorescence", "polycyclic aromatic hydrocarbon", "organic photochemistry"]
 
 # faculties; label: true name and title

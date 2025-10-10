@@ -20,7 +20,7 @@ defaultContentLanguage = "ja"
   category = 'categories'
   tag = 'tags'
   # laboratories
-  la_category = 'la_categories'
+  # la_category = 'la_categories'  # 統合済み: la_groupに統一
   keyword = 'keywords'
   # faculty = 'faculties'
   la_group = 'la_groups'

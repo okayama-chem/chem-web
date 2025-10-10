@@ -14,7 +14,7 @@ image: "images/labs/theocomp/VesMemLabJ.jpg"
 # interest
 
 # taxonomy
-la_categories: "Molecular Chemistry" # 分子化学 | 物質化学 | 反応化学
+la_group: "Molecular Chemistry" # 分子化学 | 物質化学 | 反応化学
 keywords: ["Molecular Simulation", "Lipid Membranes / Biological Membranes", "Soft Materials"]
 
 # faculties; label: true name and title
