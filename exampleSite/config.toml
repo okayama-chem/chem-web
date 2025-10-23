@@ -1,7 +1,9 @@
 ######################## default configuration ####################
-baseURL = "http://www.chem.okayama-u.ac.jp/"
+baseURL = "http://www.chem.okayama-u.ac.jp:1313/"
 title = "理学部化学科 | 岡山大学"
 theme = "chem-web"
+relativeURLs = true
+canonifyURLs = false
 # theme = "educenter-hugo"
 # post pagination
 paginate = "50"

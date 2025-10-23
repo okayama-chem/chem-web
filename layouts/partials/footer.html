@@ -1,9 +1,7 @@
 <!-- footer -->
 <footer>
-  <!-- newsletter -->
-  {{ if site.Params.subscription.enable }}
-  {{ with site.Params.subscription }}
-  <div class="newsletter">
+  <!-- newsletter --> {{ if site.Params.subscription.enable }} {{ with site.Params.subscription }} <div
+    class="newsletter">
     <div class="container">
       <div class="row">
         <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
@@ -20,22 +18,17 @@
         </div>
       </div>
     </div>
-  </div>
-  {{ end }}
-  {{ end }}
-  <!-- footer content -->
+  </div> {{ end }} {{ end }} <!-- footer content -->
   <div class="footer bg-footer section border-bottom">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
           <!-- logo -->
-          <a class="logo-footer" href="{{ site.BaseURL | relLangURL }}"><img class="img-fluid mb-4" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
+          <a class="logo-footer" href="{{ site.BaseURL | relLangURL }}"><img class="img-fluid mb-4"
+              src="{{ site.Params.logo | relURL }}" alt="{{ site.Title }}"></a>
           <!-- below Logo -->
-          <ul class="list-unstyled">
-            {{ range site.Params.Contact }}
-            <li class="mb-3"><a class="text-color" href="{{ .link | safeURL }}"><i class="{{ .icon }} mr-2"></i>{{ .name }}</a></li>
-            {{ end }}
-          </ul>
+          <ul class="list-unstyled"> {{ range site.Params.Contact }} <li class="mb-3"><a class="text-color"
+                href="{{ .link | safeURL }}"><i class="{{ .icon }} mr-2"></i>{{ .name }}</a></li> {{ end }} </ul>
         </div>
         <!-- company -->
         <!-- <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
@@ -51,20 +44,14 @@
         <!-- links -->
         <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
           <h4 class="text-white mb-5 text-uppercase">{{ i18n "department" }}</h4>
-          <ul class="list-unstyled">
-            {{ range site.Menus.footer }}
-            <li class="mb-3"><a class="text-color" href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
-            {{ end }}
-          </ul>
+          <ul class="list-unstyled"> {{ range site.Menus.footer }} <li class="mb-3"><a class="text-color"
+                href="{{ .URL | absLangURL }}">{{ .Name }}</a></li> {{ end }} </ul>
         </div>
         <!-- links2 -->
         <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
           <h4 class="text-white mb-5 text-uppercase">{{ i18n "university" }}</h4>
-          <ul class="list-unstyled">
-            {{ range site.Menus.footer2 }}
-            <li class="mb-3"><a class="text-color" href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
-            {{ end }}
-          </ul>
+          <ul class="list-unstyled"> {{ range site.Menus.footer2 }} <li class="mb-3"><a class="text-color"
+                href="{{ .URL | absLangURL }}">{{ .Name }}</a></li> {{ end }} </ul>
         </div>
         <!-- labs -->
         <!-- <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
@@ -95,34 +82,21 @@
           <p class="mb-3 mb-md-0">{{ site.Params.copyright | markdownify }}</p>
         </div>
         <div class="col-md-5 text-md-right text-center">
-          <ul class="list-inline">
-            {{ range site.Params.social }}
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="{{ .link | safeURL }}"><i class="{{ .icon }} text-primary"></i></a></li>
-            {{ end }}
-          </ul>
+          <ul class="list-inline"> {{ range site.Params.social }} <li class="list-inline-item"><a
+                class="d-inline-block p-2" href="{{ .link | safeURL }}"><i class="{{ .icon }} text-primary"></i></a>
+            </li> {{ end }} </ul>
         </div>
       </div>
     </div>
   </div>
 </footer>
-<!-- /footer -->
-
-{{ "<!-- Google Map API -->" | safeHTML }}
-{{ with site.Params.map.gmap_api }}
-<script src="{{ . | safeURL }}"></script>
-{{ end }}
-
-{{ "<!-- JS Plugins -->" | safeHTML }}
-{{ range site.Params.plugins.js}}
-<script src="{{ .link | absURL }}"></script>
-{{ end }}
-
-{{ "<!-- Main Script -->" | safeHTML }}
-{{ $script := resources.Get "js/script.js" | minify}}
-<script src="{{ $script.Permalink }}"></script>
-
-{{ "<!-- google analitycs -->" | safeHTML }}
-{{ with site.Params.google_analitycs_id}}
+<!-- /footer --> {{ "<!-- Google Map API -->" | safeHTML }} {{ with site.Params.map.gmap_api }}
+<script src="{{ . | safeURL }}"></script> {{ end }} {{ "<!-- JS Plugins -->" | safeHTML }} {{ range
+site.Params.plugins.js}}
+<script src="{{ .link | relURL }}"></script> {{ end }} {{ "<!-- Main Script -->" | safeHTML }} {{ $script :=
+resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script> {{ "<!-- google analitycs -->" | safeHTML }} {{ with
+site.Params.google_analitycs_id}}
 <script>
   (function (i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
@@ -137,49 +111,42 @@
   })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
   ga('create', '{{ . }}', 'auto');
   ga('send', 'pageview');
-</script>
-{{ end }}
-
-
-<!-- cookie -->
-{{ if site.Params.cookies.enable }}
+</script> {{ end }} <!-- cookie --> {{ if site.Params.cookies.enable }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
-<div id="js-cookie-box" class="cookie-box cookie-box-hide">
-	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-outline-primary ml-2">I Accept</span>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide"> This site uses cookies. By continuing to use this website,
+  you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-outline-primary ml-2">I Accept</span>
 </div>
 <script>
-	(function ($) {
-		const cookieBox = document.getElementById('js-cookie-box');
-		const cookieButton = document.getElementById('js-cookie-button');
-		if (!Cookies.get('cookie-box')) {
-			cookieBox.classList.remove('cookie-box-hide');
-			cookieButton.onclick = function () {
-				Cookies.set('cookie-box', true, {
-					expires: {{ site.Params.cookies.expire_days }}
-				});
-				cookieBox.classList.add('cookie-box-hide');
-			};
+  (function ($) {
+    const cookieBox = document.getElementById('js-cookie-box');
+    const cookieButton = document.getElementById('js-cookie-button');
+    if (!Cookies.get('cookie-box')) {
+      cookieBox.classList.remove('cookie-box-hide');
+      cookieButton.onclick = function () {
+        Cookies.set('cookie-box', true, {
+          expires: {{ site.Params.cookies.expire_days }}
+    });
+    cookieBox.classList.add('cookie-box-hide');
+  };
 		}
-	})(jQuery);
+	}) (jQuery);
 </script>
-
 <!-- cookie style -->
 <style>
-.cookie-box {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  z-index: 9999;
-  padding: 1rem 2rem;
-  background: rgb(71, 71, 71);
-  transition: all .75s cubic-bezier(.19, 1, .22, 1);
-  color: #fdfdfd;
-}
+  .cookie-box {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    z-index: 9999;
+    padding: 1rem 2rem;
+    background: rgb(71, 71, 71);
+    transition: all .75s cubic-bezier(.19, 1, .22, 1);
+    color: #fdfdfd;
+  }
 
-.cookie-box-hide {
-  display: none;
-}
-</style>
-{{ end }}
+  .cookie-box-hide {
+    display: none;
+  }
+</style> {{ end }}
