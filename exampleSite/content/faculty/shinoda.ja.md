@@ -58,7 +58,7 @@ contact:
 
 - name : "理論計算化学研究室 ウェブサイト"
   icon : "ti-world" # icon pack : https://themify.me/themify-icons
-  link : "http://theocomp.chem.okayama-u.ac.jp"
+  link : "https://theocomp.chem.okayama-u.ac.jp"
 
 - name : "700-8530 岡山県岡山市津島中3－1－1 基礎研409室"
   icon : "ti-location-pin" # icon pack : https://themify.me/themify-icons
