@@ -44,3 +44,5 @@ contact:
 # type
 type: "laboratory"
 ---
+
+Photocatalysts have attracted considerable attention due to their potential applications for water-splitting to generate hydrogen gas by using solar energy. As H2 is clean and free from CO2 emissions, photocatalysts are expected to address many problems such as the energy crisis, environmental pollution, and global warming. However, the efficiency of photocatalysis is still not sufficient for industrial use; hence, further activity enhancement is required. The efficiency of photocatalysis is determined by the competition between electron-hole pair recombination and the rate of charge transfer to the reactant molecules. Therefore, we are studying the behaviors of photogenerated charge carriers to elucidate the mechanism. These researches should shed light on the development of highly efficient solar light driven water splitting photocatalysts.

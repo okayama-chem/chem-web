@@ -46,3 +46,5 @@ contact:
 # type
 type: "laboratory"
 ---
+
+We are developing a high-performance separation and determination methods using a laser and simple chemical sensors using paper substrates. We are also developing analytical methods for vesicles released by biological cells, environmental pollutants, active components contained in food, and chemicals that serve as indicators of food degradation. We are also working on research on high-performance separation using capillary electrophoresis and new analytical methods with nanochannels.

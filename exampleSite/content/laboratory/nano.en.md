@@ -47,3 +47,5 @@ contact:
 # type
 type: "laboratory"
 ---
+
+The aim of our research is to explore nanometrology by exploiting the novel functionality of inorganic nanomaterials. We are currently investigating nanoscale properties of biological samples and electronic devices, through optical responses of nanodiamonds and metallic nanoparticles.

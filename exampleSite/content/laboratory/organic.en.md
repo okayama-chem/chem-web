@@ -48,3 +48,5 @@ contact:
 # type
 type: "laboratory"
 ---
+
+Biologically active natural products have been regarded as the promising drug candidates and useful tool for life science. Particularly, because of their potent biological activities, natural products isolated from marine organisms have attracted much attention of organic chemists, biologists, and pharmacologists. We are studying the developing new synthetic reactions and its application to the total synthesis and structural elucidation of biologically active organic molecules such as marine toxins, antitumor, and antifouling compounds.

@@ -39,3 +39,4 @@ contact:
 # type
 type: "laboratory"
 ---
+In our research group, we are studying on the synthesis of novel transition metal and lanthanoid complexes with unique molecular and crystal structures, which are expected to exhibit useful magnetic and optical properties and highly selective reactivity. In particular, we are challenging to synthesize manganese model clusters for the oxygen-evolving center in photosystem-II, metal complexes that exhibit stimuli-responsible spin-crossover or chromotropic behavior, and to elucidate the mechanism of absolute spontaneous resolution, which selectively generates optically active compounds from non-chiral sources.

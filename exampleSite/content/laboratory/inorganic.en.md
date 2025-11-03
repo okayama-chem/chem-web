@@ -45,3 +45,5 @@ contact:
 # type
 type: "laboratory"
 ---
+
+Since the adsorption of molecules and ions into solid pores proceeds spontaneously by selecting the appropriate material, so that the separation and purification process of mixtures can be constructed without any energy supply. We focus on fundamental phenomena to stabilize adsorbed species and to determine the ability. That can build design guidelines for inorganic porous materials that we should aim for in the next generation.

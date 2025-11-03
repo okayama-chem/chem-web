@@ -54,3 +54,5 @@ contact:
 type: "laboratory"
 
 ---
+
+We use computer simulations and statistical mechanics theory to explore the unusual properties of water and ice.

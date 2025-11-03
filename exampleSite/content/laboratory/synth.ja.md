@@ -40,9 +40,9 @@ contact:
   name: 086-251-7840
 
 
-- name : "反応有機化学研究室ウェブサイト"
-  icon : "ti-world" # icon pack : https://themify.me/themify-icons
-  link : "None"
+# - name : "反応有機化学研究室ウェブサイト"
+#   icon : "ti-world" # icon pack : https://themify.me/themify-icons
+#   link : "None"
 
 - name : "700-8530 岡山県岡山市津島中3－1－1"
   icon : "ti-location-pin" # icon pack : https://themify.me/themify-icons
@@ -53,3 +53,5 @@ type: "laboratory"
 
 # 下の"---"以下に、研究室の紹介文をMarkdown書式で書きこんで下さい。
 ---
+
+反応有機化学分野では，次の3つのテーマで研究を展開している．(1)発光色素の開発と特性評価：媒体環境や外部刺激となる添加に応答して発光特性を変えるプローブ分子の開発や，励起状態プロトン移動を経て発光するESIPT蛍光の評価を行う．(2)多環状芳香族化合物の合成：光反応を駆使して，ベンゼン環がジグザグに連結するフェナセンの合成を行い，機能物質として展開する．(3)シクロファン類の光反応．芳香族化合物を架橋鎖で結んだシクロファンを，新しい多環状カゴ型骨格へ誘導する．

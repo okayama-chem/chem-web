@@ -47,3 +47,5 @@ contact:
 # type
 type: "laboratory"
 ---
+
+We use molecular simulation techniques to understand and predict various functions of molecules and molecular assemblies such as lipid membranes, aiming to inform the design of new materials. In order to tackle technical issues in bio- and soft-materials, we utilize multiscale molecular modeling, ranging from sub-atomic scales of quantum mechanics, to the coarse-grained molecular level, reaching to the micron scale. By developing these simulation techniques and applying them to contemporary problems, we expand the frontiers of molecular simulations.

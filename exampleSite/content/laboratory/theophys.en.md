@@ -41,3 +41,5 @@ contact:
 # type
 type: "laboratory"
 ---
+
+By using theoretical approaches such as statistical mechanics, thermodynamics, and molecular simulation, we are tackling a wide range of research issues related to liquids, solutions, interfaces, phase transitions, polymers, proteins, viruses, and cells. The latest research topics include solute size dependence of hydrophobic interactions, solubility of solutes, effective interactions, ion-specific effects on phase separation, structure of interfaces near the triple critical point of three-phase equilibrium systems, structural stability of proteins, co-solvent effects on proteins, and design principle of biological molecular motors and their efficiency of the free energy transduction, etc.

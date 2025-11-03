@@ -49,3 +49,5 @@ contact:
 # type
 type: "laboratory"
 ---
+
+By using transition metal catalysts, we can develop the organometallic reagents and the organometallic complexes which show the reactivities and selectivities different than ones in classical methods. We can also control the reactivities of the reagents and the catalysts precisely by tuning the ligands (organic compounds) on the metals. We are pursuing the development of the new carbon-carbon bond formation reactions which become a basis for synthetic organic reactions by talking advantage of the characteristics of the organometallics complexes which consist of the metals and the organic compounds.

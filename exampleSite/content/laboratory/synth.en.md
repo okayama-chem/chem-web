@@ -33,9 +33,9 @@ contact:
   name: 086-251-7840
 
 
-- name : "Synthetic and Physical Organic Chemistry Laboratory (Group Website)"
-  icon : "ti-world" # icon pack : https://themify.me/themify-icons
-  link : "None"
+#- name : "Synthetic and Physical Organic Chemistry Laboratory (Group Website)"
+#  icon : "ti-world" # icon pack : https://themify.me/themify-icons
+#  link : "None"
 
 - name : "3-1-1 Tsushima-Naka, Kita Ward, Okayama City, Okayama 700-8530"
   icon : "ti-location-pin" # icon pack : https://themify.me/themify-icons
@@ -44,3 +44,5 @@ contact:
 # type
 type: "laboratory"
 ---
+
+In Synthetic and Physical Organic Chemistry research area, we investigate organic photochemistry to develop novel functional molecule, such as luminescent materials organic semiconductors.
