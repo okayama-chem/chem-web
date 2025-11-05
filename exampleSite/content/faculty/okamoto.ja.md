@@ -36,11 +36,14 @@ interest: ["蛍光", "多環芳香族化合物", "有機光化学"]
 # 業績が[]となっている人は、他の方のachievements欄を参考に記入して下さい。
 achievements:
 - icon: ti-id-badge
+  link: https://researchmap.jp/read0085003?lang=ja
+  name: ResearchMap 5000011707
+- icon: ti-id-badge
   link: https://researcherid.com/rid/C-3276-2015
   name: ResearcherID C-3276-2015
 - icon: ti-id-badge
-  link: 'https://orcid.org/0000-0002-8742-4089 '
-  name: 'ORCID 0000-0002-8742-4089 '
+  link: https://orcid.org/0000-0002-8742-4089
+  name: ORCID 0000-0002-8742-4089
 
 
 # 連絡先。SNSも追加できます。

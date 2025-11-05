@@ -32,6 +32,9 @@ interest: ["fluorescence", "polycyclic aromatic hydrocarbon", "organic photochem
 # achievements
 achievements:
 - icon: ti-id-badge
+  link: https://researchmap.jp/read0085003?lang=en
+  name: ResearchMap 5000011707
+- icon: ti-id-badge
   link: https://researcherid.com/rid/C-3276-2015
   name: ResearcherID C-3276-2015
 - icon: ti-id-badge
