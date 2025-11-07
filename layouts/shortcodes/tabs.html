@@ -1,0 +1,18 @@
+{{- $groupID := printf "ctabs-%d" now.UnixNano -}}
+{{- $previousGroup := .Page.Scratch.Get "ctabs_group" -}}
+{{- $previousIndex := .Page.Scratch.Get "ctabs_index" -}}
+
+{{- .Page.Scratch.Set "ctabs_group" $groupID -}}
+{{- .Page.Scratch.Set "ctabs_index" 0 -}}
+
+<div class="c-tabs" data-tabs-id="{{ $groupID }}">
+  {{- .Inner -}}
+</div>
+
+{{- .Page.Scratch.Set "ctabs_group" $previousGroup -}}
+{{- if $previousIndex -}}
+  {{- .Page.Scratch.Set "ctabs_index" $previousIndex -}}
+{{- else -}}
+  {{- .Page.Scratch.Delete "ctabs_index" -}}
+{{- end -}}
+

@@ -1,0 +1,23 @@
+{{- $groupID := .Page.Scratch.Get "ctabs_group" -}}
+{{- if not $groupID -}}
+  {{- $groupID = printf "ctabs-%d" now.UnixNano -}}
+  {{- .Page.Scratch.Set "ctabs_group" $groupID -}}
+{{- end -}}
+
+{{- $currentIndex := .Page.Scratch.Get "ctabs_index" | default 0 -}}
+{{- $index := add $currentIndex 1 -}}
+{{- .Page.Scratch.Set "ctabs_index" $index -}}
+
+{{- $title := or (.Get "title") (.Get 0) -}}
+{{- if not $title -}}
+  {{- $title = printf "Tab %d" $index -}}
+{{- end -}}
+
+{{- $panelID := printf "%s-%d" $groupID $index -}}
+
+<input class="c-tabs__input" type="radio" id="{{ $panelID }}" name="{{ $groupID }}" {{ if eq $index 1 }}checked{{ end }}>
+<label class="c-tabs__label" for="{{ $panelID }}">{{ $title | safeHTML }}</label>
+<div class="c-tabs__panel">
+  {{- .Inner | markdownify -}}
+</div>
+
