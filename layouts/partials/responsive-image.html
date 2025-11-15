@@ -1,0 +1,33 @@
+{{/* 
+  レスポンシブ画像を生成するパーシャル
+  使用例: {{ partial "responsive-image.html" (dict "imagePath" .Params.image "alt" .Title "class" "img-fluid w-100") }}
+*/}}
+{{ $imagePath := .imagePath }}
+{{ $alt := .alt | default "image" }}
+{{ $class := .class | default "img-fluid" }}
+{{ $sizes := .sizes | default "(max-width: 576px) 100vw, (max-width: 768px) 50vw, 33vw" }}
+
+{{ if $imagePath }}
+  {{ $img := resources.Get $imagePath }}
+  {{ if $img }}
+    {{/* 画像がresourcesで取得できた場合（assetsディレクトリにある場合） */}}
+    {{/* Fill: アスペクト比を保ったまま、指定サイズを埋める（はみ出る部分をカット） */}}
+    {{ $small := $img.Fill "400x300 webp q85" }}
+    {{ $medium := $img.Fill "800x600 webp q85" }}
+    {{ $large := $img.Fill "1200x900 webp q85" }}
+    {{ $fallback := $img.Fill "800x600 jpg q85" }}
+    <img class="{{ $class }}" 
+         src="{{ $fallback.RelPermalink }}" 
+         srcset="{{ $small.RelPermalink }} 400w, {{ $medium.RelPermalink }} 800w, {{ $large.RelPermalink }} 1200w"
+         sizes="{{ $sizes }}"
+         alt="{{ $alt }}"
+         loading="lazy">
+  {{ else }}
+    {{/* 画像がresourcesで取得できなかった場合（staticディレクトリにある場合）のフォールバック */}}
+    <img class="{{ $class }}" 
+         src="{{ $imagePath | relURL }}" 
+         alt="{{ $alt }}"
+         loading="lazy">
+  {{ end }}
+{{ end }}
+

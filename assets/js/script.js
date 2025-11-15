@@ -134,5 +134,91 @@
     });
   });
 
+  // About Image Slideshow
+  $(document).ready(function () {
+    var slideshow = $('.about-image-slideshow[data-labs-images]');
+    if (slideshow.length > 0) {
+      var images = slideshow.find('.about-slide-image');
+      var totalImages = images.length;
+      
+      if (totalImages > 0) {
+        // 画像の配列を作成（srcsetも含む）
+        var imageArray = [];
+        images.each(function() {
+          var $img = $(this);
+          imageArray.push({
+            src: $img.attr('data-image-src'),
+            srcset: $img.attr('data-image-srcset') || $img.attr('srcset') || '',
+            element: $img
+          });
+        });
+        
+        // ランダムにシャッフル（Fisher-Yatesアルゴリズム）
+        function shuffleArray(array) {
+          for (var i = array.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+          }
+          return array;
+        }
+        
+        // 画像をランダムにシャッフル
+        var shuffledImages = shuffleArray(imageArray.slice());
+        var currentIndex = 0;
+        
+        // 最初の画像を表示
+        function showImage(index) {
+          images.css('display', 'none').removeClass('active');
+          var imageData = shuffledImages[index];
+          var imageElement = imageData.element;
+          imageElement.css('display', 'block');
+          setTimeout(function() {
+            imageElement.addClass('active');
+          }, 50);
+        }
+        
+        // 最初の画像を表示
+        showImage(0);
+        
+        // 5秒ごとに画像を切り替え
+        setInterval(function() {
+          currentIndex = (currentIndex + 1) % shuffledImages.length;
+          showImage(currentIndex);
+        }, 5000);
+      }
+    } else {
+      // 通常のスライドショー（images配列を使用する場合）
+      slideshow = $('.about-image-slideshow');
+      if (slideshow.length > 0) {
+        var images = slideshow.find('.about-slide-image');
+        var currentIndex = 0;
+        var totalImages = images.length;
+        
+        if (totalImages > 1) {
+          function showNextImage() {
+            // 現在の画像をフェードアウト
+            var currentImage = images.eq(currentIndex);
+            currentImage.removeClass('active');
+            
+            // 次の画像のインデックスを計算
+            currentIndex = (currentIndex + 1) % totalImages;
+            
+            // 次の画像をフェードイン
+            var nextImage = images.eq(currentIndex);
+            // 次のフレームでactiveクラスを追加してフェードイン
+            setTimeout(function() {
+              nextImage.addClass('active');
+            }, 50);
+          }
+          
+          // 5秒ごとに画像を切り替え
+          setInterval(showNextImage, 5000);
+        }
+      }
+    }
+  });
+
 
 })(jQuery);

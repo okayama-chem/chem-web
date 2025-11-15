@@ -1,6 +1,6 @@
 <!-- page title -->
 <section class="page-title-section overlay"
-  style="background-image: url('{{ .Params.Bg_image | relURL}}'),url('{{`images/banner/bg1.jpg`| relURL}}');">
+  style="background-image: url('{{ if .Params.Bg_image }}{{ partial "get-image-url.html" .Params.Bg_image }}{{ else }}{{ `images/banner/bg1.jpg` | relURL }}{{ end }}'),url('{{`images/banner/bg1.jpg`| relURL}}');">
   <div class="container">
     <div class="row">
       <div class="col-md-8">

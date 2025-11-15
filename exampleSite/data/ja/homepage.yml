@@ -17,8 +17,12 @@ slider:
     #     link : "event/4"
 
 
-    - title : "「なぜデカルトは虹を研究したと思う？ 虹を美しいと思ったからだよ」"
-      content : "--- リチャード・P・ファインマン"
+    # - title : "「なぜデカルトは虹を研究したと思う？ 虹を美しいと思ったからだよ」"
+    #   content : "--- リチャード・P・ファインマン"
+    # - title : "「人生において恐れるべきものは何一つありません。理解すべきものがそこにあるだけです。」"
+    #   content : "--- マリー・キュリー"
+    - title : "「教科書に書いてあることがすべて正しいと思うな。」"
+      content : "--- 白川 英樹"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -36,9 +40,10 @@ slider:
     #   button:
     #     enable : false
 
-    # slider item loop
-    - title : "「疑問を持ちつづけることが大切だ。好奇心には存在理由がある。」" # The important thing is not to stop questioning. Curiosity has its own reason for existing.
-      content : "--- アルバート・アインシュタイン"
+    # - title : "「疑問を持ちつづけることが大切だ。好奇心には存在理由がある。」" # The important thing is not to stop questioning. Curiosity has its own reason for existing.
+    #   content : "--- アルバート・アインシュタイン"
+    - title : "「化学者は、単なる傍観者ではない。彼らは（分子を）創造する行為の演者なのだ。」"
+      content : "--- ロアルド・ホフマン"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -48,8 +53,10 @@ slider:
         link : "bachelor/"
 
     # slider item loop
-    - title : "「未知の世界を探求する人々は、地図を持たない旅行者である。」"
-      content : "--- 湯川 秀樹"
+    # - title : "「未知の世界を探求する人々は、地図を持たない旅行者である。」"
+    #   content : "--- 湯川 秀樹"
+    - title : "「科学における創造とは、誰もが気がついているものの中に、誰も気がつかなかった何かを発見することである。」"
+      content : "--- 福井 謙一"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -91,7 +98,11 @@ banner_feature:
 about:
   enable : true
   title : '物質を扱う化学<br />だから"科学"の中心です'
-  image : "images/about/image14-34.jpeg"
+  images:
+    - "images/about/image14-34.jpeg"
+    # 追加の画像をここに追加してください
+    # - "images/about/image2.jpeg"
+    # - "images/about/image3.jpeg"
   content : "私たちの生活は、様々な色彩豊かで機能性に優れた化学物質に支えられています。エネルギーの供給から私たちの体や遺伝子に至るまで、すべてが化学物質によって構成されています。化学者の研究成果は、大学や企業で応用され、私たちの暮らしを豊かにする製品が生まれています。さらに、環境やエネルギー問題に対しても、化学は主導的な役割を果たすことで、社会への貢献が広がっています。"
   button:
     enable : true

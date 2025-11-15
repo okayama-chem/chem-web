@@ -1,0 +1,18 @@
+{{/* 
+  画像URLを取得するヘルパー
+  assetsから読み込める場合はresourcesを使用し、そうでない場合はstaticから読み込む
+  使用例: {{ partial "get-image-url.html" "images/labs/flask.jpg" }}
+*/}}
+{{ $imagePath := . }}
+{{ if $imagePath }}
+  {{ $img := resources.Get $imagePath }}
+  {{ if $img }}
+    {{/* assetsから取得できた場合 */}}
+    {{ $img.RelPermalink }}
+  {{ else }}
+    {{/* staticから読み込む場合 */}}
+    {{ $imagePath | relURL }}
+  {{ end }}
+{{ end }}
+
+

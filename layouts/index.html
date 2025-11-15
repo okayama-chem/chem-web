@@ -35,9 +35,70 @@ $data.homepage.slider.enable }} {{ with $data.homepage.slider }} <section class=
         <h2 class="section-title">{{ .title | safeHTML }}</h2>
         <p>{{ .content | markdownify }}</p> {{ if .button.enable }} {{ with .button }} <a
           href="{{ .link | absLangURL }}" class="btn btn-outline-primary">{{ .label }}</a> {{ end }} {{ end }}
-      </div> {{ with .image }} <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
-        <img class="img-fluid w-100" src="{{ . | absURL }}" alt="about image">
-      </div> {{ end }}
+      </div> <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+        <div class="about-image-slideshow" data-labs-images>
+          {{ $labsDir := "images/labs" }}
+          {{ $imageFiles := slice }}
+          {{ $imageExtensions := slice ".jpg" ".jpeg" ".png" ".gif" ".webp" }}
+          {{/* assetsディレクトリから直接読み込む */}}
+          {{ $assetsLabsDir := printf "assets/%s" $labsDir }}
+          {{ if fileExists $assetsLabsDir }}
+            {{ $topLevelFiles := readDir $assetsLabsDir }}
+            {{ range $topLevelFiles }}
+              {{ if and (not .IsDir) (not (hasPrefix .Name "._")) }}
+                {{ $ext := lower (path.Ext .Name) }}
+                {{ if in $imageExtensions $ext }}
+                  {{ $imageFiles = $imageFiles | append (dict "path" (printf "%s/%s" $labsDir .Name) "name" .Name "base" (replaceRE "\\.[^.]+$" "" .Name)) }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+            {{ $subDirs := slice "inorganic" "nanochem" "theo" "theocomp" "theophys" }}
+            {{ range $subDir := $subDirs }}
+              {{ $subDirPath := printf "%s/%s" $assetsLabsDir $subDir }}
+              {{ if fileExists $subDirPath }}
+                {{ $subFiles := readDir $subDirPath }}
+                {{ range $subFiles }}
+                  {{ if and (not .IsDir) (not (hasPrefix .Name "._")) }}
+                    {{ $ext := lower (path.Ext .Name) }}
+                    {{ if in $imageExtensions $ext }}
+                      {{ $imageFiles = $imageFiles | append (dict "path" (printf "%s/%s/%s" $labsDir $subDir .Name) "name" .Name "base" (replaceRE "\\.[^.]+$" "" .Name) "subdir" $subDir) }}
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+          {{ if gt (len $imageFiles) 0 }}
+            {{ range $index, $imageInfo := $imageFiles }}
+              {{ $imagePath := $imageInfo.path }}
+              {{ $img := resources.Get $imagePath }}
+              {{ if $img }}
+                {{/* Fill: アスペクト比を保ったまま、指定サイズを埋める（はみ出る部分をカット） */}}
+                {{ $small := $img.Fill "400x300 webp q85" }}
+                {{ $medium := $img.Fill "800x600 webp q85" }}
+                {{ $large := $img.Fill "1200x900 webp q85" }}
+                {{ $fallback := $img.Fill "800x600 jpg q85" }}
+                <img class="about-slide-image" 
+                     src="{{ $fallback.RelPermalink }}" 
+                     srcset="{{ $small.RelPermalink }} 400w, {{ $medium.RelPermalink }} 800w, {{ $large.RelPermalink }} 1200w"
+                     sizes="(max-width: 576px) 100vw, (max-width: 768px) 50vw, 33vw"
+                     alt="lab image {{ add $index 1 }}" 
+                     data-image-src="{{ $fallback.RelPermalink }}"
+                     data-image-srcset="{{ $small.RelPermalink }} 400w, {{ $medium.RelPermalink }} 800w, {{ $large.RelPermalink }} 1200w"
+                     style="display: none;">
+              {{ else }}
+                <img class="about-slide-image" 
+                     src="{{ $imagePath | absURL }}" 
+                     alt="lab image {{ add $index 1 }}" 
+                     data-image-src="{{ $imagePath | absURL }}"
+                     style="display: none;">
+              {{ end }}
+            {{ end }}
+          {{ else }}
+            <img class="about-slide-image active" src="{{ "images/about/image14-34.jpeg" | absURL }}" alt="about image" style="display: block;">
+          {{ end }}
+        </div>
+      </div>
     </div>
   </div>
 </section> {{ end }} {{ end }} <!-- /about us -->
