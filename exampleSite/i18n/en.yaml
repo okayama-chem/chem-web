@@ -129,3 +129,6 @@
 
 - id: event
   translation: Events
+
+- id: research_topic
+  translation: Research Topics
