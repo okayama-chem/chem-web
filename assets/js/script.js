@@ -134,89 +134,73 @@
     });
   });
 
-  // About Image Slideshow
+  // About Random Image - リロードごとにランダムに1枚の画像を表示
   $(document).ready(function () {
-    var slideshow = $('.about-image-slideshow[data-labs-images]');
+    var slideshow = $('.about-image-slideshow[data-random-image]');
     if (slideshow.length > 0) {
-      var images = slideshow.find('.about-slide-image');
-      var totalImages = images.length;
-      
-      if (totalImages > 0) {
-        // 画像の配列を作成（srcsetも含む）
-        var imageArray = [];
-        images.each(function() {
-          var $img = $(this);
-          imageArray.push({
-            src: $img.attr('data-image-src'),
-            srcset: $img.attr('data-image-srcset') || $img.attr('srcset') || '',
-            element: $img
-          });
-        });
-        
-        // ランダムにシャッフル（Fisher-Yatesアルゴリズム）
-        function shuffleArray(array) {
-          for (var i = array.length - 1; i > 0; i--) {
-            var j = Math.floor(Math.random() * (i + 1));
-            var temp = array[i];
-            array[i] = array[j];
-            array[j] = temp;
+      var dataScript = $('#labs-images-data');
+      if (dataScript.length > 0) {
+        try {
+          // scriptタグ内のテキストを取得
+          var jsonText = dataScript.text() || dataScript.html();
+          if (!jsonText || jsonText.trim() === '') {
+            console.warn('labs-images-data is empty');
+            return;
           }
-          return array;
+          // 二重引用符で囲まれている場合は削除
+          jsonText = jsonText.trim();
+          if (jsonText.startsWith('"') && jsonText.endsWith('"')) {
+            jsonText = jsonText.slice(1, -1);
+            // エスケープされた引用符を元に戻す
+            jsonText = jsonText.replace(/\\"/g, '"').replace(/\\\\/g, '\\');
+          }
+          var imageData = JSON.parse(jsonText);
+          if (imageData && imageData.length > 0) {
+            // ランダムに1枚を選択
+            var randomIndex = Math.floor(Math.random() * imageData.length);
+            var selectedImage = imageData[randomIndex];
+            
+            // 画像要素を取得
+            var imgElement = slideshow.find('.about-slide-image');
+            if (imgElement.length === 0) {
+              console.warn('Image element not found');
+              return;
+            }
+            
+            // 画像を設定
+            if (selectedImage.fallback) {
+              imgElement.attr('src', selectedImage.fallback);
+              if (selectedImage.small && selectedImage.medium && selectedImage.large) {
+                imgElement.attr('srcset', selectedImage.small + ' 400w, ' + selectedImage.medium + ' 800w, ' + selectedImage.large + ' 1200w');
+                imgElement.attr('sizes', '(max-width: 576px) 100vw, (max-width: 768px) 50vw, 33vw');
+              }
+              
+              // 画像の読み込み完了後にフェードイン
+              imgElement.on('load', function() {
+                $(this).css('opacity', '1');
+              }).on('error', function() {
+                console.error('Failed to load image:', selectedImage.fallback);
+              });
+              
+              // 既に読み込まれている場合のフォールバック
+              if (imgElement[0] && imgElement[0].complete) {
+                imgElement.css('opacity', '1');
+              }
+            } else {
+              console.warn('Selected image has no fallback URL');
+            }
+          } else {
+            console.warn('No image data found or empty array');
+          }
+        } catch (e) {
+          console.error('Failed to parse image data:', e);
+          console.error('JSON text:', dataScript.text() || dataScript.html());
         }
-        
-        // 画像をランダムにシャッフル
-        var shuffledImages = shuffleArray(imageArray.slice());
-        var currentIndex = 0;
-        
-        // 最初の画像を表示
-        function showImage(index) {
-          images.css('display', 'none').removeClass('active');
-          var imageData = shuffledImages[index];
-          var imageElement = imageData.element;
-          imageElement.css('display', 'block');
-          setTimeout(function() {
-            imageElement.addClass('active');
-          }, 50);
-        }
-        
-        // 最初の画像を表示
-        showImage(0);
-        
-        // 5秒ごとに画像を切り替え
-        setInterval(function() {
-          currentIndex = (currentIndex + 1) % shuffledImages.length;
-          showImage(currentIndex);
-        }, 5000);
+      } else {
+        console.warn('labs-images-data script not found');
       }
     } else {
-      // 通常のスライドショー（images配列を使用する場合）
-      slideshow = $('.about-image-slideshow');
-      if (slideshow.length > 0) {
-        var images = slideshow.find('.about-slide-image');
-        var currentIndex = 0;
-        var totalImages = images.length;
-        
-        if (totalImages > 1) {
-          function showNextImage() {
-            // 現在の画像をフェードアウト
-            var currentImage = images.eq(currentIndex);
-            currentImage.removeClass('active');
-            
-            // 次の画像のインデックスを計算
-            currentIndex = (currentIndex + 1) % totalImages;
-            
-            // 次の画像をフェードイン
-            var nextImage = images.eq(currentIndex);
-            // 次のフレームでactiveクラスを追加してフェードイン
-            setTimeout(function() {
-              nextImage.addClass('active');
-            }, 50);
-          }
-          
-          // 5秒ごとに画像を切り替え
-          setInterval(showNextImage, 5000);
-        }
-      }
+      console.warn('about-image-slideshow[data-random-image] not found');
     }
   });
 

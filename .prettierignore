@@ -1,2 +1,3 @@
+# Hugoテンプレートファイルをフォーマット対象から除外
 layouts/**/*.html
-
+archetypes/**/*.md
