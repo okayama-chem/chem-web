@@ -203,4 +203,44 @@ $data.homepage.slider.enable }} {{ with $data.homepage.slider }} <section class=
         class="col-lg-4 col-sm-6 mb-5 mb-lg-0"> {{ .Render "post" }} </article> {{ end }}
     </div>
   </div>
-</section> {{ end }} <!-- /blog --> {{ end }}
+</section> {{ end }} <!-- /blog --> 
+ <section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">研究トピック</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <div>
+            <a href="{{`research-topic` | relLangURL }}"
+              class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block text-nowrap">{{ i18n "see_all" }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <!-- research-topic post -->
+      {{ range first 3 (where site.RegularPages "Type" "research-topic")}}
+      <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0 card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+        <a href="{{ .Permalink }}">
+          <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+        </a>
+        <div class="card-body">
+          <!-- post meta -->
+          <ul class="list-inline mb-3">
+            <!-- post date -->
+            <li class="list-inline-item mr-3 ml-0"><i class="ti-calendar"></i> {{ .PublishDate.Format "02 Jan, 2006" }}</li>
+          </ul>
+          <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+          <p class="card-text">{{ .Summary | truncate 100 }}</p>
+          <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">{{ i18n "read_more" }}</a>
+        </div>
+      </article>
+      {{ end }}
+</div>
+</div>
+</section>
+
+
+
+{{ end }}
