@@ -160,8 +160,20 @@ $data.homepage.slider.enable }} {{ with $data.homepage.slider }} <section class=
       </div>
     </div>
     <div class="row justify-content-center">
-      <!-- event --> {{ range first 3 (where site.RegularPages "Type" "event")}} <div
-        class="col-lg-4 col-sm-6 mb-5 mb-lg-0"> {{ .Render "event" }} </div> {{ end }}
+      <!-- event -->
+      {{ $now := now }}
+      {{ $events := where site.RegularPages "Type" "event" }}
+      {{ $activeEvents := slice }}
+      {{ range $events }}
+        {{ if or (not .Params.expireDate) (ge (.Params.expireDate | default (time "2099-12-31")) $now) }}
+          {{ $activeEvents = $activeEvents | append . }}
+        {{ end }}
+      {{ end }}
+      {{ range first 3 $activeEvents }}
+      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+        {{ .Render "event" }}
+      </div>
+      {{ end }}
     </div>
     <!-- mobile see all button -->
     <div class="row">

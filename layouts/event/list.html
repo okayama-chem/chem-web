@@ -5,10 +5,14 @@
   <div class="container">
     <div class="row">
       <!-- event -->
+      {{ $now := now }}
       {{ range .Data.Pages }}
-      <div class="col-lg-4 col-sm-6 mb-5">
-        {{ .Render "event" }}
-      </div>
+        {{ $expireDate := .Params.expireDate | default (time "2099-12-31") }}
+        {{ if or (not .Params.expireDate) (ge $expireDate $now) }}
+        <div class="col-lg-4 col-sm-6 mb-5">
+          {{ .Render "event" }}
+        </div>
+        {{ end }}
       {{ end }}
     </div>
   </div>
