@@ -220,8 +220,12 @@ $data.homepage.slider.enable }} {{ with $data.homepage.slider }} <section class=
     </div>
     <div class="row justify-content-center">
       <!-- research-topic post -->
+      {{ $now := now }}
+      {{ $previewMode := false }}
       {{ range first 3 (where site.RegularPages "Type" "research-topic")}}
-      <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0 card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+        {{ $isFuture := gt .PublishDate $now }}
+        {{ if or (not $isFuture) $previewMode }}
+      <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0 card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow"{{ if $isFuture }} data-preview="true" style="display: none;"{{ end }}>
         <a href="{{ .Permalink }}">
           <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
         </a>
@@ -236,6 +240,7 @@ $data.homepage.slider.enable }} {{ with $data.homepage.slider }} <section class=
           <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">{{ i18n "read_more" }}</a>
         </div>
       </article>
+        {{ end }}
       {{ end }}
 </div>
 </div>

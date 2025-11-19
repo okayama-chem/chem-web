@@ -204,5 +204,21 @@
     }
   });
 
+  // Preview Mode - URLに?preview=trueを付加すると、未来の日付のコンテンツも表示
+  $(document).ready(function () {
+    var urlParams = new URLSearchParams(window.location.search);
+    var previewMode = urlParams.get('preview') === 'true';
+    
+    if (previewMode) {
+      // data-preview属性を持つ要素を表示
+      $('[data-preview="true"]').css('display', '');
+      
+      // プレビューモードであることを示すバナーを表示（オプション）
+      if ($('[data-preview="true"]').length > 0) {
+        $('body').prepend('<div style="background-color: #ffc107; color: #000; padding: 10px; text-align: center; font-weight: bold; position: sticky; top: 0; z-index: 9999;">プレビューモード: 未来の日付のコンテンツを表示しています</div>');
+      }
+    }
+  });
+
 
 })(jQuery);

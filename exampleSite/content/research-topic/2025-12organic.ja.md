@@ -1,11 +1,11 @@
 ---
 title: "船の燃費を悪くするフジツボがくっつかないようにするには?"
-date: 2025-11-01T00:00:00+09:00
+date: 2025-12-01T00:00:00+09:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "毒性を示さない新たな付着阻害剤の開発が世界中で求められています。有機化合物であるザイレミンおよびその関連化合物が、フジツボの付着を阻害する効果を持ち、かつ毒性を示さないことを発見しました。・生物や環境に優しい新たな防汚塗料の開発が期待されます。"
+description : "毒性を示さない新たな付着阻害剤の開発が世界中で求められています。有機化合物であるザイレミンおよびその関連化合物が、フジツボの付着を阻害する効果を持ち、かつ毒性を示さないことを発見しました。生物や環境に優しい新たな防汚塗料の開発が期待されます。"
 # Research image
 image: images/research/organic/Picture1.png
 # taxonomy
@@ -42,12 +42,12 @@ type: "research-topic"
 
 #### 今後の展望
 
-今回の発見は、__「生物を殺さずに付着だけを妨害する」__ という、環境負荷の少ない画期的な防汚剤開発への大きな一歩です。
+今回の発見は、__生物を殺さずに付着だけを妨害する__ という、環境負荷の少ない画期的な防汚剤開発への大きな一歩です。
 
 今後、ザイレミンおよびその関連化合物を用いることで、効果的で安全、かつ生物・環境にやさしい新たな防汚塗料が開発され、海洋産業の持続可能な発展に貢献することが期待されます。
 
 
-
+- [岡山大学プレスリリース](https://www.okayama-u.ac.jp/tp/release/release_id1356.html)
 - Takamura, H., Yorisue, T., Tanaka, K. & Kadota, I. Antifouling activity of xylemin, its structural analogs, and related polyamines. Chem. Biodivers. 22, e202403213 (2025). [DOI:10.1002/cbdv.202403213](https://doi.org/10.1002/cbdv.202403213)
 
 髙村先生の研究をもっと知りたい!→[有機化学研究室](/laboratory/organic/)
