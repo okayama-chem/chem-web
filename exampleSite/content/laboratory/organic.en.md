@@ -24,7 +24,7 @@ faculties:
 - id: takamura
   name: Assoc. Prof. Hiroyoshi Takamura
 - id: tanaka
-  name: null
+  name: Assist. Prof. Kenta Tanaka
 
 
 # contact info
