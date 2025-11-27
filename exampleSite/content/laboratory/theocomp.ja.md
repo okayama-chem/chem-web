@@ -28,6 +28,8 @@ keywords: ["分子シミュレーション", "脂質・生体膜", "ソフトマ
 faculties:
 - id: shinoda
   name: 篠田 渉 教授
+- id: nagai
+  name: 永井 哲郎 准教授
 
 
 # 連絡方法。SNSのアカウントなども。

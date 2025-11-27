@@ -21,6 +21,8 @@ keywords: ["Molecular Simulation", "Lipid Membranes / Biological Membranes", "So
 faculties:
 - id: shinoda
   name: Prof. Wataru Shinoda
+- id: nagai
+  name: Assoc. Prof. Tetsuro Nagai 
 
 
 # contact info
