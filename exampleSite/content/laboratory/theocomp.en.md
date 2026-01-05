@@ -6,45 +6,51 @@ draft: false
 bg_image: "images/banner/bg1.jpg"
 
 # meta description ~100 letters in Japanese
-description : "Molecular design and analysis of phenomena and functions by molecular simulation for biomacromolecular assemblies and soft material systems"
+description: "Molecular design and analysis of phenomena and functions by molecular simulation for biomacromolecular assemblies and soft material systems"
 
 # Research image
+# assets/images/labs フォルダーに写真ファイルを入れ、
+# 以下にそのパスを指定して下さい。
+# 例: image: "images/labs/phys.jpg"
 image: "images/labs/theocomp/VesMemLabJ.jpg"
 
 # interest
 
 # taxonomy
 la_group: "Molecular Chemistry" # 分子化学 | 物質化学 | 反応化学
-keywords: ["Molecular Simulation", "Lipid Membranes / Biological Membranes", "Soft Materials"]
+keywords:
+  [
+    "Molecular Simulation",
+    "Lipid Membranes / Biological Membranes",
+    "Soft Materials",
+  ]
 
 # faculties; label: true name and title
 faculties:
-- id: shinoda
-  name: Prof. Wataru Shinoda
-- id: nagai
-  name: Assoc. Prof. Tetsuro Nagai 
-
+  - id: shinoda
+    name: Prof. Wataru Shinoda
+  - id: nagai
+    name: Assoc. Prof. Tetsuro Nagai
 
 # contact info
 contact:
-- icon: ti-email
-  link: mailto:shinoda@okayama-u.ac.jp
-  name: shinoda@okayama-u.ac.jp
-- icon: ti-mobile
-  link: tel:086-251-7854
-  name: 086-251-7854
-- icon: ti-printer
-  link: tel:086-251-7769
-  name: FAX 086-251-7769
+  - icon: ti-email
+    link: mailto:shinoda@okayama-u.ac.jp
+    name: shinoda@okayama-u.ac.jp
+  - icon: ti-mobile
+    link: tel:086-251-7854
+    name: 086-251-7854
+  - icon: ti-printer
+    link: tel:086-251-7769
+    name: FAX 086-251-7769
 
+  - name: "Theoretical and Computational Chemistry Laboratory (Group Website)"
+    icon: "ti-world" # icon pack : https://themify.me/themify-icons
+    link: "http://theocomp.chem.okayama-u.ac.jp/"
 
-- name : "Theoretical and Computational Chemistry Laboratory (Group Website)"
-  icon : "ti-world" # icon pack : https://themify.me/themify-icons
-  link : "http://theocomp.chem.okayama-u.ac.jp/"
-
-- name : "3-1-1 Tsushima-Naka, Kita Ward, Okayama City, Okayama 700-8530"
-  icon : "ti-location-pin" # icon pack : https://themify.me/themify-icons
-  link : "#"
+  - name: "3-1-1 Tsushima-Naka, Kita Ward, Okayama City, Okayama 700-8530"
+    icon: "ti-location-pin" # icon pack : https://themify.me/themify-icons
+    link: "#"
 
 # type
 type: "laboratory"

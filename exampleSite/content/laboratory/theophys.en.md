@@ -9,7 +9,10 @@ bg_image: "images/banner/bg1.jpg"
 description: "None"
 
 # Research image
-image: "images/labs/flask.jpg"
+# assets/images/labs フォルダーに写真ファイルを入れ、
+# 以下にそのパスを指定して下さい。
+# 例: image: "images/labs/phys.jpg"
+image: "images/labs/theophys/web202601.jpg"
 
 # interest
 

@@ -12,10 +12,10 @@ bg_image: "images/banner/bg1.jpg"
 description: "液体・溶液・界面の理論的研究，タンパク質科学・生物物理学・理論生物学"
 
 # 研究室のカード表示で用いる写真。
-# 研究室独自で設定する場合は、exampleSite/images/labs フォルダーに写真ファイルを入れ、
-# 以下にそのパスを指定して下さい。横400ピクセル程度の解像度を推奨。
+# assets/images/labs フォルダーに写真ファイルを入れ、
+# 以下にそのパスを指定して下さい。
 # 例: image: "images/labs/phys.jpg"
-image: "images/labs/flask.jpg"
+image: "images/labs/theophys/web202601.jpg"
 
 # 大講座名
 la_group: "分子化学" # 分子化学 | 物質化学 | 反応化学 | 界面化学

@@ -1,5 +1,4 @@
 ---
-
 title: "理論化学研究室"
 draft: false
 
@@ -15,16 +14,13 @@ bg_image: "images/labs/theo/yinyang2.jpg"
 
 # 100文字程度の説明文。ページ上部に表示されます。
 
-description : "コンピュータを用いた固体・液体の基本的な性質の研究"
+description: "コンピュータを用いた固体・液体の基本的な性質の研究"
 
 # 研究室のカード表示で用いる写真。
 
-# 研究室独自で設定する場合は、static/images/labs フォルダーに写真ファイルを入れ、
-
-# 以下にそのパスを指定して下さい。横400ピクセル程度の解像度を推奨。
-
+# assets/images/labs フォルダーに写真ファイルを入れ、
+# 以下にそのパスを指定して下さい。
 # 例: image: "images/labs/phys.jpg"
-
 image: "images/labs/theo/beans.jpg"
 
 # 大講座名
@@ -42,36 +38,32 @@ keywords: ["水の科学", "分子シミュレーション", "統計力学"]
 # nameには氏名と職階を書きます。
 
 faculties:
-
-- id: matsumoto
-  name: 松本 正和 准教授
+  - id: matsumoto
+    name: 松本 正和 准教授
 
 # 連絡方法。SNSのアカウントなども。
 
 contact:
+  - icon: ti-email
+    link: mailto:matsu-m3@okayama-u.ac.jp
+    name: matsu-m3@okayama-u.ac.jp
 
-- icon: ti-email
-  link: mailto:matsu-m3@okayama-u.ac.jp
-  name: matsu-m3@okayama-u.ac.jp
+  - icon: ti-mobile
+    link: tel:086-251-7846
+    name: 086-251-7846
 
-- icon: ti-mobile
-  link: tel:086-251-7846
-  name: 086-251-7846
+  - name: "理論化学研究室ウェブサイト"
+    icon: "ti-world" # icon pack : https://themify.me/themify-icons
+    link: "https://tetrahedroid.github.io/"
 
-- name : "理論化学研究室ウェブサイト"
-  icon : "ti-world" # icon pack : https://themify.me/themify-icons
-  link : "https://tetrahedroid.github.io/"
-
-- name : "700-8530 岡山県岡山市津島中3－1－1"
-  icon : "ti-location-pin" # icon pack : https://themify.me/themify-icons
-  link : "#"
+  - name: "700-8530 岡山県岡山市津島中3－1－1"
+    icon: "ti-location-pin" # icon pack : https://themify.me/themify-icons
+    link: "#"
 
 # type
 
 type: "laboratory"
-
 # 下の"---"以下に、研究室の紹介文をMarkdown書式で書きこんで下さい。
-
 ---
 
 計算機シミュレーションと統計力学理論により、水や氷の変わった性質を探っています。

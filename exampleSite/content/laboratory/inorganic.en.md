@@ -9,6 +9,9 @@ bg_image: "images/banner/bg1.jpg"
 description: "Elucidation of functions on porous materials and development of new porous materials"
 
 # Research image
+# assets/images/labs フォルダーに写真ファイルを入れ、
+# 以下にそのパスを指定して下さい。
+# 例: image: "images/labs/phys.jpg"
 image: "images/labs/inorganic/SWCNT.jpg"
 
 # interest
