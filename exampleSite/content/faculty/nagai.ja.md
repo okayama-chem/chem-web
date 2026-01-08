@@ -27,7 +27,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "生体高分子集合・ソフトマテリアル系を対象とした分子シミュレーションによる現象や機能の解析と分子設計"
 
 # portrait写真。横400ピクセル程度の解像度を推奨。
-image: "images/faculty/anonymous.png"
+image: "images/faculty/nagai.jpg"
 
 # 研究分野。3つ以上増やしても構いません。
 interest: ["分子シミュレーション", "脂質・生体膜", "ソフトマテリアル", "物質輸送"]

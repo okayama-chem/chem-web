@@ -12,8 +12,8 @@ bg_image: "images/banner/bg1.jpg"
 description: "細孔性材料の機能解明と新規材料開発"
 
 # 研究室のカード表示で用いる写真。
-# 研究室独自で設定する場合は、exampleSite/images/labs フォルダーに写真ファイルを入れ、
-# 以下にそのパスを指定して下さい。横400ピクセル程度の解像度を推奨。
+# assets/images/labs フォルダーに写真ファイルを入れ、
+# 以下にそのパスを指定して下さい。
 # 例: image: "images/labs/phys.jpg"
 image: "images/labs/inorganic/SWCNT.jpg"
 
