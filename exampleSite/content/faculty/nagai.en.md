@@ -24,7 +24,7 @@ bg_image: "images/banner/bg1.jpg"
 description : "Molecular design and analysis of phenomena and functions by molecular simulation for biomacromolecular assemblies and soft material systems"
 
 # teacher portrait
-image: "images/faculty/anonymous.png"
+image: "images/faculty/nagai.jpg"
 
 # interest
 interest: ["Molecular Simulation", "Lipid Membranes / Biological Membranes", "Soft Materials", "Mass Transport"]
