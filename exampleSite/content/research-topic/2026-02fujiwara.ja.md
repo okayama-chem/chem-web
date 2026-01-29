@@ -10,7 +10,8 @@ description: "ナノ化学研究室では、ナノの世界を正確に調べる
 image: images/research/nano/nanodiamond.png
 # taxonomy
 rt_categories: ["物理化学"] # 有機化学、無機化学、物理化学、etc.
-rt_tags: ["ナノダイヤモンド", "超高品質材料", "ナノセンサー", "温度測定", "量子の性質"]
+rt_tags:
+  ["ナノダイヤモンド", "超高品質材料", "ナノセンサー", "温度測定", "量子の性質"]
 # author
 author: "fujiwara"
 # type
@@ -21,26 +22,30 @@ type: "research-topic"
 その大きさは「ナノメートル」と呼ばれ、髪の毛の太さの約10万分の1ほどです。このナノの世界では、ほんのわずかな違いが、物質の性質や生命のはたらきを大きく変えてしまいます。
 [**ナノ化学研究室**](/laboratory/nano/)では、ナノの世界を正確に調べるための物質として、超高品質ナノダイヤモンドの研究を行っています。
 
-## 超高品質ナノダイヤモンドとは？
+### 超高品質ナノダイヤモンドとは？
+
 ダイヤモンドは、とてもかたい宝石として知られていますが、実は光る性質も持っています。特に、ダイヤモンドの中にごくわずかに含まれる窒素原子と欠陥（空孔）が隣り合わせになった場合は、緑色の光を当てると赤い光を発します。私たちは、ダイヤモンドの中の不純物や構造を制御することで、これまでよりも正確に温度を測れる「超高品質ナノダイヤモンド」をつくる研究をしています。
 
-## わずかな変化を測るナノのセンサー
+### わずかな変化を測るナノのセンサー
+
 超高品質ナノダイヤモンドは、単に光るだけでなく、温度や周囲の環境の変化を感じ取るナノサイズのセンサーとして使うことができます。たとえば、細胞の中で起こる小さな温度変化や、化学反応にともなう環境の変化を、ナノダイヤモンドを使って調べることができます。細胞の大きさは20マイクロメートル（髪の毛の1/5程度）、その中に入る温度計はありません。
 
-## ナノ材料から新しい計測技術へ
+### ナノ材料から新しい計測技術へ
+
 ナノの世界では、「よい材料」をつくることが、そのまま「よい測定」につながります。[**ナノ化学研究室**](/laboratory/nano/)では、材料の合成や表面の工夫を通して、ナノダイヤモンドの力を最大限に引き出す化学を探っています。こうした研究は、生命科学、医療、環境計測など、さまざまな分野への応用が期待されています。
 
-## こんな人に向いています
+### こんな人に向いています
 
 - 小さな世界やナノ材料に興味がある
 - 宝石ではない「科学のダイヤモンド」にワクワクする
 - 化学を使って新しい道具をつくってみたい
 - 物理や生物にも少し興味がある
 
-## キーワード
+### キーワード
+
 ナノダイヤモンド／超高品質材料／ナノセンサー／温度測定／量子の性質
 
 - 岡山大学プレスリリース　https://www.okayama-u.ac.jp/tp/release/release_id1311.html
-- Keisuke Oshimi, Hitoshi Ishiwata, Hiromu Nakashima, Sara Mandić, Hina Kobayashi, Minori Teramoto, Hirokazu Tsuji, Yoshiki Nishibayashi, Yutaka Shikano, Toshu An, Masazumi Fujiwara, “Bright quantum-grade fluorescent nanodiamonds”, *ACS Nano* **18**, 35202 (2024). DOI: [10.1021/acsnano.4c03424](https://doi.org/10.1021/acsnano.4c03424)
+- Keisuke Oshimi, Hitoshi Ishiwata, Hiromu Nakashima, Sara Mandić, Hina Kobayashi, Minori Teramoto, Hirokazu Tsuji, Yoshiki Nishibayashi, Yutaka Shikano, Toshu An, Masazumi Fujiwara, “Bright quantum-grade fluorescent nanodiamonds”, _ACS Nano_ **18**, 35202 (2024). DOI: [10.1021/acsnano.4c03424](https://doi.org/10.1021/acsnano.4c03424)
 
 [**藤原先生**](/faculty/fujiwara)の研究をもっと知りたい!→[**ナノ化学研究室**](/laboratory/nano/)
