@@ -12,7 +12,7 @@ description: "Development of Synthetic Organic Reactions Catalyzed by Organometa
 # assets/images/labs フォルダーに写真ファイルを入れ、
 # 以下にそのパスを指定して下さい。
 # 例: image: "images/labs/phys.jpg"
-image: "images/labs/flask.jpg"
+image: "images/labs/funcchem/eyecatch.jpg"
 
 # interest
 
