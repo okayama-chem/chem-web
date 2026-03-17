@@ -12,7 +12,7 @@ description: "We are studying the mechanisms of photocatalysts as well as low-co
 # assets/images/labs フォルダーに写真ファイルを入れ、
 # 以下にそのパスを指定して下さい。
 # 例: image: "images/labs/phys.jpg"
-image: "images/labs/flask.jpg"
+image: "images/labs/yamakata.jpg"
 
 # interest
 

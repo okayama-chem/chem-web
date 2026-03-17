@@ -15,7 +15,7 @@ description: "太陽光を用いて水から水素を製造できる光触媒や
 # assets/images/labs フォルダーに写真ファイルを入れ、
 # 以下にそのパスを指定して下さい。
 # 例: image: "images/labs/phys.jpg"
-image: "images/labs/flask.jpg"
+image: "images/labs/yamakata.jpg"
 
 # 大講座名
 la_group: "分子化学" # 分子化学 | 物質化学 | 反応化学 | 界面化学
