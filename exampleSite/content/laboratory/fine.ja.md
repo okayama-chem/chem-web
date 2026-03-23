@@ -15,12 +15,12 @@ description: "None"
 # assets/images/labs フォルダーに写真ファイルを入れ、
 # 以下にそのパスを指定して下さい。
 # 例: image: "images/labs/phys.jpg"
-image: "images/labs/flask.jpg"
+image: "images/labs/fine/界面.png"
 
 # 大講座名
 la_group: "界面化学" # 分子化学 | 物質化学 | 反応化学 | 界面化学
 # キーワードを3つより増やしても構いません。
-keywords: ["None", "None", "None"]
+keywords: ["界面化学", "粉体化学", "超伝導", "トポロジカル材料", "電界効果トランジスタ"]
 
 # 教員
 # idには、ウェブページ内での個人id (例: 甲賀先生ならkoga) を指定します。

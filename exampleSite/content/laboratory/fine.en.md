@@ -12,13 +12,13 @@ description: "None"
 # assets/images/labs フォルダーに写真ファイルを入れ、
 # 以下にそのパスを指定して下さい。
 # 例: image: "images/labs/phys.jpg"
-image: "images/labs/flask.jpg"
+image: "images/labs/fine/界面.png"
 
 # interest
 
 # taxonomy
 la_group: "Interfacial Chemistry" # 分子化学 | 物質化学 | 反応化学
-keywords: ["None", "None", "None"]
+keywords: ["Transition Metal Complexes", "Lanthanoid Complexes", "Magnetic Properties", "Spin-Crossover", "Optically Active Compound Resolution"]
 
 # faculties; label: true name and title
 faculties:
