@@ -9,7 +9,7 @@ draft: false
 bg_image: "images/banner/bg1.jpg"
 
 # 100文字程度の説明文。ページ上部に表示されます。
-description: "None"
+description: "二次元層状物質の超伝導を基軸に、トポロジカル材料と高性能電子素子を開拓します。"
 
 # 研究室のカード表示で用いる写真。
 # assets/images/labs フォルダーに写真ファイルを入れ、

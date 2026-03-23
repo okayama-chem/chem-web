@@ -6,7 +6,7 @@ draft: false
 bg_image: "images/banner/bg1.jpg"
 
 # meta description ~100 letters in Japanese
-description: "None"
+description: "Centered on superconductivity in layered 2D materials, we explore topological materials and high-performance electronic devices."
 
 # Research image
 # assets/images/labs フォルダーに写真ファイルを入れ、
