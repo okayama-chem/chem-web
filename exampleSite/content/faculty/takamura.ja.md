@@ -1,118 +1,68 @@
 ---
-title: "髙村 浩由"
+title: 髙村 浩由
 draft: false
-
-# Job rank 職階
-rank: "准教授" # 教授 | 准教授 | 助教 | ...
-
-# Sort oorder
+rank: 准教授
 weight: 2
-
-# Laboratory group
-la_group: "反応化学" # 分子化学 | 物質化学 | 反応化学 | 界面化学
-
-# Laboratory
+la_group: 反応化学
 laboratory:
   id: organic
   name: 有機化学研究室
-
-
-# ページ上部の背景画像。
-# 独自で設定する場合は、exampleSite/images/faculty フォルダーに写真ファイルを入れ、
-# 以下にそのパスを指定して下さい。横1000ピクセル程度の解像度を推奨。
-# 例: bg_image: "images/faculty/koga_banner.jpg"
-bg_image: "images/banner/bg1.jpg"
-
-# 100文字程度の説明文。ページ上部に表示されます。
-description : "天然物および生物活性分子の合成と評価"
-
-# portrait写真。横400ピクセル程度の解像度を推奨。
-image: "images/faculty/takamura.jpg"
-
-# 研究分野。3つ以上増やしても構いません。
-interest: ["有機合成化学", "天然物", "生物活性分子"]
-
-# 業績。Reserchmapや科研費情報なども適宜追加して下さい。
-# 業績が[]となっている人は、他の方のachievements欄を参考に記入して下さい。
+bg_image: images/banner/bg1.jpg
+description: 天然物および生物活性分子の合成と評価
+image: images/faculty/takamura.jpg
+interest:
+  - 有機合成化学
+  - 天然物
+  - 生物活性分子
 achievements:
-- icon: ti-id-badge
-  link: https://researcherid.com/rid/B-1497-2011
-  name: ResearcherID B-1497-2011
-- icon: ti-id-badge
-  link: https://orcid.org/0000-0002-8330-969X
-  name: ORCID 0000-0002-8330-969X
-
-
-# 連絡先。SNSも追加できます。
+  - icon: ti-id-badge
+    link: https://researcherid.com/rid/B-1497-2011
+    name: ResearcherID B-1497-2011
+  - icon: ti-id-badge
+    link: https://orcid.org/0000-0002-8330-969X
+    name: ORCID 0000-0002-8330-969X
 contact:
-- icon: ti-email
-  link: mailto:takamura@okayama-u.ac.jp
-  name: takamura@okayama-u.ac.jp
-
-
-- name : "有機化学研究室 ウェブサイト"
-  icon : "ti-world" # icon pack : https://themify.me/themify-icons
-  link : "http://chem.okayama-u.ac.jp/~organic/homejpn.html"
-
-- name : "700-8530 岡山県岡山市津島中3－1－1 None"
-  icon : "ti-location-pin" # icon pack : https://themify.me/themify-icons
-  link : "#"
-
-# type
-type: "faculty"
-
-# 下の"---"以下に、個人の紹介文をMarkdown書式で書きこんで下さい。
-
-
+  - icon: ti-email
+    link: mailto:takamura@okayama-u.ac.jp
+    name: takamura@okayama-u.ac.jp
+  - name: 有機化学研究室 ウェブサイト
+    icon: ti-world
+    link: http://chem.okayama-u.ac.jp/~organic/homejpn.html
+  - name: 700-8530 岡山県岡山市津島中3－1－1 None
+    icon: ti-location-pin
+    link: "#"
+type: faculty
 ---
 
 ### 経歴
 
-* 平成8年3月　福島県立相馬高等学校卒業
-
-* 平成12年3月　東北大学理学部化学科卒業
-
-* 平成14年4月　東北大学大学院理学研究科修士課程修了　（山本嘉則　教授）
-
-* 平成17年3月　東北大学大学院理学研究科博士課程修了　（山本嘉則　教授）
-
-* 平成15年4月～17年3月　日本学術振興会特別研究員　（ＤＣ，東北大学）
-
-* 平成17年4月～10月　日本学術振興会特別研究員　（ＰＤ，名古屋大学）
-
-* 平成17年11月～19年9月　名古屋大学大学院理学研究科　助手　（上村大輔　教授）
-
-* 平成19年10月～平成27年2月　岡山大学大学院自然科学研究科　助教
-
-* 平成27年3月～現在　岡山大学大学院自然科学研究科　准教授
+- 平成8年3月　福島県立相馬高等学校卒業
+- 平成12年3月　東北大学理学部化学科卒業
+- 平成14年4月　東北大学大学院理学研究科修士課程修了　（山本嘉則　教授）
+- 平成17年3月　東北大学大学院理学研究科博士課程修了　（山本嘉則　教授）
+- 平成15年4月～17年3月　日本学術振興会特別研究員　（ＤＣ，東北大学）
+- 平成17年4月～10月　日本学術振興会特別研究員　（ＰＤ，名古屋大学）
+- 平成17年11月～19年9月　名古屋大学大学院理学研究科　助手　（上村大輔　教授）
+- 平成19年10月～平成27年2月　岡山大学大学院自然科学研究科　助教
+- 平成27年3月～現在　岡山大学大学院自然科学研究科　准教授
   
-  ### 受賞
+### 受賞
 
-* 平成31年3月　岡山大学理学部教育貢献賞
-
-* 平成28年1月　Top 10 Best Reviewer 2015 for Tetrahedron Journal
-
-* 平成27年7月　平成27年度岡山工学振興会科学技術賞
-
-* 平成25年11月　平成25年度有機合成化学協会中国四国支部奨励賞
-
-* 平成23年12月　2011年度（第24回）有機合成化学協会塩野義製薬研究企画賞
-
-* 平成20年7月　平成20年度岡山工学振興会科学技術賞
-
-* 平成17年10月　第47回天然有機化合物討論会奨励賞
-
-* 平成17年3月　東北大学総長賞
-
-* 平成17年3月　東北大学青葉理学振興会賞
-
-* 平成16年8月　IUPAC ICOS-15　ポスターVIP賞
-
-* 平成15年3月　日本化学会第83春季年会学生講演賞
+- 平成31年3月　岡山大学理学部教育貢献賞
+- 平成28年1月　Top 10 Best Reviewer 2015 for Tetrahedron Journal
+- 平成27年7月　平成27年度岡山工学振興会科学技術賞
+- 平成25年11月　平成25年度有機合成化学協会中国四国支部奨励賞
+- 平成23年12月　2011年度（第24回）有機合成化学協会塩野義製薬研究企画賞
+- 平成20年7月　平成20年度岡山工学振興会科学技術賞
+- 平成17年10月　第47回天然有機化合物討論会奨励賞
+- 平成17年3月　東北大学総長賞
+- 平成17年3月　東北大学青葉理学振興会賞
+- 平成16年8月　IUPAC ICOS-15　ポスターVIP賞
+- 平成15年3月　日本化学会第83春季年会学生講演賞
   
-  ### 研究分野
+### 研究分野
   
-  有機合成化学、天然物合成
+有機合成化学、天然物合成
 
 ### 論文
 
