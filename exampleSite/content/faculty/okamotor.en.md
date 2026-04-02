@@ -9,7 +9,7 @@ laboratory:
   name: Theoretical Physical Chemistry Laboratory
 bg_image: images/banner/bg1.jpg
 description: Theoretical study on liquids and liquid mixtures, fluid interfaces, soft matters, phase transitions, and effective interactions in liquids
-image: images/faculty/okamotor.jpg
+image: images/faculty/anonymous.png
 interest:
   - Liquids
   - Liquid Interfaces

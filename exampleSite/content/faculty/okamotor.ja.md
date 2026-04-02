@@ -9,7 +9,7 @@ laboratory:
   name: 理論物理化学研究室
 bg_image: images/banner/bg1.jpg
 description: 液体，界面，ソフトマターの理論
-image: images/faculty/okamotor.jpg
+image: images/faculty/anonymous.png
 interest:
   - 液体
   - 界面
