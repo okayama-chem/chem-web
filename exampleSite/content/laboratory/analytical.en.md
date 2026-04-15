@@ -12,7 +12,7 @@ description: "Development of novel nanomaterials and hig-performance analytical 
 # assets/images/labs フォルダーに写真ファイルを入れ、
 # 以下にそのパスを指定して下さい。
 # 例: image: "images/labs/phys.jpg"
-image: "images/labs/flask.jpg"
+image: "images/labs/analytic/260415.png"
 
 # interest
 
