@@ -6,7 +6,7 @@ bg_image: images/backgrounds/page-title.jpg
 description: ナノ化学研究室では、ナノの世界を正確に調べるための物質として、超高品質ナノダイヤモンドの研究を行っています。ダイヤモンドの中の不純物や構造を制御することで、これまでよりも正確に温度を測れるナノサイズのセンサーを開発しています。
 image: images/research/nano/nanodiamond.png
 rt_categories:
-  - 物理化学
+  - 無機化学
 rt_tags:
   - ナノダイヤモンド
   - 超高品質材料

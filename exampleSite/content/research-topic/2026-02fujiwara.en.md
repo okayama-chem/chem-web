@@ -9,7 +9,7 @@ description: "The Nanochemistry Laboratory is researching ultra-high-quality nan
 # Research image
 image: images/research/nano/nanodiamond.png
 # taxonomy
-rt_categories: ["Physical Chemistry"] # Organic Chemistry, Inorganic Chemistry, Physical Chemistry, etc.
+rt_categories: ["Inorganic Chemistry"] # Organic Chemistry, Inorganic Chemistry, Physical Chemistry, etc.
 rt_tags:
   [
     "Nanodiamond",
