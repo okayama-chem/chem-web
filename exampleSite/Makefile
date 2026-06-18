@@ -1,5 +1,5 @@
 preview:
-	hugo server --themesDir ../.. --bind=0.0.0.0 --baseURL=http://www.chem.okayama-u.ac.jp --disableFastRender --buildFuture
+	hugo server --themesDir ../.. --bind=0.0.0.0 --baseURL=http://www.chem.okayama-u.ac.jp --disableFastRender --buildFuture --buildDrafts
 
 deploy:
 	hugo --themesDir ../.. -d /var/www/html2 --debug
