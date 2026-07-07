@@ -30,4 +30,4 @@ This study identifies the minimal physical requirements for viral envelope forma
 ### Reference Paper
 - Ryo Urano, Shogo Yoshimoto, Katsutoshi Hori, Wataru Shinoda (2026) "Synergistic Protein–Protein and Protein–Lipid Interactions Drive SARS-CoV-2 Envelope Assembly" Journal of Chemical Information and Modeling. [DOI: 10.1021/acs.jcim.6c01060](https://doi.org/10.1021/acs.jcim.6c01060)
 
-Learn more about [**Prof. Shinoda**](/en/faculty/shinoda) → [**理論計算化学研究室**](/en/laboratory/theocomp/)
+Learn more about [**Prof. Shinoda**](/en/faculty/shinoda) → [**Theoretical and Computational Chemistry Laboratory**](/en/laboratory/theocomp/)

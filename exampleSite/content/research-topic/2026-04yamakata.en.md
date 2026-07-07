@@ -1,43 +1,60 @@
 ---
-title: "\"All-in-One\" Cocatalyst: 2D MOF for Efficient Photocatalytic Water Splitting"
+title: "Solving a Long-Standing Mystery in Visible-Light Photocatalysts"
 date: 2026-06-23T00:00:00+09:00
 draft: true
 bg_image: "images/backgrounds/page-title.jpg"
-description: "This research introduces a two-dimensional metal-organic framework (MOF) that functions as an \"all-in-one\" cocatalyst, simultaneously promoting hydrogen and oxygen evolution reactions in photocatalytic water splitting, paving the way for efficient hydrogen production."
-image: "images/backgrounds/page-title.jpg"
+description: "Prof. Yamakata and collaborators clarified how hole trapping works in visible-light photocatalysts, organizing the behavior into three types and offering a new design guide for highly active, long-lasting materials."
+image: "images/research/yamakata/image5-34.png"
 rt_categories: ["Physical Chemistry"]
-rt_tags: ["Physical Chemistry", "Catalysis", "MOF", "Water Splitting", "Hydrogen Energy", "2D Materials"]
+rt_tags: ["Physical Chemistry", "Photocatalyst", "Visible Light", "Water Splitting", "Hydrogen Energy", "Materials Design"]
 author: "yamakata"
 type: "research-topic"
 ---
 
-### Hydrogen: The Future of Green Energy and the Challenge of Photocatalysis
+### A Key Material for Making Hydrogen from Sunlight
 
-"Hydrogen energy" is gaining significant attention as a key solution for climate change. Producing hydrogen cleanly from water, known as "water splitting," is a crucial technology. In particular, "photocatalytic water splitting," which uses solar energy to decompose water into hydrogen and oxygen, is considered vital for sustainable hydrogen production.
+Photocatalysts, which use light to split water into hydrogen and oxygen, are attracting global attention as a clean-energy technology for a decarbonized society. Especially important are photocatalysts that can use visible light, because visible light makes up most of sunlight.
 
-However, for the water splitting reaction, it is necessary to efficiently drive both the "hydrogen evolution reaction (HER)" and the "oxygen evolution reaction (OER)." Traditionally, separate "cocatalysts" were required for each reaction, which had to be loaded onto the photocatalyst through complex, multi-step photodeposition processes. Furthermore, special "blocking layers" were often needed to prevent the "reverse reaction" where hydrogen and oxygen recombine into water, adding significant complexity to the system.
+Yet one long-standing challenge has been understanding the behavior of "holes" inside these materials. A hole is a positively charged state left behind when light excites an electron, and it plays a central role in oxidizing water to generate oxygen.
 
-### Introducing the "All-in-One" 2D MOF Cocatalyst
+### The Mystery Was Where the Holes Get Trapped
 
-In this research, a groundbreaking material was discovered that addresses these challenges simultaneously: a "conductive two-dimensional metal-organic framework (2D MOF)." MOF (Metal-Organic Framework) is a general term for structures formed by the regular arrangement of metal ions and organic molecules, featuring nanoscale pores. This particular 2D MOF has a sheet-like structure and possesses electrical conductivity.
+In conventional ultraviolet-responsive photocatalysts, holes were believed to fall into deep "trap states," where they lose their reactivity before contributing to the water-splitting reaction. But visible-light photocatalysts showed a different and puzzling behavior: trapped holes often produced sharp absorption features near the band edge, something the traditional model could not explain.
 
-We found that this 2D MOF functions as an "all-in-one" cocatalyst, simultaneously promoting both hydrogen and oxygen evolution reactions. We successfully loaded this 2D MOF onto SrTiO3:Al, a common photocatalyst used for water splitting, using a remarkably simple "one-step self-assembly method."
+To solve this puzzle, Prof. Akira Yamakata and collaborators used time-resolved transient absorption spectroscopy to track the energy states of holes immediately after light irradiation.
 
-### High Efficiency Without Complex Processes
+### Three Types of Hole Trapping
 
-Remarkably, using this 2D MOF cocatalyst allowed for stable and highly efficient water splitting without the need for cumbersome multi-step processes or blocking layers to inhibit reverse reactions.
+The team found that hole trapping in photocatalysts can be organized into three major types.
 
-Specifically, when irradiated with 350-nanometer (nm) light, the "apparent quantum efficiency (AQE)," a measure of light energy conversion efficiency, reached an exceptionally high value of 31.5%. This is a significant achievement for photocatalytic water splitting efficiency.
+Type A includes ultraviolet-responsive oxides such as TiO2 and Ta2O5. In these materials, holes become strongly localized, causing large lattice distortions and forming deep trap states. As a result, their oxidation power drops and performance can deteriorate.
 
-Through spectroscopic, electrochemical, and theoretical analyses, we also elucidated the operational principles of how this "all-in-one" cocatalyst functions.
+Type B includes visible-light-responsive oxynitrides such as TaON, Ta3N5, and BaTaO2N. Here, nitrogen ions help soften the positive charge of the hole, suppressing lattice distortion. This keeps the hole in a shallow trap state near the band edge, allowing it to remain highly reactive.
 
-### Towards a Future Hydrogen Society: Simple and Efficient Systems
+Type C includes visible-light-responsive complex oxides such as WO3, BiVO4, and Fe2O3. In these materials, strong orbital mixing between metal and oxygen spreads the hole over a wider region, again preventing it from falling into a deep trap.
 
-This research proposes an innovative approach to simplify and enhance the efficiency of photocatalytic water splitting systems, paving the way for a clean hydrogen energy society.
+<p style="text-align: center;">
+  <img src="/images/research/yamakata/image3-32.png"
+       alt="Figure 1. Unified mechanism of hole trapping"
+       style="max-width: 100%; height: auto;">
+</p>
 
-The 2D MOF with its "all-in-one" functionality holds immense potential for designing efficient and practical clean energy technologies in the future. This study brings us one step closer to a future where hydrogen can be produced efficiently with less effort and cost.
+*Figure 1. Unified mechanism of hole trapping. In ultraviolet-responsive oxides (A), holes become strongly localized, causing large lattice distortion and forming deep trap states. In contrast, in visible-light-responsive oxynitrides (B) and complex oxides (C), anion polarizability and orbital hybridization suppress lattice distortion, allowing holes to remain in shallow trap states near the band edge.*
+
+### Why High Activity and Long Lifetime Can Coexist
+
+One of the most important outcomes of this study is the demonstration that visible-light photocatalysts can keep holes in shallow trap states, where they retain strong oxidation power and remain useful for water splitting. Hole-transfer experiments to a CoOx cocatalyst confirmed that these holes are genuinely reactive.
+
+The researchers also showed that the same electronic features that suppress deep trapping can make these materials more "defect tolerant." In other words, even if crystal defects are present, visible-light photocatalysts are less likely to suffer severe hole deactivation. This helps explain how they can achieve both high activity and long-term stability.
+
+### A New Design Guide for Clean-Energy Materials
+
+The study provides two clear guidelines for designing better photocatalysts. One is to introduce highly polarizable anions that can electronically screen the hole's positive charge. The other is to use metal-anion orbital hybridization to spread the hole out in space and reduce lattice distortion.
+
+These insights offer an important step toward more efficient and durable hydrogen-production systems powered by sunlight. They also provide a valuable foundation for future clean-energy technologies and sustainable energy-conversion systems.
 
 ### Reference Paper
-- Jingyan Guan, Hajime Suzuki, Kazuhide Kamiya, Takashi Harada, Rintaro Adachi, Osamu Tomita, Hirofumi Kurokawa, Daisuke Unabara, Koji Yonekura, Naoya Fukui, Hiroaki Maeda, Kunihisa Sugimoto, Yuichi Yamaguchi, Akinori Saeki, Akira Yamakata, Akihiko Kudo, Ryu Abe, Ryota Sakamoto (2026) "Two-dimensional metal–organic frameworks offer all-in-one cocatalysts for photocatalytic overall water splitting" Nature Chemistry, [DOI: 10.1038/s41557-026-02133-6](https://doi.org/10.1038/s41557-026-02133-6)
+- Akira Yamakata, Junie Jhon Vequizo, Kazunari Domen (2026) "Shallow Hole Trapping and Intrinsic Defect Tolerance in Visible-Light Photocatalysts" Journal of the American Chemical Society, [DOI: 10.1021/jacs.6c00026](https://doi.org/10.1021/jacs.6c00026)
+- Okayama University press release: [Solving a Long-Standing Mystery in Visible-Light Photocatalysts](https://www.okayama-u.ac.jp/tp/release/release_id1540.html)
 
-Learn more about [**Prof. Yamakata**](/en/faculty/yamakata) → [**表面物理化学研究室**](/en/laboratory/surfphys/)
+Learn more about [**Prof. Yamakata**](/en/faculty/yamakata) → [**Surface Physical Chemistry**](/en/laboratory/surfphys/)

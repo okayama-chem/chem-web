@@ -39,4 +39,4 @@ For high school students, the excitement of theoretical chemistry lies in using 
 ### Reference Paper
 - Hideki Tanaka, Masakazu Matsumoto, Takuma Yagasaki (2024) "On the phase behaviors of CH4–CO2 binary clathrate hydrates: Equilibrium with aqueous phase" The Journal of Chemical Physics, 161, 224502. [DOI: 10.1063/5.0244386](https://doi.org/10.1063/5.0244386)
 
-Learn more about [**Prof. Matsumoto**](/en/faculty/matsumoto) → [**理論化学研究室**](/en/laboratory/theochem/)
+Learn more about [**Prof. Matsumoto**](/en/faculty/matsumoto) → [**Theoretical Chemistry Laboratory**](/en/laboratory/theochem/)

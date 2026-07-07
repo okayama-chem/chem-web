@@ -40,4 +40,4 @@ Our theoretical chemistry research has the potential to unravel the unseen world
 ### Reference Paper
 - Hideki Tanaka, Masakazu Matsumoto, Takuma Yagasaki, Munetaka Takeuchi, Yoshihito Mori, Takumi Kono (2025) "The solubilities of water in liquid CO2 coexisting with water or hydrate" The Journal of Chemical Physics. [DOI: 10.1063/5.0294608](https://doi.org/10.1063/5.0294608)
 
-Learn more about [**Prof. Matsumoto**](/en/faculty/matsumoto) → [**理論化学研究室**](/en/laboratory/theochem/)
+Learn more about [**Prof. Matsumoto**](/en/faculty/matsumoto) → [**Theoretical Chemistry Laboratory**](/en/laboratory/theochem/)

@@ -26,4 +26,4 @@ Organic chemistry research goes beyond just analyzing existing substances; it in
 ### Reference Paper
 - Shuhei Uei, Weidan Yan, Yasushi Nishihara (2026) "Carbon–Fluorine Bond Formation via Decarboxylation of Carboxylic Acids" Synthesis. [DOI: 10.1055/a-2877-2662](https://doi.org/10.1055/a-2877-2662)
 
-Learn more about [**Prof. Nishihara**](/en/faculty/nishihara) → [**機能有機化学研究室**](/en/laboratory/funcchem/)
+Learn more about [**Prof. Nishihara**](/en/faculty/nishihara) → [**Functional Organic Chemistry Laboratory**](/en/laboratory/funcchem/)
