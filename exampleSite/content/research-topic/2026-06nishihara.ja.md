@@ -1,7 +1,7 @@
 ---
 title: "炭素-フッ素結合を賢く作る：脱炭酸フッ素化反応の最新動向"
 date: 2026-07-03T00:00:00+09:00
-draft: true
+draft: false
 bg_image: "images/backgrounds/page-title.jpg"
 description: "医薬品や農薬、機能性材料に不可欠な有機フッ素化合物を合成する強力な手法である「脱炭酸フッ素化反応」の最新研究をまとめたレビュー記事です。"
 image: "images/backgrounds/page-title.jpg"

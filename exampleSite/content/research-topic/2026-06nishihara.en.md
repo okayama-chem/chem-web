@@ -1,7 +1,7 @@
 ---
 title: "Smart Strategies for Carbon-Fluorine Bond Formation: Recent Advances in Decarboxylative Fluorination"
 date: 2026-07-03T00:00:00+09:00
-draft: true
+draft: false
 bg_image: "images/backgrounds/page-title.jpg"
 description: "This review summarizes recent research on decarboxylative fluorination reactions, a powerful strategy for synthesizing organofluorine compounds essential for pharmaceuticals, agrochemicals, and functional materials."
 image: "images/backgrounds/page-title.jpg"
