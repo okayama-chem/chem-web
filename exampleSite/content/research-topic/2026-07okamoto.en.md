@@ -1,7 +1,7 @@
 ---
 title: "Unveiling the Deep-Blue Glow: Topology-Dependent Emission of Quaternaphthalenes"
 date: 2026-07-26T00:00:00+09:00
-draft: true
+draft: false
 bg_image: "images/backgrounds/page-title.jpg"
 description: "This research explores the synthesis of novel organic deep-blue emitters, quaternaphthalenes, and elucidates their photophysical properties, particularly how their molecular topology influences light emission."
 image: "images/backgrounds/page-title.jpg"
@@ -31,5 +31,6 @@ In the future, by applying this understanding of the "relationship between topol
 
 ### Reference Paper
 - Minoru Yamaji, Kengo Suzuki, Hideki Okamoto (2026) "Synthesis and photophysical properties of quaternaphthalenes: topology-dependent radiative dynamics in deep-blue emitters" Photochemical & Photobiological Sciences. [DOI: 10.1007/s43630-026-00955-4](https://doi.org/10.1007/s43630-026-00955-4)
+- This research is a collaborative study with Gunma University. Corresponding author: [Minoru Yamaji](mailto:yamaji@gunma-u.ac.jp)
 
 Learn more about [**Prof. Okamoto**](/en/faculty/okamoto) → [**Synthetic and Physical Organic Chemistry Laboratory**](/en/laboratory/synth/)

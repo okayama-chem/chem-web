@@ -1,7 +1,7 @@
 ---
 title: "深青色に輝く新素材：クォーターナフタレンの光の秘密を探る"
 date: 2026-07-26T00:00:00+09:00
-draft: true
+draft: false
 bg_image: "images/backgrounds/page-title.jpg"
 description: "新しい有機発光材料であるクォーターナフタレンの合成と、その発光特性を分子の形（トポロジー）と関連付けて解明した研究を紹介します。"
 image: "images/backgrounds/page-title.jpg"
@@ -31,5 +31,6 @@ type: "research-topic"
 
 ### 参考論文
 - Minoru Yamaji, Kengo Suzuki, Hideki Okamoto (2026) "Synthesis and photophysical properties of quaternaphthalenes: topology-dependent radiative dynamics in deep-blue emitters" Photochemical & Photobiological Sciences. [DOI: 10.1007/s43630-026-00955-4](https://doi.org/10.1007/s43630-026-00955-4)
+- この研究は、群馬大学との共同研究です。 責任著者:[山路稔](mailto:yamaji@gunma-u.ac.jp)
 
 [**岡本秀毅先生**](/faculty/okamoto)の研究をもっと知りたい!→[**反応有機化学研究室**](/laboratory/synth/)
