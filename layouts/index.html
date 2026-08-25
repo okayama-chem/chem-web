@@ -165,8 +165,13 @@ $data.homepage.slider.enable }} {{ with $data.homepage.slider }} <section class=
       {{ $events := where site.RegularPages "Type" "event" }}
       {{ $activeEvents := slice }}
       {{ range $events }}
-        {{ if or (not .Params.expireDate) (ge (.Params.expireDate | default (time "2099-12-31")) $now) }}
-          {{ $activeEvents = $activeEvents | append . }}
+        {{ $p := . }}
+        {{ $include := true }}
+        {{ with .Params.expireDate }}
+          {{ $include = ge (time.AsTime .) $now }}
+        {{ end }}
+        {{ if $include }}
+          {{ $activeEvents = $activeEvents | append $p }}
         {{ end }}
       {{ end }}
       {{ range first 3 $activeEvents }}

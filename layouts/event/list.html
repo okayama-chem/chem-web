@@ -7,8 +7,11 @@
       <!-- event -->
       {{ $now := now }}
       {{ range .Data.Pages }}
-        {{ $expireDate := .Params.expireDate | default (time "2099-12-31") }}
-        {{ if or (not .Params.expireDate) (ge $expireDate $now) }}
+        {{ $include := true }}
+        {{ with .Params.expireDate }}
+          {{ $include = ge (time.AsTime .) $now }}
+        {{ end }}
+        {{ if $include }}
         <div class="col-lg-4 col-sm-6 mb-5">
           {{ .Render "event" }}
         </div>
