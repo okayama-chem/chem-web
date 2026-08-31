@@ -7,3 +7,4 @@ deploy:
 permission:
 	sudo chown -R apache:apache .
 	sudo chown -R reg:reg .hugo_build.lock resources/
+	sudo chown -R chem-kanri:chem-kanri /var/www/html2
