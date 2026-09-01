@@ -29,8 +29,8 @@ keywords:
 faculties:
   - id: nishihara
     name: Prof. Yasushi Nishihara
-  - id: mori
-    name: Assist. Prof. Hiroki Mori
+  # - id: mori
+  #   name: Assist. Prof. Hiroki Mori
 
 # contact info
 contact:

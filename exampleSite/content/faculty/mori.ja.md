@@ -1,6 +1,6 @@
 ---
 title: "森裕樹"
-draft: false
+draft: true
 
 # Job rank 職階
 rank: "研究准教授" # 教授 | 准教授 | 助教 | ...

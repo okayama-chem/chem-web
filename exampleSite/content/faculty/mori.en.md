@@ -1,6 +1,6 @@
 ---
 title: "Hiroki Mori"
-draft: false
+draft: true
 
 # Job rank 職階
 rank: "Research Assoc. Professor" # 教授 | 准教授 | 助教 | ...

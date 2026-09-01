@@ -28,8 +28,8 @@ keywords: ["有機合成化学", "有機金属化学", "機能性材料"]
 faculties:
   - id: nishihara
     name: 西原　康師 教授
-  - id: mori
-    name: 森 裕樹 助教
+  # - id: mori
+  #   name: 森 裕樹 助教
 
 # 連絡方法。SNSのアカウントなども。
 contact:

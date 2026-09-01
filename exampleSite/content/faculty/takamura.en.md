@@ -1,6 +1,6 @@
 ---
 title: "Hiroyoshi Takamura"
-draft: false
+draft: true
 
 # Job rank 職階
 rank: "Assoc. Professor" # 教授 | 准教授 | 助教 | ...

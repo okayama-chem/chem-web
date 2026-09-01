@@ -28,8 +28,8 @@ keywords: ["有機合成化学", "生理活性物質", "光触媒反応"]
 faculties:
   - id: kadota
     name: 門田　功 教授
-  - id: takamura
-    name: 髙村 浩由 准教授
+  # - id: takamura
+  #   name: 髙村 浩由 准教授
   - id: tanaka
     name: 田中 健太 助教
 

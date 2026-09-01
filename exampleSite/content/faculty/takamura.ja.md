@@ -1,6 +1,6 @@
 ---
 title: 髙村 浩由
-draft: false
+draft: true
 rank: 准教授
 weight: 2
 la_group: 反応化学

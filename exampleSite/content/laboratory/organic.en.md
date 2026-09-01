@@ -29,8 +29,8 @@ keywords:
 faculties:
   - id: kadota
     name: Prof. Isao Kadota
-  - id: takamura
-    name: Assoc. Prof. Hiroyoshi Takamura
+  # - id: takamura
+  #   name: Assoc. Prof. Hiroyoshi Takamura
   - id: tanaka
     name: Assist. Prof. Kenta Tanaka
 
