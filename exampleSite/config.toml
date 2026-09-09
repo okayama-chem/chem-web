@@ -33,6 +33,18 @@ defaultContentLanguage = "ja"
   ev_category = 'ev_categories'
   ev_tag = 'ev_tags'
 
+# Faculty vCard (.vcf) output
+[mediaTypes]
+  [mediaTypes."text/vcard"]
+    suffixes = ["vcf"]
+
+[outputFormats]
+  [outputFormats.vcard]
+    mediaType = "text/vcard"
+    baseName = "index"
+    isPlainText = true
+    notAlternative = true
+
 
 ############################# Plugins ##############################
 [markup]

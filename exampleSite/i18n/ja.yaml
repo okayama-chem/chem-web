@@ -112,6 +112,9 @@
 - id: download
   translation: Download
 
+- id: download_vcard
+  translation: 連絡先に追加
+
 - id: department
   translation: 化学科
 

@@ -20,7 +20,12 @@
           <div class="col-md-4 mb-2 mb-md-0 top-margin">
             <h4 class="mb-4 underline">{{ i18n "contact_info" | upper}}</h4>
             <ul class="list-unstyled"> {{ range .Params.Contact }} <li class="mb-2"><a class="contact-link"
-                  href="{{ .link | safeURL }}"><i class="{{ .icon }} mr-2"></i>{{ .name }}</a></li> {{ end }} </ul>
+                  href="{{ .link | safeURL }}"><i class="{{ .icon }} mr-2"></i>{{ .name }}</a></li> {{ end }}
+              {{ with .OutputFormats.Get "vcard" }}
+              <li class="mb-2"><a class="contact-link" href="{{ .RelPermalink }}"><i
+                    class="ti-plus mr-2"></i>{{ i18n "download_vcard" }}</a></li>
+              {{ end }}
+            </ul>
           </div>
           <div class="col-md-4 mb-2 mb-md-0 top-margin">
             <h4 class="mb-4 underline">{{ i18n "interest" | upper }}</h4>

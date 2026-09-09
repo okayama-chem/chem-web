@@ -112,6 +112,9 @@
 - id: download
   translation: Download
 
+- id: download_vcard
+  translation: Add to Contacts
+
 - id: department
   translation: Department
 

@@ -2,6 +2,8 @@
   <meta charset="utf-8">
   <title>{{ .Title }}</title> {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  {{/* relativeURLs=true だと、ネストした欠落URLで配信される404の相対パスが壊れるため基準URLを固定 */}}
+  {{ if eq .Kind "404" }}<base href="{{ site.BaseURL }}">{{ end }}
   <meta name="description"
     content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
   {{ with site.Params.author }}
