@@ -1,7 +1,7 @@
 ---
 title: "「分子の形」が光り方に影響？TADF分子の「中間状態」を解き明かす"
 date: 2026-09-13T00:00:00+09:00
-draft: true
+draft: false
 bg_image: "images/backgrounds/page-title.jpg"
 description: "TADF分子の置換パターンが励起状態緩和経路に与える影響を、時間分解分光法により詳細に解明し、発光効率向上への分子設計指針を示した研究です。"
 image: "images/backgrounds/page-title.jpg"

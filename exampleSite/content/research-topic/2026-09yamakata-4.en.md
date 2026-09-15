@@ -1,7 +1,7 @@
 ---
 title: "Unraveling the \"Intermediate State\": How Molecular Structure Affects Light Emission in TADF Molecules"
 date: 2026-09-13T00:00:00+09:00
-draft: true
+draft: false
 bg_image: "images/backgrounds/page-title.jpg"
 description: "This study elucidates how substitution patterns influence excited-state relaxation pathways in TADF molecules using time-resolved spectroscopy, providing molecular design guidelines for improved emission efficiency."
 image: "images/backgrounds/page-title.jpg"
