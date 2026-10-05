@@ -1,7 +1,7 @@
 ---
 title: "太陽光でCO2を資源に！量子ドットの「表面の形」が反応を決める新技術"
 date: 2026-09-30T00:00:00+09:00
-draft: true
+draft: false
 bg_image: "images/backgrounds/page-title.jpg"
 description: "表面処理したリン化インジウム量子ドットを用いて、その表面の結晶面がCO2光還元反応の生成物選択性を決定することを明らかにした研究です。"
 image: "images/backgrounds/page-title.jpg"

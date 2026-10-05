@@ -1,7 +1,7 @@
 ---
 title: "Sunlight into Fuel: How Quantum Dot Shapes Control CO2 Reduction"
 date: 2026-09-30T00:00:00+09:00
-draft: true
+draft: false
 bg_image: "images/backgrounds/page-title.jpg"
 description: "This research reveals that the crystal facets on the surface of treated indium phosphide quantum dots dictate the product selectivity of CO2 photoreduction."
 image: "images/backgrounds/page-title.jpg"
