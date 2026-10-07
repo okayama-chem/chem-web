@@ -18,7 +18,7 @@ image: "images/labs/fine/界面.png"
 
 # taxonomy
 la_group: "Interfacial Chemistry" # 分子化学 | 物質化学 | 反応化学
-keywords: ["Transition Metal Complexes", "Lanthanoid Complexes", "Magnetic Properties", "Spin-Crossover", "Optically Active Compound Resolution"]
+keywords: ["Interfacial Chemistry", "Powder Chemistry", "Superconductivity", "Topological Materials", "Field-Effect Transistors"]
 
 # faculties; label: true name and title
 faculties:
@@ -43,4 +43,4 @@ contact:
 type: "laboratory"
 ---
 
-In our research group, we are studying on the synthesis of novel transition metal and lanthanoid complexes with unique molecular and crystal structures, which are expected to exhibit useful magnetic and optical properties and highly selective reactivity. In particular, we are challenging to synthesize manganese model clusters for the oxygen-evolving center in photosystem-II, metal complexes that exhibit stimuli-responsible spin-crossover or chromotropic behavior, and to elucidate the mechanism of absolute spontaneous resolution, which selectively generates optically active compounds from non-chiral sources.
+In our laboratory, we develop novel materials and electronic devices through both chemical and physical approaches. Our main research topics are: (1) the synthesis of superconductors based on two-dimensional layered materials, the induction of new superconducting phases by impurity doping and pressure application, and the elucidation of the correlation between crystal structure and superconducting properties; (2) the exploration of functional electronic devices using novel materials with unique properties, such as topological materials; and (3) the development of high-performance electronic devices based on field-effect transistors made of organic molecules and atomic-layer materials.
