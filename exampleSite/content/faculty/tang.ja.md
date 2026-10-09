@@ -34,7 +34,10 @@ interest: ["None", "None", "None"]
 
 # 業績。Reserchmapや科研費情報なども適宜追加して下さい。
 # 業績が[]となっている人は、他の方のachievements欄を参考に記入して下さい。
-achievements: []
+achievements:
+- icon: ti-id-badge
+  link: https://orcid.org/0000-0003-1488-2385
+  name: ORCID 0000-0003-1488-2385
 
 
 # 連絡先。SNSも追加できます。

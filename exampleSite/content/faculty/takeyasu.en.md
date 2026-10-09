@@ -30,7 +30,10 @@ image: "images/faculty/takeyasu.jpg"
 interest: ["None", "None", "None"]
 
 # achievements
-achievements: []
+achievements:
+- icon: ti-id-badge
+  link: https://orcid.org/0000-0001-7221-1606
+  name: ORCID 0000-0001-7221-1606
 
 
 # contact info

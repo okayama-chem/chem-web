@@ -30,7 +30,10 @@ image: "images/faculty/tang.jpg"
 interest: ["None", "None", "None"]
 
 # achievements
-achievements: []
+achievements:
+- icon: ti-id-badge
+  link: https://orcid.org/0000-0003-1488-2385
+  name: ORCID 0000-0003-1488-2385
 
 
 # contact info

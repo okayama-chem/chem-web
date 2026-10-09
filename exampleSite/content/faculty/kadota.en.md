@@ -30,7 +30,10 @@ image: "images/faculty/kadota.jpg"
 interest: ["Synthetic Oraganic Chemistry", "Natural Product", "Total Synthesis"]
 
 # achievements
-achievements: []
+achievements:
+- icon: ti-id-badge
+  link: https://orcid.org/0009-0002-5290-3976
+  name: ORCID 0009-0002-5290-3976
 
 
 # contact info

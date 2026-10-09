@@ -34,7 +34,10 @@ interest: ["有機合成化学", "天然有機化合物", "全合成"]
 
 # 業績。Reserchmapや科研費情報なども適宜追加して下さい。
 # 業績が[]となっている人は、他の方のachievements欄を参考に記入して下さい。
-achievements: []
+achievements:
+- icon: ti-id-badge
+  link: https://orcid.org/0009-0002-5290-3976
+  name: ORCID 0009-0002-5290-3976
 
 
 # 連絡先。SNSも追加できます。
