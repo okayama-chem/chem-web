@@ -1,7 +1,7 @@
 ---
 title: "分子の「つなぎ方」で電気の流れを操る！次世代デバイスのための界面化学"
 date: 2026-10-07T00:00:00+09:00
-draft: true
+draft: false
 bg_image: "images/backgrounds/page-title.jpg"
 description: "分子の結合位置を変えることで、半導体と有機分子の界面での電荷移動を制御できることを示した研究です。"
 image: "images/backgrounds/page-title.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Controlling Electron Flow with Molecular Architecture: A Key to Next-Gen Hybrid Devices"
 date: 2026-10-07T00:00:00+09:00
-draft: true
+draft: false
 bg_image: "images/backgrounds/page-title.jpg"
 description: "This research demonstrates that charge-transfer dynamics at organic-inorganic interfaces can be precisely controlled by altering the molecular connectivity, opening new avenues for advanced optoelectronic and energy devices."
 image: "images/backgrounds/page-title.jpg"
