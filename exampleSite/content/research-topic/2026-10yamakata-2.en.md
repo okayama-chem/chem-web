@@ -1,7 +1,7 @@
 ---
 title: "Turning CO2 into Resources with Light: A New Material for Hybrid Photocatalysis"
 date: 2026-10-29T00:00:00+09:00
-draft: true
+draft: false
 bg_image: "images/backgrounds/page-title.jpg"
 description: "This study elucidates how a new narrow-bandgap oxynitride semiconductor enables efficient CO2 photoreduction without relying on silver, highlighting its favorable carrier dynamics."
 image: "images/backgrounds/page-title.jpg"

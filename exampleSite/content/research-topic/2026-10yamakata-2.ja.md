@@ -1,7 +1,7 @@
 ---
 title: "新しい材料でCO2を資源に！光で動くハイブリッド触媒の秘密"
 date: 2026-10-29T00:00:00+09:00
-draft: true
+draft: false
 bg_image: "images/backgrounds/page-title.jpg"
 description: "狭いバンドギャップを持つ新しい酸窒化物半導体が、銀を使わずに効率的なCO2光還元を可能にするメカニズムを解明した研究です。"
 image: "images/backgrounds/page-title.jpg"
